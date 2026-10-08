@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Search, MapPin, Building2, Globe, Flag } from 'lucide-react';
 import { searchAllLocations, SearchableLocation } from '@/data/locationHierarchy';
+import { getApiBaseUrl } from '@/lib/api';
 
 interface SearchBarProps {
   geoData: {
@@ -24,7 +25,7 @@ export default function SearchBar({
   geoData,
   onSelectSearchResult,
   onSelectLocation,
-  apiBaseUrl = 'http://127.0.0.1:8000',
+  apiBaseUrl = getApiBaseUrl(),
   selectedDistrict = 'ALL',
 }: SearchBarProps) {
   const [query, setQuery] = useState('');

@@ -3,9 +3,10 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Activity, ArrowLeft, BarChart3, Database, ShieldCheck, Flame, Waves, Clock, Layers } from 'lucide-react';
+import { getApiBaseUrl } from '@/lib/api';
 
 export default function AnalyticsPage() {
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://127.0.0.1:8000';
+  const API_BASE_URL = getApiBaseUrl();
 
   const [rainfallStats, setRainfallStats] = useState<any>(null);
   const [incidentStats, setIncidentStats] = useState<any>(null);

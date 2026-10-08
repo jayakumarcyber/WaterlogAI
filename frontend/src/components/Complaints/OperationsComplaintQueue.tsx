@@ -18,6 +18,7 @@ import {
   X,
   FileSpreadsheet,
 } from 'lucide-react';
+import { getApiBaseUrl } from '@/lib/api';
 
 interface OperationsComplaintQueueProps {
   isOpen: boolean;
@@ -30,7 +31,7 @@ export default function OperationsComplaintQueue({
   onClose,
   onSelectOnMap,
 }: OperationsComplaintQueueProps) {
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://127.0.0.1:8000';
+  const API_BASE_URL = getApiBaseUrl();
 
   const [complaints, setComplaints] = useState<any[]>([]);
   const [summary, setSummary] = useState<any>(null);

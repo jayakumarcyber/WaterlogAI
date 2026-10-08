@@ -21,8 +21,9 @@ import LocationSelector from '@/components/Navigation/LocationSelector';
 import HackathonDemoEngine from '@/components/HackathonDemo/HackathonDemoEngine';
 import ReportWaterloggingModal from '@/components/Complaints/ReportWaterloggingModal';
 import ComplaintTrackingModal from '@/components/Complaints/ComplaintTrackingModal';
+import { getApiBaseUrl } from '@/lib/api';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL = getApiBaseUrl();
 
 export default function JuryDemoPage() {
   const { language, t } = useLanguage();

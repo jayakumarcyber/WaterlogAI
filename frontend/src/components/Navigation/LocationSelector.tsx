@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { ChevronDown, MapPin, Building, Navigation, Layers, CheckCircle2, AlertTriangle, ShieldCheck } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { getDistrictsForState, getCitiesForDistrict } from '@/data/locationHierarchy';
+import { getApiBaseUrl } from '@/lib/api';
 
 export interface LocationSelectorProps {
   district: string;
@@ -22,7 +23,7 @@ export default function LocationSelector({
   onDistrictSelect,
   onPlaceSelect,
   onWardSelect,
-  apiBaseUrl = 'http://127.0.0.1:8000',
+  apiBaseUrl = getApiBaseUrl(),
 }: LocationSelectorProps) {
   const { t } = useLanguage();
 

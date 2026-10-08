@@ -23,6 +23,7 @@ import {
   BarChart3,
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
+import { getApiBaseUrl } from '@/lib/api';
 // Location Selector & Unsupported Location Guard
 import GovUtilityBar from '@/components/Navigation/GovUtilityBar';
 import GovHeader from '@/components/Navigation/GovHeader';
@@ -128,7 +129,7 @@ function LocationQuerySync({
 }
 
 export default function Home() {
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://127.0.0.1:8000';
+  const API_BASE_URL = getApiBaseUrl();
 
   // ─── 0. Hierarchical Location State (Country -> State -> District -> City) ──
   const [location, setLocation] = useState({
@@ -436,7 +437,8 @@ export default function Home() {
       setLoading(true);
 
       const buildUrl = (endpoint: string, extraParams: Record<string, string> = {}) => {
-        const url = new URL(`${API_BASE_URL}/api/v1/${endpoint}`);
+        const base = API_BASE_URL || (typeof window !== 'undefined' ? window.location.origin : 'http://127.0.0.1:8000');
+        const url = new URL(`${base}/api/v1/${endpoint}`);
         if (filters.wardId !== 'ALL') url.searchParams.append('ward_id', filters.wardId);
         if (filters.districtId !== 'ALL') url.searchParams.append('district', filters.districtId);
         if (filters.stateId !== 'ALL') url.searchParams.append('state', filters.stateId);

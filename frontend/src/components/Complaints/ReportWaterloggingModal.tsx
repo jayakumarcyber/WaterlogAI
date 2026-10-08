@@ -13,6 +13,7 @@ import {
   Navigation,
   Sparkles,
 } from 'lucide-react';
+import { getApiBaseUrl } from '@/lib/api';
 
 interface ReportWaterloggingModalProps {
   isOpen: boolean;
@@ -45,7 +46,7 @@ export default function ReportWaterloggingModal({
   onSuccess,
   selectedMapCoords,
 }: ReportWaterloggingModalProps) {
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://127.0.0.1:8000';
+  const API_BASE_URL = getApiBaseUrl();
 
   const [formData, setFormData] = useState({
     area: '',

@@ -27,6 +27,7 @@ import {
   Search,
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
+import { getApiBaseUrl } from '@/lib/api';
 import { useDemoEngine } from './useDemoEngine';
 import type { DemoLocation, OptimizationResult } from './types';
 
@@ -49,7 +50,7 @@ interface HackathonDemoEngineProps {
 }
 
 export default function HackathonDemoEngine({
-  apiBaseUrl = 'http://127.0.0.1:8000',
+  apiBaseUrl = getApiBaseUrl(),
   externalSelectedPlace,
 }: HackathonDemoEngineProps) {
   const { language, t } = useLanguage();
