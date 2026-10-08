@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Activity, ArrowLeft, BarChart3, Database, ShieldCheck, Flame, Waves, Clock, Layers } from 'lucide-react';
 
 export default function AnalyticsPage() {
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000';
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://127.0.0.1:8000';
 
   const [rainfallStats, setRainfallStats] = useState<any>(null);
   const [incidentStats, setIncidentStats] = useState<any>(null);
@@ -66,12 +66,12 @@ export default function AnalyticsPage() {
         </div>
 
         {/* Data Provenance Badges */}
-        <div className="flex items-center space-x-3 text-xs">
+        <div className="flex flex-wrap items-center gap-3 text-xs">
           <div className="bg-amber-950/60 border border-amber-800/60 text-amber-300 px-3 py-1.5 rounded-lg">
             Label: <strong>HISTORICAL ANALYSIS</strong>
           </div>
           <div className="bg-slate-900 border border-slate-800 text-slate-300 px-3 py-1.5 rounded-lg">
-            Source: <strong className="text-teal-400">DEMO / SYNTHETIC DATA</strong>
+            <span>DATA STATUS &bull; <strong className="text-teal-400">Public + Demo/Synthetic</strong></span>
           </div>
         </div>
       </header>

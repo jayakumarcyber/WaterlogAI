@@ -1,0 +1,63 @@
+{
+  "title": "Chennai Historical Waterlogging and Flood Incidents Dataset",
+  "version": "1.0",
+  "published_date": "2026-10-01T17:06:15.178762+00:00",
+  "spatial_coverage": {
+    "region": "Greater Chennai Corporation (GCC)",
+    "wards_total": 200,
+    "wards_with_verified_incidents": 185,
+    "total_verified_incidents": 1325,
+    "spatially_mapped_to_gcc_wards": 1323,
+    "unmapped_records": 2,
+    "unmapped_rationale": "2 records located in Madhanandhapuram fringe lie immediately outside official GCC 200 administrative boundaries and are retained as unmapped boundary records (ward_id = 'Data Unavailable')."
+  },
+  "evidence_levels": {
+    "VERIFIED INCIDENT": {
+      "count": 1325,
+      "sources": [
+        {
+          "name": "Greater Chennai Corporation (GCC) 2015 Water Stagnation Locations",
+          "url": "https://data.opencity.in/dataset/866141ab-3a3f-4dc0-8092-421d97ba29a2/resource/b5f39598-2e2d-40c5-82c3-806a1ad65c91/download/db3840ff-9f33-43a3-b826-2f9dae1bcb78.kml",
+          "event": "Chennai Floods 2015 (Dec 2015)",
+          "records": 753
+        },
+        {
+          "name": "GCC Area Flood Hotspots (Chennai SDSS)",
+          "url": "https://data.opencity.in/dataset/866141ab-3a3f-4dc0-8092-421d97ba29a2/resource/8e1c5b2d-322c-4dbd-bd64-6da2d1a8681d/download/31523c86-0ad1-42f5-b4d1-297daa4bbcd6.kml",
+          "event": "Chennai Floods 2015 (Dec 2015)",
+          "records": 327
+        },
+        {
+          "name": "Chennai Inundation Points with Measured Depth",
+          "url": "https://data.opencity.in/dataset/022dd080-e927-40d7-897d-adf3ee98ad69/resource/ceddf53f-03c0-4866-8ba8-5e84c8007a85/download/814ca028-4c84-4bd0-aa67-6dbaeb9b6ba5.kml",
+          "event": "Chennai Floods 2015 (Dec 2015)",
+          "records": 192
+        },
+        {
+          "name": "Greater Chennai Corporation Cyclone Nivar Hotspots 2020",
+          "url": "https://data.opencity.in/dataset/3aef2eef-a97e-4fac-a4a9-aaa42a91fbfa/resource/068cfdae-652d-47c9-9722-7c49396d8a05/download/3a141c21-2b9d-4fc0-bd96-d71650a8a15a.kml",
+          "event": "Cyclone Nivar (Nov 2020)",
+          "records": 53
+        }
+      ]
+    },
+    "SECONDARY EVIDENCE": {
+      "count": 7894,
+      "sources": [
+        {
+          "name": "Chennai 2015 Crowd-sourced Flooding Locations",
+          "url": "https://data.opencity.in/dataset/866141ab-3a3f-4dc0-8092-421d97ba29a2/resource/782a2e52-78ac-4f89-b469-28a6f7d365eb/download/46d6c279-ae09-43a8-8691-7a5386f69e3a.kml",
+          "event": "Chennai Floods 2015 (Crowdsourced / OSM)",
+          "geometry_type": "LineString (Flooded road segments)"
+        }
+      ]
+    }
+  },
+  "non_fabrication_principles": [
+    "No incidents fabricated.",
+    "Rainfall is strictly kept separate from waterlogging incidents.",
+    "Unmapped locations are tagged as 'Data Unavailable' instead of guessed.",
+    "Unmeasured hydraulic capacity, blocked drain conditions, and velocity are strictly reported as 'Data Unavailable'.",
+    "The 14-location demo prototype dataset remains isolated."
+  ]
+}

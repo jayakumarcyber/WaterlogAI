@@ -60,20 +60,23 @@ export default function PriorityQueuePanel({ apiBaseUrl, selectedDistrict, onSel
     <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm space-y-4 font-sans text-xs">
       
       {/* Header */}
-      <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 pb-3 gap-3">
         <div className="flex items-center space-x-2">
-          <AlertOctagon className="w-5 h-5 text-red-600" />
+          <AlertOctagon className="w-5 h-5 text-red-600 shrink-0" />
           <div>
-            <h3 className="font-bold text-slate-900 text-sm flex items-center space-x-2">
-              <span>Priority Action Queue</span>
+            <div className="flex flex-wrap items-center gap-2">
+              <h3 className="font-bold text-slate-900 text-sm">Priority Action Queue</h3>
               <span className="text-[10px] bg-slate-100 text-slate-700 font-bold px-2 py-0.5 rounded border border-slate-200 uppercase">
                 {displayArea}
               </span>
-            </h3>
+              <span className="text-[10px] font-semibold text-amber-800 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                Demo Scenario — Not an Official Municipal Forecast
+              </span>
+            </div>
             <p className="text-[11px] text-slate-500">Ranked municipal intervention priorities based on risk, population exposure, and critical infrastructure.</p>
           </div>
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 self-end sm:self-auto">
           <Filter className="w-3.5 h-3.5 text-slate-500" />
           <select
             value={sortBy}
@@ -96,13 +99,13 @@ export default function PriorityQueuePanel({ apiBaseUrl, selectedDistrict, onSel
         </div>
       </div>
 
-      {/* Requirement 11: Display "Verified ward-level data unavailable for this area" if empty */}
+      {/* Requirement 5: Professional empty state when verified data is unavailable */}
       {sortedRankings.length === 0 ? (
         <div className="py-8 text-center bg-slate-50 rounded-xl border border-dashed border-slate-300 text-slate-600 space-y-1">
           <ShieldAlert className="w-6 h-6 mx-auto text-amber-600 mb-1" />
-          <h4 className="font-bold text-sm text-slate-800">Verified ward-level data unavailable for this area.</h4>
+          <h4 className="font-bold text-sm text-slate-800">No verified priority actions available for this area</h4>
           <p className="text-[11px] text-slate-500 max-w-md mx-auto">
-            No verified municipal ward records or risk signals exist for {displayArea}. Unrelated demo records are omitted to preserve geographic integrity.
+            Run a clearly labelled demo scenario or connect verified municipal records to generate area-specific priorities.
           </p>
         </div>
       ) : (
@@ -138,9 +141,12 @@ export default function PriorityQueuePanel({ apiBaseUrl, selectedDistrict, onSel
                       <span className={`px-2 py-0.5 rounded text-[10px] font-bold border ${badgeColor}`}>
                         {item.priority_level}
                       </span>
+                      <span className="text-[9px] font-medium text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">
+                        Demo scenario
+                      </span>
                     </div>
                     <span className="text-[11px] text-slate-500 block pt-0.5">
-                      Action: Inspect storm outfalls & clear drainage bottlenecks ({item.district || 'TN'})
+                      Suggested Action: Inspect storm outfalls & clear drainage bottlenecks ({item.district || 'TN'}) &bull; Demo Scenario
                     </span>
                   </div>
                 </div>
@@ -185,9 +191,9 @@ export default function PriorityQueuePanel({ apiBaseUrl, selectedDistrict, onSel
             </ul>
           </div>
 
-          <div className="pt-2 border-t border-slate-200 flex justify-between text-[10px] text-slate-500">
+          <div className="pt-2 border-t border-slate-200 flex flex-col sm:flex-row justify-between text-[10px] text-slate-500 gap-1">
             <span>District: {selectedAssessment.district} ({selectedAssessment.state})</span>
-            <span className="font-semibold">{selectedAssessment.data_disclaimer}</span>
+            <span className="font-semibold text-amber-800">Demo Scenario — Not an Official Municipal Forecast</span>
           </div>
         </div>
       )}

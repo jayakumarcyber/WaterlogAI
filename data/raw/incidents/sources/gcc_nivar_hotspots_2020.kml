@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel" id="chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="slno" type="int"></SimpleField>
+	<SimpleField name="latitude" type="float"></SimpleField>
+	<SimpleField name="longitude" type="float"></SimpleField>
+</Schema>
+<Folder><name>chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel</name>
+  <Placemark>
+	<name>Jothi Nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">1</SimpleData>
+		<SimpleData name="slno">1</SimpleData>
+		<SimpleData name="latitude">13.1801</SimpleData>
+		<SimpleData name="longitude">80.2989</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2988860164322,13.1801492269906</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rajaji Nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">2</SimpleData>
+		<SimpleData name="slno">2</SimpleData>
+		<SimpleData name="latitude">13.173</SimpleData>
+		<SimpleData name="longitude">80.2924</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.292376135353,13.1730089153228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Thirumalai Nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">3</SimpleData>
+		<SimpleData name="slno">3</SimpleData>
+		<SimpleData name="latitude">13.1714</SimpleData>
+		<SimpleData name="longitude">80.2137</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2136819518661,13.1713506087741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Siva Ganapathi Nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">4</SimpleData>
+		<SimpleData name="slno">4</SimpleData>
+		<SimpleData name="latitude">13.1388</SimpleData>
+		<SimpleData name="longitude">80.2148</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.214804049789,13.1388320396574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Parimalam Nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">5</SimpleData>
+		<SimpleData name="slno">5</SimpleData>
+		<SimpleData name="latitude">13.1404</SimpleData>
+		<SimpleData name="longitude">80.2082</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2082342092789,13.1404029767493</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karukku Main Road</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">6</SimpleData>
+		<SimpleData name="slno">6</SimpleData>
+		<SimpleData name="latitude">13.1171</SimpleData>
+		<SimpleData name="longitude">80.1706</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1706105228947,13.1171404306512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TVS nagar east, Balaji nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">7</SimpleData>
+		<SimpleData name="slno">7</SimpleData>
+		<SimpleData name="latitude">13.1139</SimpleData>
+		<SimpleData name="longitude">80.1897</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1897427207609,13.1139197526435</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ayyappa Nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">8</SimpleData>
+		<SimpleData name="slno">8</SimpleData>
+		<SimpleData name="latitude">13.1284</SimpleData>
+		<SimpleData name="longitude">80.1991</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.199086113236,13.1284402137032</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Balaji nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">9</SimpleData>
+		<SimpleData name="slno">9</SimpleData>
+		<SimpleData name="latitude">13.1148</SimpleData>
+		<SimpleData name="longitude">80.1913</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1913359284987,13.1147694634371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jaswant nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">10</SimpleData>
+		<SimpleData name="slno">10</SimpleData>
+		<SimpleData name="latitude">13.0863</SimpleData>
+		<SimpleData name="longitude">80.1634</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1634325224416,13.0863075781085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vellalar nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">11</SimpleData>
+		<SimpleData name="slno">11</SimpleData>
+		<SimpleData name="latitude">13.0866</SimpleData>
+		<SimpleData name="longitude">80.1762</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1761884631035,13.0865816783644</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Parikuppam main road</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">12</SimpleData>
+		<SimpleData name="slno">12</SimpleData>
+		<SimpleData name="latitude">13.0815</SimpleData>
+		<SimpleData name="longitude">80.1878</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.18780346145,13.0815039711227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MTH Road Near Villivakkam Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">13</SimpleData>
+		<SimpleData name="slno">13</SimpleData>
+		<SimpleData name="latitude">13.1039</SimpleData>
+		<SimpleData name="longitude">80.2061</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2061101533344,13.1038512881096</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dr Alagappa Road</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">14</SimpleData>
+		<SimpleData name="slno">14</SimpleData>
+		<SimpleData name="latitude">13.0817</SimpleData>
+		<SimpleData name="longitude">80.2544</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2543618931246,13.081737247874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sundaram Lane</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">15</SimpleData>
+		<SimpleData name="slno">15</SimpleData>
+		<SimpleData name="latitude">13.0874</SimpleData>
+		<SimpleData name="longitude">80.2518</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2518325042467,13.0873922709933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nagendhran Street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">16</SimpleData>
+		<SimpleData name="slno">16</SimpleData>
+		<SimpleData name="latitude">13.0609</SimpleData>
+		<SimpleData name="longitude">80.1712</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1712397504688,13.0608803702491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chettiyar Agaram Main road</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">17</SimpleData>
+		<SimpleData name="slno">17</SimpleData>
+		<SimpleData name="latitude">13.0437</SimpleData>
+		<SimpleData name="longitude">80.146</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1460112337267,13.0437151798641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ram nagar 1st street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">18</SimpleData>
+		<SimpleData name="slno">18</SimpleData>
+		<SimpleData name="latitude">12.9663</SimpleData>
+		<SimpleData name="longitude">80.2112</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2111745860969,12.9662926525799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ram nagar 2nd street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">19</SimpleData>
+		<SimpleData name="slno">19</SimpleData>
+		<SimpleData name="latitude">12.9668</SimpleData>
+		<SimpleData name="longitude">80.2112</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2111745860969,12.9667826025977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ram nagar 3rd street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">20</SimpleData>
+		<SimpleData name="slno">20</SimpleData>
+		<SimpleData name="latitude">12.9673</SimpleData>
+		<SimpleData name="longitude">80.2113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2112788307816,12.9673142504895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ram nagar 5th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">21</SimpleData>
+		<SimpleData name="slno">21</SimpleData>
+		<SimpleData name="latitude">12.9683</SimpleData>
+		<SimpleData name="longitude">80.2112</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2112371329077,12.9683462728674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ram nagar 7th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">22</SimpleData>
+		<SimpleData name="slno">22</SimpleData>
+		<SimpleData name="latitude">12.9694</SimpleData>
+		<SimpleData name="longitude">80.2113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2112788307816,12.9694408420561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ram nagar 8th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">23</SimpleData>
+		<SimpleData name="slno">23</SimpleData>
+		<SimpleData name="latitude">12.97</SimpleData>
+		<SimpleData name="longitude">80.2113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2112475573761,12.9699724899478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sivaprakasam Nagar 1st street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">24</SimpleData>
+		<SimpleData name="slno">24</SimpleData>
+		<SimpleData name="latitude">12.9727</SimpleData>
+		<SimpleData name="longitude">80.2066</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.206551334333,12.9727480046765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Balaji nagar 24th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">25</SimpleData>
+		<SimpleData name="slno">25</SimpleData>
+		<SimpleData name="latitude">12.9742</SimpleData>
+		<SimpleData name="longitude">80.2054</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2053681571623,12.9742048241443</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Annai therasa Nagar 7th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">26</SimpleData>
+		<SimpleData name="slno">26</SimpleData>
+		<SimpleData name="latitude">12.9709</SimpleData>
+		<SimpleData name="longitude">80.2035</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2035438751811,12.9708598728259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Annai Therasa NagAR 4TH STREET</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">27</SimpleData>
+		<SimpleData name="slno">27</SimpleData>
+		<SimpleData name="latitude">12.9688</SimpleData>
+		<SimpleData name="longitude">80.2051</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2050554231085,12.9687541301961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Annai therasa nagar 14th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">28</SimpleData>
+		<SimpleData name="slno">28</SimpleData>
+		<SimpleData name="latitude">12.9723</SimpleData>
+		<SimpleData name="longitude">80.2046</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2046149893158,12.9723349351136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sivasubramanian street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">29</SimpleData>
+		<SimpleData name="slno">29</SimpleData>
+		<SimpleData name="latitude">12.9706</SimpleData>
+		<SimpleData name="longitude">80.208</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2080003354496,12.9706227161683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sivaprakasam nagar 1st street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">30</SimpleData>
+		<SimpleData name="slno">30</SimpleData>
+		<SimpleData name="latitude">12.9709</SimpleData>
+		<SimpleData name="longitude">80.2068</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2068223705132,12.9709354502222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ramalingam nagar main road</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">31</SimpleData>
+		<SimpleData name="slno">31</SimpleData>
+		<SimpleData name="latitude">12.9659</SimpleData>
+		<SimpleData name="longitude">80.2103</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2103093552144,12.9658691585486</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jaya nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">32</SimpleData>
+		<SimpleData name="slno">32</SimpleData>
+		<SimpleData name="latitude">12.9745</SimpleData>
+		<SimpleData name="longitude">80.2021</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2020557823078,12.9744954062028</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Division office Ward 183</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">33</SimpleData>
+		<SimpleData name="slno">33</SimpleData>
+		<SimpleData name="latitude">12.9741</SimpleData>
+		<SimpleData name="longitude">80.259</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2590124718795,12.9741279436895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Saraswathi street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">34</SimpleData>
+		<SimpleData name="slno">34</SimpleData>
+		<SimpleData name="latitude">12.9655</SimpleData>
+		<SimpleData name="longitude">80.1955</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.1954961855267,12.9655277572064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Infront of Maharasthra bank Neelankarai</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">35</SimpleData>
+		<SimpleData name="slno">35</SimpleData>
+		<SimpleData name="latitude">12.948</SimpleData>
+		<SimpleData name="longitude">80.2544</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2543879170571,12.9479768614882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ellaiamman koil 4th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">36</SimpleData>
+		<SimpleData name="slno">36</SimpleData>
+		<SimpleData name="latitude">12.9483</SimpleData>
+		<SimpleData name="longitude">80.2504</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2503849211667,12.9482726557809</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mahatma Gandhi 2nd main road</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">37</SimpleData>
+		<SimpleData name="slno">37</SimpleData>
+		<SimpleData name="latitude">12.9376</SimpleData>
+		<SimpleData name="longitude">80.2466</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2465786871188,12.9376383948888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karpaga Vinayaga nagar 3rd street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">38</SimpleData>
+		<SimpleData name="slno">38</SimpleData>
+		<SimpleData name="latitude">12.9377</SimpleData>
+		<SimpleData name="longitude">80.2469</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2469090124632,12.9376950779361</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karpaga Vinayaga nagar 4th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">39</SimpleData>
+		<SimpleData name="slno">39</SimpleData>
+		<SimpleData name="latitude">12.9377</SimpleData>
+		<SimpleData name="longitude">80.2478</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2477846678143,12.9376742289992</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karpaga Vinayaga nagar 5th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">40</SimpleData>
+		<SimpleData name="slno">40</SimpleData>
+		<SimpleData name="latitude">12.9376</SimpleData>
+		<SimpleData name="longitude">80.2481</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2481182508051,12.9376221066568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karpaga Vinayaga nagar 7th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">41</SimpleData>
+		<SimpleData name="slno">41</SimpleData>
+		<SimpleData name="latitude">12.9375</SimpleData>
+		<SimpleData name="longitude">80.2486</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2486498986968,12.937512649738</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karpaga Vinayaga nagar 10th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">42</SimpleData>
+		<SimpleData name="slno">42</SimpleData>
+		<SimpleData name="latitude">12.9365</SimpleData>
+		<SimpleData name="longitude">80.2478</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.247847214625,12.9364545661888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Balaji nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">43</SimpleData>
+		<SimpleData name="slno">43</SimpleData>
+		<SimpleData name="latitude">12.9359</SimpleData>
+		<SimpleData name="longitude">80.2404</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.240358537092,12.9358864326575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bharathiyar nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">44</SimpleData>
+		<SimpleData name="slno">44</SimpleData>
+		<SimpleData name="latitude">12.9373</SimpleData>
+		<SimpleData name="longitude">80.2397</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2396548854706,12.9372520380263</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Saraswathi nagar 4th cross street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">45</SimpleData>
+		<SimpleData name="slno">45</SimpleData>
+		<SimpleData name="latitude">12.9318</SimpleData>
+		<SimpleData name="longitude">80.2307</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2306846303571,12.9317531309114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ECR Road Philominal School</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">46</SimpleData>
+		<SimpleData name="slno">46</SimpleData>
+		<SimpleData name="latitude">12.9194</SimpleData>
+		<SimpleData name="longitude">80.2514</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2513669838001,12.9193573679071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ramalinga nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">47</SimpleData>
+		<SimpleData name="slno">47</SimpleData>
+		<SimpleData name="latitude">12.9323</SimpleData>
+		<SimpleData name="longitude">80.2492</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2491878976798,12.9323147145362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Annai fathima school</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">48</SimpleData>
+		<SimpleData name="slno">48</SimpleData>
+		<SimpleData name="latitude">12.9108</SimpleData>
+		<SimpleData name="longitude">80.2291</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2290854186911,12.910769186797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Classic farms avenue 1st street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">49</SimpleData>
+		<SimpleData name="slno">49</SimpleData>
+		<SimpleData name="latitude">12.8964</SimpleData>
+		<SimpleData name="longitude">80.215</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2149997313392,12.896351714739</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ponniyamman koil</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">50</SimpleData>
+		<SimpleData name="slno">50</SimpleData>
+		<SimpleData name="latitude">12.8832</SimpleData>
+		<SimpleData name="longitude">80.2286</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2286132096122,12.8831880489165</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Thiruvalluvar nagar</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">51</SimpleData>
+		<SimpleData name="slno">51</SimpleData>
+		<SimpleData name="latitude">12.8758</SimpleData>
+		<SimpleData name="longitude">80.2307</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2306871333456,12.8757546137602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jawahar nagar 6th 7th street</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">52</SimpleData>
+		<SimpleData name="slno">52</SimpleData>
+		<SimpleData name="latitude">12.8628</SimpleData>
+		<SimpleData name="longitude">80.2137</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2137146595338,12.8627556071345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nookampalayam Main road</name>
+	<ExtendedData><SchemaData schemaUrl="#chennaidss_gis_flood_hotspots_gcc_flood_hotspots_nem_2020_withlabel">
+		<SimpleData name="id">53</SimpleData>
+		<SimpleData name="slno">53</SimpleData>
+		<SimpleData name="latitude">12.8795</SimpleData>
+		<SimpleData name="longitude">80.2107</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>80.2107187577684,12.8794898584241</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -78,7 +78,7 @@ def search_locations(
         url = f"{NOMINATIM_URL}?{urllib.parse.urlencode(params)}"
         req = urllib.request.Request(url, headers={'User-Agent': 'CivicPulse-Monsoon-SIH/2.0'})
         
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=3.0) as response:
             data = json.loads(response.read().decode('utf-8'))
             
         results = []

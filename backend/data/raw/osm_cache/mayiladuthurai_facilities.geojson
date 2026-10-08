@@ -1,0 +1,3008 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1616159458,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7124686,
+          11.1970135
+        ]
+      },
+      "properties": {
+        "id": 1616159458,
+        "name": "Vaideeswaran Kovil",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 558,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2350863277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5698006,
+          11.1068579
+        ]
+      },
+      "properties": {
+        "id": 2350863277,
+        "name": "Sri Kalyanasundareswarar Swamy Temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 377,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2804608332,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6506651,
+          11.1029355
+        ]
+      },
+      "properties": {
+        "id": 2804608332,
+        "name": "Masjid e Khadariya",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 432,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759849397,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7770154,
+          11.1738172
+        ]
+      },
+      "properties": {
+        "id": 3759849397,
+        "name": "Temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 497,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759849398,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7773799,
+          11.1765152
+        ]
+      },
+      "properties": {
+        "id": 3759849398,
+        "name": "Thiru Thetriambalam",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 498,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759849399,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.776907,
+          11.1786931
+        ]
+      },
+      "properties": {
+        "id": 3759849399,
+        "name": "Thiru Van Purushottaman",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 499,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759852560,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7782248,
+          11.1756627
+        ]
+      },
+      "properties": {
+        "id": 3759852560,
+        "name": "Temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 160,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759852561,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7790442,
+          11.1749534
+        ]
+      },
+      "properties": {
+        "id": 3759852561,
+        "name": "Tiruarimeya Vinnagaram",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 161,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759860950,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7813045,
+          11.1753862
+        ]
+      },
+      "properties": {
+        "id": 3759860950,
+        "name": "Temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 550,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759860951,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7788802,
+          11.178228
+        ]
+      },
+      "properties": {
+        "id": 3759860951,
+        "name": "Temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 551,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759860952,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7795287,
+          11.1784287
+        ]
+      },
+      "properties": {
+        "id": 3759860952,
+        "name": "Thiru Senpon Sei",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 552,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3759880292,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7882418,
+          11.179798
+        ]
+      },
+      "properties": {
+        "id": 3759880292,
+        "name": "Thiru Mani Koodam",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 392,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3760034617,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.739157,
+          11.2380022
+        ]
+      },
+      "properties": {
+        "id": 3760034617,
+        "name": "Brahmapureeshwarar Temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 217,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3760034618,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7315113,
+          11.2408049
+        ]
+      },
+      "properties": {
+        "id": 3760034618,
+        "name": "Thadalaan Koil",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 218,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3760063346,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7744564,
+          11.203015
+        ]
+      },
+      "properties": {
+        "id": 3760063346,
+        "name": "Thiruvaali",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 446,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3760088996,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7755596,
+          11.1968458
+        ]
+      },
+      "properties": {
+        "id": 3760088996,
+        "name": "Thiru Thevanaar Thogai",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 596,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3760176134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7648374,
+          11.1901324
+        ]
+      },
+      "properties": {
+        "id": 3760176134,
+        "name": "Annan Perumal",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 234,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3824121263,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7782659,
+          11.1803012
+        ]
+      },
+      "properties": {
+        "id": 3824121263,
+        "name": "Thiru Nandipura Vinnnagaram",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 363,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4089495929,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6066943,
+          11.1719441
+        ]
+      },
+      "properties": {
+        "id": 4089495929,
+        "name": "POI 19",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 529,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4089523534,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6064055,
+          11.1722566
+        ]
+      },
+      "properties": {
+        "id": 4089523534,
+        "name": "mari amman kovil",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 134,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4530031496,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4906682,
+          11.0419476
+        ]
+      },
+      "properties": {
+        "id": 4530031496,
+        "name": "Agneeswarar Temple - Sukran (Kanjanoor)",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 596,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4880198221,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7843094,
+          11.0484703
+        ]
+      },
+      "properties": {
+        "id": 4880198221,
+        "name": "Thiruvidaikazhi Murugan Temple - Thirupadam",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 321,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4970186228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6377374,
+          11.0450156
+        ]
+      },
+      "properties": {
+        "id": 4970186228,
+        "name": "Veerataneswarar Temple - Vazhuvoor",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 328,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4970186524,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7257211,
+          11.0909296
+        ]
+      },
+      "properties": {
+        "id": 4970186524,
+        "name": "Veerataneswarar Temple - Parasalur",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 124,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4970195521,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6067013,
+          11.1488008
+        ]
+      },
+      "properties": {
+        "id": 4970195521,
+        "name": "Veerataneswarar Temple - Korukkal",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 121,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5658248484,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8138543,
+          11.157035
+        ]
+      },
+      "properties": {
+        "id": 5658248484,
+        "name": "Ooratchi Ontiya nilai palli",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 584,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5658255975,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8167097,
+          11.1487758
+        ]
+      },
+      "properties": {
+        "id": 5658255975,
+        "name": "Srinivasa Higher secondary school",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 575,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6033392717,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5347969,
+          11.2651582
+        ]
+      },
+      "properties": {
+        "id": 6033392717,
+        "name": "Fire Works (Crakers)",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 317,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6033392718,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5338433,
+          11.2634731
+        ]
+      },
+      "properties": {
+        "id": 6033392718,
+        "name": "Fire Works (Crakers)",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 318,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6033392719,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5333122,
+          11.2622972
+        ]
+      },
+      "properties": {
+        "id": 6033392719,
+        "name": "Fire Works (Crakers)",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 319,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6926055924,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6446992,
+          11.0961997
+        ]
+      },
+      "properties": {
+        "id": 6926055924,
+        "name": "G.D Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 524,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6926494050,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6508682,
+          11.1038785
+        ]
+      },
+      "properties": {
+        "id": 6926494050,
+        "name": "G.V Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 150,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6928727074,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6534498,
+          11.0971261
+        ]
+      },
+      "properties": {
+        "id": 6928727074,
+        "name": "Krishna Hospital, Nagapattinam",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 174,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6928899354,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6522669,
+          11.1008372
+        ]
+      },
+      "properties": {
+        "id": 6928899354,
+        "name": "Dr. Srinivasan Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 454,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6931400845,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6488243,
+          11.1074356
+        ]
+      },
+      "properties": {
+        "id": 6931400845,
+        "name": "Swathi Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 445,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6933967178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6535061,
+          11.096822
+        ]
+      },
+      "properties": {
+        "id": 6933967178,
+        "name": "Arun Priya Nursing Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 278,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6934013218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6482068,
+          11.1044378
+        ]
+      },
+      "properties": {
+        "id": 6934013218,
+        "name": "Aarthi Hospital, Nagapattinam",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 318,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6934258771,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7320472,
+          11.1049764
+        ]
+      },
+      "properties": {
+        "id": 6934258771,
+        "name": "V.V. Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 371,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6936324923,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6474095,
+          11.087711
+        ]
+      },
+      "properties": {
+        "id": 6936324923,
+        "name": "Saravanan Eye Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 523,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7111517876,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.771771,
+          10.9718282
+        ]
+      },
+      "properties": {
+        "id": 7111517876,
+        "name": "PHC, Nedungadu",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 476,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257155920,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6464525,
+          11.1002893
+        ]
+      },
+      "properties": {
+        "id": 7257155920,
+        "name": "Ogm Health Center",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 520,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257155985,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.557717,
+          11.0726166
+        ]
+      },
+      "properties": {
+        "id": 7257155985,
+        "name": "K. J. HOSPITAL",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 585,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257156012,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.647058,
+          11.10171
+        ]
+      },
+      "properties": {
+        "id": 7257156012,
+        "name": "Government Hospital, Mayiladuthurai",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 112,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257156026,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.653919,
+          11.0994279
+        ]
+      },
+      "properties": {
+        "id": 7257156026,
+        "name": "Dr V Muthu Ram Bone And Joint Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 126,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257156031,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6530926,
+          11.0981404
+        ]
+      },
+      "properties": {
+        "id": 7257156031,
+        "name": "Krishna Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 131,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257156034,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.64827,
+          11.10372
+        ]
+      },
+      "properties": {
+        "id": 7257156034,
+        "name": "Madhana Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 134,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257156042,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6524587,
+          11.1016545
+        ]
+      },
+      "properties": {
+        "id": 7257156042,
+        "name": "Shanthi Nursing Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 142,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257156043,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5592353,
+          11.0723371
+        ]
+      },
+      "properties": {
+        "id": 7257156043,
+        "name": "Government Hospital, Kuthalam",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 143,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257156044,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.652264,
+          11.1007
+        ]
+      },
+      "properties": {
+        "id": 7257156044,
+        "name": "Venkatesh Nursing Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 144,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257156056,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6532549,
+          11.0990485
+        ]
+      },
+      "properties": {
+        "id": 7257156056,
+        "name": "Guhan Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 156,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257183953,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4839559,
+          11.014098
+        ]
+      },
+      "properties": {
+        "id": 7257183953,
+        "name": "Goverment Hospital, Aduthurai",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 553,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257346761,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7346939,
+          11.2399772
+        ]
+      },
+      "properties": {
+        "id": 7257346761,
+        "name": "Kumar Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 361,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257346764,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7373347,
+          11.2383167
+        ]
+      },
+      "properties": {
+        "id": 7257346764,
+        "name": "Seera Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 364,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257346776,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7329312,
+          11.2402986
+        ]
+      },
+      "properties": {
+        "id": 7257346776,
+        "name": "R.V.R Nursing Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 376,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257348873,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.632367,
+          11.16576
+        ]
+      },
+      "properties": {
+        "id": 7257348873,
+        "name": "Villiyanallur Goverment Hospitals",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 473,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257348877,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7353952,
+          11.2353489
+        ]
+      },
+      "properties": {
+        "id": 7257348877,
+        "name": "Government Hospital, Sirkazhi",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 477,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257348885,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7049199,
+          11.1943711
+        ]
+      },
+      "properties": {
+        "id": 7257348885,
+        "name": "Government Hospital, Vaitheeswarankovil",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 485,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7257348924,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.594405,
+          11.1946466
+        ]
+      },
+      "properties": {
+        "id": 7257348924,
+        "name": "Manalmedu Government Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 524,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015547,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.652588,
+          11.09912
+        ]
+      },
+      "properties": {
+        "id": 7832015547,
+        "name": "Dr. J.Santhanam Psychiatric Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 147,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015548,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.635947,
+          11.094891
+        ]
+      },
+      "properties": {
+        "id": 7832015548,
+        "name": "Kiruthika Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 148,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015550,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6485355,
+          11.1020521
+        ]
+      },
+      "properties": {
+        "id": 7832015550,
+        "name": "Annai Eye Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 150,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015551,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5775265,
+          11.1746271
+        ]
+      },
+      "properties": {
+        "id": 7832015551,
+        "name": "Ganesh Hospital Athur",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 151,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015553,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.652974,
+          11.098352
+        ]
+      },
+      "properties": {
+        "id": 7832015553,
+        "name": "Vairam Multi Speciality Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 153,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015554,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.652939,
+          11.097285
+        ]
+      },
+      "properties": {
+        "id": 7832015554,
+        "name": "Prem Sidhika Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 154,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015556,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.65225,
+          11.101075
+        ]
+      },
+      "properties": {
+        "id": 7832015556,
+        "name": "Sarojini Children's and Women's Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 156,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015559,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.653119,
+          11.101344
+        ]
+      },
+      "properties": {
+        "id": 7832015559,
+        "name": "JKR Piles Fistula Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 159,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015560,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.650633,
+          11.102667
+        ]
+      },
+      "properties": {
+        "id": 7832015560,
+        "name": "Vidusha Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 160,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015561,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6528077,
+          11.0979659
+        ]
+      },
+      "properties": {
+        "id": 7832015561,
+        "name": "Venkades Nursing Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 161,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015562,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6509196,
+          11.0950982
+        ]
+      },
+      "properties": {
+        "id": 7832015562,
+        "name": "Dr. Padmarajan Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 162,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015564,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.646369,
+          11.1049828
+        ]
+      },
+      "properties": {
+        "id": 7832015564,
+        "name": "Selvamangala Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 164,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015566,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6347502,
+          11.0944709
+        ]
+      },
+      "properties": {
+        "id": 7832015566,
+        "name": "Rajasekhar Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 166,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015570,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.647363,
+          11.10481
+        ]
+      },
+      "properties": {
+        "id": 7832015570,
+        "name": "Almaa Sidha Care Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 170,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015572,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6424075,
+          11.0970981
+        ]
+      },
+      "properties": {
+        "id": 7832015572,
+        "name": "Maruti Siddha Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 172,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015576,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.642438,
+          11.09723
+        ]
+      },
+      "properties": {
+        "id": 7832015576,
+        "name": "Sri Sakthi Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 176,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015578,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6573404,
+          11.0967084
+        ]
+      },
+      "properties": {
+        "id": 7832015578,
+        "name": "Kumaran Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 178,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015579,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6539384,
+          11.0996478
+        ]
+      },
+      "properties": {
+        "id": 7832015579,
+        "name": "Raguraman Children Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 179,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015580,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.652425,
+          11.1016641
+        ]
+      },
+      "properties": {
+        "id": 7832015580,
+        "name": "Shanti Nuring Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 180,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015581,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6523854,
+          11.101816
+        ]
+      },
+      "properties": {
+        "id": 7832015581,
+        "name": "Kannan Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 181,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015583,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.651539,
+          11.095513
+        ]
+      },
+      "properties": {
+        "id": 7832015583,
+        "name": "Dr. Nagakeerthana Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 183,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015588,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.652845,
+          11.099184
+        ]
+      },
+      "properties": {
+        "id": 7832015588,
+        "name": "Dr. Nandagopalan Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 188,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015589,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6472522,
+          11.1035958
+        ]
+      },
+      "properties": {
+        "id": 7832015589,
+        "name": "Suha Priya Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 189,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015590,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.648219,
+          11.1027711
+        ]
+      },
+      "properties": {
+        "id": 7832015590,
+        "name": "Arun Maternity and Child Care Centre",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 190,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015594,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6540178,
+          11.1010116
+        ]
+      },
+      "properties": {
+        "id": 7832015594,
+        "name": "Krupa Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 194,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015597,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.646531,
+          11.09982
+        ]
+      },
+      "properties": {
+        "id": 7832015597,
+        "name": "Ceragem Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 197,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015598,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.644169,
+          11.098802
+        ]
+      },
+      "properties": {
+        "id": 7832015598,
+        "name": "Deepam Homoeo Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 198,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015599,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.646342,
+          11.103106
+        ]
+      },
+      "properties": {
+        "id": 7832015599,
+        "name": "Little Kirsnha Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 199,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015600,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.658915,
+          11.097799
+        ]
+      },
+      "properties": {
+        "id": 7832015600,
+        "name": "Mayiladuthurai Herbocare Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 200,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6340259,
+          11.094158
+        ]
+      },
+      "properties": {
+        "id": 7832015601,
+        "name": "Dr. Ravichandran Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 201,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015602,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.655154,
+          11.096721
+        ]
+      },
+      "properties": {
+        "id": 7832015602,
+        "name": "Dr. Sharran Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 202,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015604,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6480088,
+          11.1022796
+        ]
+      },
+      "properties": {
+        "id": 7832015604,
+        "name": "Sai Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 204,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015605,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.653826,
+          11.101862
+        ]
+      },
+      "properties": {
+        "id": 7832015605,
+        "name": "Ayyub ENT Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 205,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015606,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.652831,
+          11.099243
+        ]
+      },
+      "properties": {
+        "id": 7832015606,
+        "name": "Sri Balaji Clinical",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 206,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015607,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6535271,
+          11.0992076
+        ]
+      },
+      "properties": {
+        "id": 7832015607,
+        "name": "Dr. Rajesh Kanna Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 207,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015608,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6527983,
+          11.0980615
+        ]
+      },
+      "properties": {
+        "id": 7832015608,
+        "name": "SR Multi Speciality Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 208,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015609,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6442984,
+          11.0988411
+        ]
+      },
+      "properties": {
+        "id": 7832015609,
+        "name": "Dr. S.Vijayakumar Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 209,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015610,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.650316,
+          11.103755
+        ]
+      },
+      "properties": {
+        "id": 7832015610,
+        "name": "Nalam Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 210,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015611,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6487139,
+          11.1033798
+        ]
+      },
+      "properties": {
+        "id": 7832015611,
+        "name": "Suga Priya Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 211,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015613,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.648159,
+          11.092435
+        ]
+      },
+      "properties": {
+        "id": 7832015613,
+        "name": "Bismi Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 213,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015615,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6521566,
+          11.1013851
+        ]
+      },
+      "properties": {
+        "id": 7832015615,
+        "name": "Subaitha Dental Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 215,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015616,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6522514,
+          11.1009447
+        ]
+      },
+      "properties": {
+        "id": 7832015616,
+        "name": "Dr. Ramamoorthy Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 216,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015617,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.65475,
+          11.099811
+        ]
+      },
+      "properties": {
+        "id": 7832015617,
+        "name": "Dr. Sowmithya Banu Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 217,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015621,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.64898,
+          11.102994
+        ]
+      },
+      "properties": {
+        "id": 7832015621,
+        "name": "Shri Kamatchi Physiotherapy Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 221,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015623,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6482756,
+          11.0929402
+        ]
+      },
+      "properties": {
+        "id": 7832015623,
+        "name": "Karthikeyan Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 223,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832015624,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6525225,
+          11.1009819
+        ]
+      },
+      "properties": {
+        "id": 7832015624,
+        "name": "Punnagai Dental Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 224,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832218584,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6521421,
+          10.9328808
+        ]
+      },
+      "properties": {
+        "id": 7832218584,
+        "name": "Dr. G Sethuraman Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 184,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832218589,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.661816,
+          10.962308
+        ]
+      },
+      "properties": {
+        "id": 7832218589,
+        "name": "Sugam Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 189,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832218591,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.650764,
+          10.933546
+        ]
+      },
+      "properties": {
+        "id": 7832218591,
+        "name": "Sri Rudra Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 191,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832218595,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.660687,
+          10.961696
+        ]
+      },
+      "properties": {
+        "id": 7832218595,
+        "name": "Moon Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 195,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832218605,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.689613,
+          10.98191
+        ]
+      },
+      "properties": {
+        "id": 7832218605,
+        "name": "Meenakshi Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 205,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832218615,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.651239,
+          10.933338
+        ]
+      },
+      "properties": {
+        "id": 7832218615,
+        "name": "Dr. Praveen Kumar Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 215,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832218638,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7076214,
+          10.9587825
+        ]
+      },
+      "properties": {
+        "id": 7832218638,
+        "name": "Karmel Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 238,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832218651,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6618708,
+          10.9624811
+        ]
+      },
+      "properties": {
+        "id": 7832218651,
+        "name": "Dr. Bhat's Nursing Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 251,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832933561,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5178908,
+          11.1317863
+        ]
+      },
+      "properties": {
+        "id": 7832933561,
+        "name": "K J Maternity Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 161,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832933566,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4815777,
+          11.0139607
+        ]
+      },
+      "properties": {
+        "id": 7832933566,
+        "name": "Arul Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 166,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832933576,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5176092,
+          11.1318148
+        ]
+      },
+      "properties": {
+        "id": 7832933576,
+        "name": "R. R. Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 176,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832933579,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.481596,
+          11.0181
+        ]
+      },
+      "properties": {
+        "id": 7832933579,
+        "name": "Mehaboop Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 179,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8204046896,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7516445,
+          11.0007336
+        ]
+      },
+      "properties": {
+        "id": 8204046896,
+        "name": "Government Hospital, Nallathur",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 496,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9671389992,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5009577,
+          11.2428625
+        ]
+      },
+      "properties": {
+        "id": 9671389992,
+        "name": "Kalladikuttai Mariamman Koil",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 592,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9671411186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.500638,
+          11.2442753
+        ]
+      },
+      "properties": {
+        "id": 9671411186,
+        "name": "PUPS KALLADIKUTTAI",
+        "facility_type": "office",
+        "category": "Company",
+        "capacity": 286,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9671446569,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.49982,
+          11.2440626
+        ]
+      },
+      "properties": {
+        "id": 9671446569,
+        "name": "Kalladikuttai Muneeshwaran Temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 169,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10837397181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6489627,
+          11.088168
+        ]
+      },
+      "properties": {
+        "id": 10837397181,
+        "name": "Rishi Mediclinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 281,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10946074800,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7355023,
+          11.2359078
+        ]
+      },
+      "properties": {
+        "id": 10946074800,
+        "name": "Church",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 400,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174419922,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7613251,
+          11.1681341
+        ]
+      },
+      "properties": {
+        "id": 11174419922,
+        "name": "POI 123",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 522,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174419923,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7659237,
+          11.1587114
+        ]
+      },
+      "properties": {
+        "id": 11174419923,
+        "name": "POI 124",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 523,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174419925,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8000588,
+          11.0957185
+        ]
+      },
+      "properties": {
+        "id": 11174419925,
+        "name": "POI 125",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 525,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174419928,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7539106,
+          11.2101966
+        ]
+      },
+      "properties": {
+        "id": 11174419928,
+        "name": "Shri Natarajan Memorial Public School",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 528,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174419931,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.804423,
+          11.0730208
+        ]
+      },
+      "properties": {
+        "id": 11174419931,
+        "name": "Sri Guru Gnana Sambandar Mission Matriculation School",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 531,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174419936,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7996653,
+          11.0979668
+        ]
+      },
+      "properties": {
+        "id": 11174419936,
+        "name": "POI 128",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 536,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174458737,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7972446,
+          11.1168471
+        ]
+      },
+      "properties": {
+        "id": 11174458737,
+        "name": "POI 129",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 337,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174458738,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7943227,
+          11.1242413
+        ]
+      },
+      "properties": {
+        "id": 11174458738,
+        "name": "POI 130",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 338,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174458739,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7935477,
+          11.126112
+        ]
+      },
+      "properties": {
+        "id": 11174458739,
+        "name": "POI 131",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 339,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174458740,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7775815,
+          11.1451009
+        ]
+      },
+      "properties": {
+        "id": 11174458740,
+        "name": "POI 132",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 340,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11174458741,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7598631,
+          11.1741457
+        ]
+      },
+      "properties": {
+        "id": 11174458741,
+        "name": "POI 133",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 341,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11639169255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6533241,
+          11.1043082
+        ]
+      },
+      "properties": {
+        "id": 11639169255,
+        "name": "Sri kasi visalakshi amman samedha kasi vishvanathar temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 355,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12993554555,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6425329,
+          11.0976741
+        ]
+      },
+      "properties": {
+        "id": 12993554555,
+        "name": "Singamadai Ayenar",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 155,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12993647820,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6417042,
+          11.0965222
+        ]
+      },
+      "properties": {
+        "id": 12993647820,
+        "name": "R.R Cake Corner",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 420,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12993647828,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6444349,
+          11.0988958
+        ]
+      },
+      "properties": {
+        "id": 12993647828,
+        "name": "Jenifer",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 428,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12993647844,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6441281,
+          11.1007653
+        ]
+      },
+      "properties": {
+        "id": 12993647844,
+        "name": "Annal Abdullah Dargah",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 444,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12993721313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6422066,
+          11.0971747
+        ]
+      },
+      "properties": {
+        "id": 12993721313,
+        "name": "Babu Textiles",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 413,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13157479174,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5795683,
+          11.0464545
+        ]
+      },
+      "properties": {
+        "id": 13157479174,
+        "name": "POI 140",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 274,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13333158821,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6477868,
+          10.963399
+        ]
+      },
+      "properties": {
+        "id": 13333158821,
+        "name": "Tea shop",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 421,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13333178176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6476641,
+          10.9625891
+        ]
+      },
+      "properties": {
+        "id": 13333178176,
+        "name": "Lalithamba Koil",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 276,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13360851901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6485643,
+          10.9620643
+        ]
+      },
+      "properties": {
+        "id": 13360851901,
+        "name": "Govt middle school",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 501,
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    }
+  ]
+}

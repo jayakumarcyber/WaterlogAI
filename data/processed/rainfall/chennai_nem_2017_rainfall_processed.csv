@@ -1,0 +1,2 @@
+district,monsoon_season,year,october_actual_mm,october_normal_mm,october_departure_pct,november_actual_mm,november_normal_mm,november_departure_pct,december_actual_mm,december_normal_mm,december_departure_pct,total_nem_actual_mm,total_nem_normal_mm,total_nem_departure_pct,source,data_status,geographic_level
+Chennai,North-East Monsoon (NEM),2017,269.8,266.5,1.24,583.8,367.8,58.73,84.2,155.6,-45.89,937.8,789.9,18.72,"Department of Economics and Statistics, Tamil Nadu",OFFICIAL,DISTRICT

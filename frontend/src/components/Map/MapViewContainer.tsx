@@ -2,6 +2,51 @@
 
 import dynamic from 'next/dynamic';
 
+// Props interface mirrors MapView — forwarded transparently
+interface MapViewContainerProps {
+  layers: {
+    wards: boolean;
+    roads: boolean;
+    drains: boolean;
+    waterbodies: boolean;
+    incidents: boolean;
+    facilities: boolean;
+    population: boolean;
+    populationExposure?: boolean;
+    districts?: boolean;
+    state?: boolean;
+    citizenComplaints?: boolean;
+  };
+  geoData: {
+    wards: any;
+    roads: any;
+    drains: any;
+    waterbodies: any;
+    incidents: any;
+    facilities: any;
+    population: any;
+    populationExposure?: any;
+    districts?: any;
+    state?: any;
+  };
+  citizenComplaints?: any[];
+  selectedWardId: string | number | null;
+  selectedPlace?: any;
+  selectedFeature?: any;
+  onSelectFeature: (feature: { type: string; properties: any; id?: any; geometry?: any }) => void;
+  searchResult: any;
+  cameraTrigger?: {
+    type: 'india' | 'tn' | 'district' | 'place' | 'ward';
+    coords?: [number, number];
+    bounds?: [[number, number], [number, number]] | any;
+    geometry?: any;
+    timestamp?: number;
+  } | null;
+  selectedDistrict?: string;
+  onTrackComplaint?: (complaintId: string) => void;
+  onReportAtCoords?: (coords: [number, number]) => void;
+}
+
 const MapView = dynamic(() => import('./MapView'), {
   ssr: false,
   loading: () => (
@@ -12,4 +57,6 @@ const MapView = dynamic(() => import('./MapView'), {
   ),
 });
 
-export default MapView;
+export default function MapViewContainer(props: MapViewContainerProps) {
+  return <MapView {...props} />;
+}

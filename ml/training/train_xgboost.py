@@ -31,7 +31,7 @@ def train_xgboost_models(data_path: str = "ml/data/ml_features_with_targets.csv"
     
     results = {}
     
-    for h in [24, 48, 72]:
+    for h in [12, 24, 48, 72]:
         target_col = f'target_waterlogging_{h}h'
         y_train = train_df[target_col].values
         y_val = val_df[target_col].values

@@ -2,128 +2,159 @@ import os
 from typing import List, Optional, Dict, Any
 import pandas as pd
 from sqlalchemy.orm import Session
-from app.models.rainfall import RainfallRecord, HistoricalRainfallRecord
+from app.models.rainfall import RainfallRecord
 
-# Raw CSV file paths
-DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "raw", "rainfall"))
+# Root and Data Directory resolution
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+DATA_RAW_DIR = os.path.join(ROOT_DIR, "data", "raw", "rainfall")
+DATA_PROCESSED_DIR = os.path.join(ROOT_DIR, "data", "processed", "rainfall")
 
-CSV1_NAME = "rainfall_occurred_during_north-east_monsoon_by_districts_in_tamil_nadu_2017_18.csv"
-CSV2_NAME = "time_series_data_rainfall_by_seasons_in_tamil_nadu_2020.csv"
-CSV3_NAME = "Sub_Division_IMD_2017.csv"
+CHENNAI_STATIONS_CSV = "chennai_station_rainfall_processed.csv"
+CHENNAI_DAILY_STATIONS_CSV = "chennai_daily_station_rainfall_1993_2023_processed.csv"
+CHENNAI_MONTHLY_CSV = "chennai_monthly_rainfall_1901_2021_processed.csv"
+CHENNAI_NEM_CSV = "chennai_nem_2017_rainfall_processed.csv"
 
-DISTRICT_NAME_MAP = {
-    "kancheepuram": "Kanchipuram",
-    "the nilgiris": "Nilgiris",
-    "kanniyakumari": "Kanyakumari",
-    "tiruchirappalli": "Tiruchirappalli",
-    "thiruchirappalli": "Tiruchirappalli",
-    "trichy": "Tiruchirappalli",
-}
-
-def load_and_clean_historical_rainfall() -> List[Dict[str, Any]]:
-    """Clean & normalize records from all 3 uploaded CSV datasets."""
+def load_chennai_historical_rainfall_records() -> List[Dict[str, Any]]:
+    """Load and normalize actual uploaded Chennai rainfall records without inventing missing values."""
     records = []
 
-    # 1. Dataset 1: NE Monsoon by Districts TN (2017-18)
-    p1 = os.path.join(DATA_DIR, CSV1_NAME)
-    if os.path.exists(p1):
-        df1 = pd.read_csv(p1)
-        for _, row in df1.iterrows():
-            dist_raw = str(row.get("District", "")).strip()
-            if not dist_raw or dist_raw.lower() == "state average":
-                continue
-            
-            dist_clean = DISTRICT_NAME_MAP.get(dist_raw.lower(), dist_raw)
-            
-            # Monthly rows for Oct 17, Nov 17, Dec 17, Total
-            months = [
-                ("October'17", "Actual Rainfall occurred in October'17 during North-East Monsoon (in mm)", "Normal Rainfall occurred in October'17 during North-East Monsoon (in mm)", "Percentage Deviation from Actual to Normal during North-East Monsoon in October'17"),
-                ("November'17", "Actual Rainfall occurred in November'17 during North-East Monsoon (in mm)", "Normal Rainfall occurred in November'17 during North-East Monsoon (in mm)", "Percentage Deviation from Actual to Normal during North-East Monsoon in November'17"),
-                ("December'17", "Actual Rainfall occurred in December'17 during North-East Monsoon (in mm)", "Normal Rainfall occurred in December'17 during North-East Monsoon (in mm)", "Percentage Deviation from Actual to Normal during North-East Monsoon in December'17"),
-                ("Total North-East Monsoon 2017-18", "Total Actual Rainfall occurred during North-East Monsoon (in mm)", "Total Normal Rainfall occurred during North-East Monsoon (in mm)", "Percentage Deviation from Total Actual to Total Normal Rainfall during North-East Monsoon")
-            ]
+    # 1. Daily Rain Gauge Station Time Series (1993-2023)
+    p_daily = os.path.join(DATA_PROCESSED_DIR, CHENNAI_DAILY_STATIONS_CSV)
+    if os.path.exists(p_daily):
+        df_daily = pd.read_csv(p_daily)
+        # Include high-precipitation events & representative station observations
+        top_events = df_daily.sort_values("rainfall_mm", ascending=False).head(50)
+        for _, row in top_events.iterrows():
+            st_name = str(row.get("station_clean", "")).strip()
+            date_str = str(row.get("standard_date", "")).strip()
+            rf = row.get("rainfall_mm")
+            yr = str(row.get("year", ""))
+            if pd.notna(rf):
+                records.append({
+                    "source_file": "chennai_daily_station_rainfall_1993_2023_raw.csv",
+                    "year": yr,
+                    "period_or_season": f"{st_name} ({date_str})",
+                    "state": "Tamil Nadu",
+                    "district_or_subdivision": "Chennai District",
+                    "actual_rainfall_mm": float(rf),
+                    "normal_rainfall_mm": None,
+                    "percentage_deviation": None,
+                    "rainfall_type": "DAILY_STATION_GAUGE_OBSERVATION",
+                    "data_source_type": "Tamil Nadu Open Data Portal (OGD Resource 3086f865-a04c-431e-815d-105ae658871f)",
+                    "data_status": "OFFICIAL"
+                })
 
-            for period, act_col, norm_col, dev_col in months:
-                if act_col in row and pd.notna(row[act_col]):
-                    try:
-                        records.append({
-                            "source_file": CSV1_NAME,
-                            "year": "2017-18",
-                            "period_or_season": period,
-                            "state": "Tamil Nadu",
-                            "district_or_subdivision": dist_clean,
-                            "actual_rainfall_mm": float(row[act_col]),
-                            "normal_rainfall_mm": float(row[norm_col]) if norm_col in row and pd.notna(row[norm_col]) else None,
-                            "percentage_deviation": float(row[dev_col]) if dev_col in row and pd.notna(row[dev_col]) else None,
-                            "rainfall_type": "MONTHLY_DISTRICT_NE_MONSOON",
-                            "data_source_type": "Historical Government/Public Dataset"
-                        })
-                    except (ValueError, TypeError):
-                        pass
+    # 1. Station-Level Observed Event Rainfall (from uploaded chennai-rainfall.csv)
+    p_stations = os.path.join(DATA_PROCESSED_DIR, CHENNAI_STATIONS_CSV)
+    if os.path.exists(p_stations):
+        df_stations = pd.read_csv(p_stations)
+        for _, row in df_stations.iterrows():
+            st_name = str(row.get("station_name", "")).strip()
+            loc = str(row.get("location", "")).strip()
+            rf = row.get("rainfall_mm")
+            if pd.notna(rf):
+                records.append({
+                    "source_file": "chennai-rainfall.csv",
+                    "year": "Historical Event",
+                    "period_or_season": f"Station: {st_name} ({loc})",
+                    "state": "Tamil Nadu",
+                    "district_or_subdivision": "Chennai District",
+                    "actual_rainfall_mm": float(rf),
+                    "normal_rainfall_mm": None,
+                    "percentage_deviation": None,
+                    "rainfall_type": "STATION_OBSERVED_EVENT",
+                    "data_source_type": "PUBLIC / SOURCE UNVERIFIED",
+                    "data_status": "PUBLIC / SOURCE UNVERIFIED"
+                })
 
-    # 2. Dataset 2: Seasonal Time Series TN (2005-2019)
-    p2 = os.path.join(DATA_DIR, CSV2_NAME)
-    if os.path.exists(p2):
-        df2 = pd.read_csv(p2)
-        for _, row in df2.iterrows():
-            year_val = str(row.get("Year", "")).strip()
-            if not year_val:
-                continue
-            
-            seasons = [
-                ("South West Monsoon", "Actual Rainfall in South West Monsoon (in mm)", "Normal Rainfall in South West Monsoon (in mm)"),
-                ("North East Monsoon", "Actual Rainfall in North East Monsoon (in mm)", "Normal Rainfall in North East Monsoon (in mm)"),
-                ("Winter Season", "Actual Rainfall in Winter Season (in mm)", "Normal Rainfall in Winter Season (in mm)"),
-                ("Hot Weather Season", "Actual Rainfall in Hot Weather Season (in mm)", "Normal Rainfall in Hot Weather Season (in mm)"),
-                ("Annual Total", "Total Actual Rainfall (in mm)", "Total Normal Rainfall (in mm)")
-            ]
+    # 2. Official North-East Monsoon 2017 District Rainfall
+    p_nem = os.path.join(DATA_PROCESSED_DIR, CHENNAI_NEM_CSV)
+    if os.path.exists(p_nem):
+        df_nem = pd.read_csv(p_nem)
+        for _, row in df_nem.iterrows():
+            # October
+            if pd.notna(row.get("october_actual_mm")):
+                records.append({
+                    "source_file": "rainfall_occurred_during_north-east_monsoon_by_districts_in_tamil_nadu_2017_18.csv",
+                    "year": "2017",
+                    "period_or_season": "October'17 (NEM)",
+                    "state": "Tamil Nadu",
+                    "district_or_subdivision": "Chennai District",
+                    "actual_rainfall_mm": float(row["october_actual_mm"]),
+                    "normal_rainfall_mm": float(row["october_normal_mm"]) if pd.notna(row.get("october_normal_mm")) else None,
+                    "percentage_deviation": float(row["october_departure_pct"]) if pd.notna(row.get("october_departure_pct")) else None,
+                    "rainfall_type": "MONTHLY_DISTRICT_NE_MONSOON",
+                    "data_source_type": "Official Government Record (Dept of Economics & Statistics, TN)",
+                    "data_status": "OFFICIAL"
+                })
+            # November
+            if pd.notna(row.get("november_actual_mm")):
+                records.append({
+                    "source_file": "rainfall_occurred_during_north-east_monsoon_by_districts_in_tamil_nadu_2017_18.csv",
+                    "year": "2017",
+                    "period_or_season": "November'17 (NEM)",
+                    "state": "Tamil Nadu",
+                    "district_or_subdivision": "Chennai District",
+                    "actual_rainfall_mm": float(row["november_actual_mm"]),
+                    "normal_rainfall_mm": float(row["november_normal_mm"]) if pd.notna(row.get("november_normal_mm")) else None,
+                    "percentage_deviation": float(row["november_departure_pct"]) if pd.notna(row.get("november_departure_pct")) else None,
+                    "rainfall_type": "MONTHLY_DISTRICT_NE_MONSOON",
+                    "data_source_type": "Official Government Record (Dept of Economics & Statistics, TN)",
+                    "data_status": "OFFICIAL"
+                })
+            # December
+            if pd.notna(row.get("december_actual_mm")):
+                records.append({
+                    "source_file": "rainfall_occurred_during_north-east_monsoon_by_districts_in_tamil_nadu_2017_18.csv",
+                    "year": "2017",
+                    "period_or_season": "December'17 (NEM)",
+                    "state": "Tamil Nadu",
+                    "district_or_subdivision": "Chennai District",
+                    "actual_rainfall_mm": float(row["december_actual_mm"]),
+                    "normal_rainfall_mm": float(row["december_normal_mm"]) if pd.notna(row.get("december_normal_mm")) else None,
+                    "percentage_deviation": float(row["december_departure_pct"]) if pd.notna(row.get("december_departure_pct")) else None,
+                    "rainfall_type": "MONTHLY_DISTRICT_NE_MONSOON",
+                    "data_source_type": "Official Government Record (Dept of Economics & Statistics, TN)",
+                    "data_status": "OFFICIAL"
+                })
+            # Total NEM 2017
+            if pd.notna(row.get("total_nem_actual_mm")):
+                records.append({
+                    "source_file": "rainfall_occurred_during_north-east_monsoon_by_districts_in_tamil_nadu_2017_18.csv",
+                    "year": "2017",
+                    "period_or_season": "Total North-East Monsoon 2017",
+                    "state": "Tamil Nadu",
+                    "district_or_subdivision": "Chennai District",
+                    "actual_rainfall_mm": float(row["total_nem_actual_mm"]),
+                    "normal_rainfall_mm": float(row["total_nem_normal_mm"]) if pd.notna(row.get("total_nem_normal_mm")) else None,
+                    "percentage_deviation": float(row["total_nem_departure_pct"]) if pd.notna(row.get("total_nem_departure_pct")) else None,
+                    "rainfall_type": "SEASONAL_DISTRICT_TOTAL",
+                    "data_source_type": "Official Government Record (Dept of Economics & Statistics, TN)",
+                    "data_status": "OFFICIAL"
+                })
 
-            for season, act_col, norm_col in seasons:
-                if act_col in row and pd.notna(row[act_col]):
-                    try:
-                        records.append({
-                            "source_file": CSV2_NAME,
-                            "year": year_val,
-                            "period_or_season": season,
-                            "state": "Tamil Nadu",
-                            "district_or_subdivision": "Tamil Nadu State",
-                            "actual_rainfall_mm": float(row[act_col]),
-                            "normal_rainfall_mm": float(row[norm_col]) if norm_col in row and pd.notna(row[norm_col]) else None,
-                            "percentage_deviation": float(row["Percentage Deviation from Normal"]) if "Percentage Deviation from Normal" in row and pd.notna(row["Percentage Deviation from Normal"]) else None,
-                            "rainfall_type": "SEASONAL_TIME_SERIES_STATE",
-                            "data_source_type": "Historical Government/Public Dataset"
-                        })
-                    except (ValueError, TypeError):
-                        pass
-
-    # 3. Dataset 3: Sub Division IMD 2017
-    p3 = os.path.join(DATA_DIR, CSV3_NAME)
-    if os.path.exists(p3):
-        df3 = pd.read_csv(p3)
-        month_cols = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC", "ANNUAL"]
-        for _, row in df3.iterrows():
-            sub = str(row.get("SUBDIVISION", "")).strip()
-            yr = str(row.get("YEAR", "")).strip()
-            if not sub or not yr:
-                continue
-
-            for m in month_cols:
-                if m in row and pd.notna(row[m]):
-                    try:
-                        records.append({
-                            "source_file": CSV3_NAME,
-                            "year": yr,
-                            "period_or_season": m,
-                            "state": "Tamil Nadu" if sub == "Tamil Nadu" else "India",
-                            "district_or_subdivision": sub,
-                            "actual_rainfall_mm": float(row[m]),
-                            "normal_rainfall_mm": None,
-                            "percentage_deviation": None,
-                            "rainfall_type": "SUBDIVISIONAL_MONTHLY_IMD",
-                            "data_source_type": "Historical Government/Public Dataset"
-                        })
-                    except (ValueError, TypeError):
-                        pass
+    # 3. 121-Year Historical Monthly & Annual Rainfall (1901-2021)
+    p_monthly = os.path.join(DATA_PROCESSED_DIR, CHENNAI_MONTHLY_CSV)
+    if os.path.exists(p_monthly):
+        df_monthly = pd.read_csv(p_monthly)
+        # Select representative historical years including benchmark flood years (e.g. 2015, 2021, 2020, 2016, 2005)
+        for _, row in df_monthly.sort_values("Year", ascending=False).iterrows():
+            yr = int(row["Year"])
+            tot = row["Total"]
+            if pd.notna(tot):
+                records.append({
+                    "source_file": "chennai_monthly_rainfall_1901_2021_raw.csv",
+                    "year": str(yr),
+                    "period_or_season": f"Annual Total ({yr})",
+                    "state": "Tamil Nadu",
+                    "district_or_subdivision": "Chennai District",
+                    "actual_rainfall_mm": round(float(tot), 2),
+                    "normal_rainfall_mm": None,
+                    "percentage_deviation": None,
+                    "rainfall_type": "ANNUAL_TOTAL_TIME_SERIES",
+                    "data_source_type": "Historical Public Dataset (IMD)",
+                    "data_status": "HISTORICAL"
+                })
 
     return records
 
@@ -148,62 +179,65 @@ def get_historical_rainfall_by_district(
     db: Session,
     district_name: str
 ) -> Dict[str, Any]:
-    """Retrieve cleaned historical rainfall for a specific district (e.g. Chennai, Coimbatore, Salem, Madurai)."""
-    norm_district = DISTRICT_NAME_MAP.get(district_name.lower(), district_name)
-
-    # Ingest from CSV records
-    all_records = load_and_clean_historical_rainfall()
-    
-    # Filter matching district or state level
-    matching = [
-        r for r in all_records
-        if r["district_or_subdivision"].lower() == norm_district.lower()
-        or (norm_district.lower() in ["tamil nadu", "tn"] and "tamil nadu" in r["district_or_subdivision"].lower())
-    ]
-
-    if not matching:
-        # Fallback to state average or general records if specific district not found
-        matching = [r for r in all_records if r["district_or_subdivision"] in ["Tamil Nadu", "Tamil Nadu State"]]
-
-    if not matching:
+    """Retrieve cleaned historical rainfall strictly for Chennai District."""
+    # Scope check: Only allow Chennai
+    norm = district_name.strip().lower()
+    if norm not in ["chennai", "chennai district", "all"]:
+        # Do NOT return data for other districts like Namakkal
         return {
-            "district_or_subdivision": district_name,
+            "district_or_subdivision": f"{district_name} (UNSUPPORTED)",
             "total_records": 0,
             "available_years": [],
             "sources_used": [],
             "min_rainfall_mm": 0.0,
             "max_rainfall_mm": 0.0,
             "avg_rainfall_mm": 0.0,
+            "data_source_label": "NOT CHENNAI DATA — Project is restricted strictly to Chennai",
             "historical_records": []
         }
 
-    rain_vals = [r["actual_rainfall_mm"] for r in matching]
-    years = sorted(list(set(r["year"] for r in matching)))
-    sources = sorted(list(set(r["source_file"] for r in matching)))
+    all_records = load_chennai_historical_rainfall_records()
+
+    if not all_records:
+        return {
+            "district_or_subdivision": "Chennai District",
+            "total_records": 0,
+            "available_years": [],
+            "sources_used": [],
+            "min_rainfall_mm": 0.0,
+            "max_rainfall_mm": 0.0,
+            "avg_rainfall_mm": 0.0,
+            "data_source_label": "PUBLIC / SOURCE UNVERIFIED",
+            "historical_records": []
+        }
+
+    rain_vals = [r["actual_rainfall_mm"] for r in all_records]
+    years = sorted(list(set(r["year"] for r in all_records)))
+    sources = sorted(list(set(r["source_file"] for r in all_records)))
 
     return {
-        "district_or_subdivision": norm_district,
-        "total_records": len(matching),
+        "district_or_subdivision": "Chennai District",
+        "total_records": len(all_records),
         "available_years": years,
         "sources_used": sources,
         "min_rainfall_mm": round(min(rain_vals), 2),
         "max_rainfall_mm": round(max(rain_vals), 2),
         "avg_rainfall_mm": round(sum(rain_vals) / len(rain_vals), 2),
-        "historical_records": matching[:20]
+        "data_source_label": "PUBLIC / SOURCE UNVERIFIED",
+        "historical_records": all_records[:35]  # Top records including stations and seasonal totals
     }
 
 def get_historical_rainfall_summary(db: Session) -> Dict[str, Any]:
-    """Summary statistics for all uploaded historical datasets."""
-    all_records = load_and_clean_historical_rainfall()
-    districts = sorted(list(set(r["district_or_subdivision"] for r in all_records)))
-    years = sorted(list(set(r["year"] for r in all_records)))
+    """Summary statistics for Chennai historical datasets."""
+    all_records = load_chennai_historical_rainfall_records()
     sources = sorted(list(set(r["source_file"] for r in all_records)))
+    years = sorted(list(set(r["year"] for r in all_records)))
 
     return {
-        "total_datasets": 3,
+        "total_datasets": len(sources),
         "total_records": len(all_records),
-        "data_source_label": "Historical Government/Public Dataset",
-        "districts_covered": districts,
+        "data_source_label": "PUBLIC / SOURCE UNVERIFIED",
+        "districts_covered": ["Chennai District"],
         "years_covered": years,
         "source_files": sources,
     }

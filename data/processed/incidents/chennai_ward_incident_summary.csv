@@ -1,0 +1,201 @@
+ward_id,ward_name,zone_id,zone_name,total_verified_incidents,critical_incidents,high_incidents,medium_incidents,floods_2015_incidents,nivar_2020_incidents,locations_recorded,has_measured_depth,max_measured_depth_ft,data_status
+1,Ward 1 (Thiruvottiyur),1,Thiruvottiyur,5,0,3,2,5,0,"['Sathyavanimuthu Nagar', 'Ulaganathapuram', 'SVM Nagar, Ulaganathapuram', 'SVM Nagar I main road', 'SVM Nagar II main road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+2,Ward 2 (Thiruvottiyur),1,Thiruvottiyur,2,0,1,1,2,0,"['Periyakuppam', 'Kathivakkam high road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+3,Ward 3 (Thiruvottiyur),1,Thiruvottiyur,2,0,2,0,2,0,"['KVK Kuppam', 'Annai Sivagami Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+4,Ward 4 (Thiruvottiyur),1,Thiruvottiyur,9,0,9,0,8,1,"['Mettu Street', 'Brindavan Nagar Extension', 'VP Nagar', 'Jothi Nagar 2nd Str', 'Sadyankuppam Pattai']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+5,Ward 5 (Thiruvottiyur),1,Thiruvottiyur,7,0,6,1,7,0,"['Palahai Thotti Kuppam', 'Sakthipuram', 'Chinaernavur', 'Wimco Nagar Ajax', 'Kalaignar Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+6,Ward 6 (Thiruvottiyur),1,Thiruvottiyur,8,1,7,0,8,0,"['Annamalai Nagar', 'Charles Nagar', 'DR.Ambedkar Nagar', 'Sivasakthi Nagar', 'TKP Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+7,Ward 7 (Thiruvottiyur),1,Thiruvottiyur,7,0,7,0,6,1,"['Anna Nagar', 'Rajaji Nagar', 'Vetri Vinayagar Nagar', 'Karkil Nagar', 'Kargil nagar, Rajaji nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+8,Ward 8 (Thiruvottiyur),1,Thiruvottiyur,1,0,1,0,1,0,['Srinivasa Perumal Koil First Cross Street'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+9,Ward 9 (Thiruvottiyur),1,Thiruvottiyur,3,0,2,1,3,0,"['Thiruvottiyur Kuppam', 'KiliJosiam Nagar', 'T.H. Road near Liftgate']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+10,Ward 10 (Thiruvottiyur),1,Thiruvottiyur,3,0,3,0,3,0,"['Nandiodai Kuppam', 'West Mada Str', 'Nandhi odai , Sadayankuppam battai']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+11,Ward 11 (Thiruvottiyur),1,Thiruvottiyur,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+12,Ward 12 (Thiruvottiyur),1,Thiruvottiyur,3,0,2,1,3,0,"['Thilagar Nagar', 'Balakrishna Colony', 'Srinivasapuram, B.K.N Colony']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+13,Ward 13 (Thiruvottiyur),1,Thiruvottiyur,2,0,2,0,2,0,"['Othai vadai Street', 'Gandhi Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+14,Ward 14 (Thiruvottiyur),1,Thiruvottiyur,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+15,Ward 15 (Manali),2,Manali,4,0,3,1,4,0,"['Old Napalyam Salai', 'Lakshmi Nagar', 'Manali New Town 58 th Block', 'Manali New Town 60 Feet Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+16,Ward 16 (Manali),2,Manali,4,0,2,2,4,0,"['Sadayan Kuppam', 'Kanniamman Pettai', 'Rajiv Gandhi Nagar from TPP Salai to Andarkuppam Main Road', 'From Kanniammanpet pond to Kadappakkam Lake']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+17,Ward 17 (Manali),2,Manali,4,0,4,0,4,0,"['Chetty Medu', 'Thiyagi Viswanatha Dass Nagar', 'Thirupathi Devasthanam Nagar', 'Periyar Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+18,Ward 18 (Manali),2,Manali,4,0,4,0,4,0,"['Dr.Zhakirhussian Street', 'Ekambaram Street', 'Harikrishnapuram', 'Bharathiyar Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+19,Ward 19 (Manali),2,Manali,1,0,1,0,1,0,['Ponniamman Koil Street'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+20,Ward 20 (Manali),2,Manali,5,0,5,0,5,0,"['Balaraman Street', 'Chinna Mattur Road', 'J J Nagar', 'M.G.R. Nagar', 'Kamaraj Salai']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+21,Ward 21 (Manali),2,Manali,5,0,5,0,5,0,"['Neduncheliyan Street Extension', 'Poongavanam Street', 'Thiru vi Ka Street', 'Jalagandamariamman Kovil Street', 'Police Quarters']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+22,Ward 22 (Manali),2,Manali,8,7,1,0,8,0,"['Perumal Koil St, Balji Palayam', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,15.0,VERIFIED_OFFICIAL_INCIDENTS
+23,Ward 23 (Madhavaram),3,Madhavaram,6,1,5,0,5,1,"['Kanappasamy Nagar', 'Mahalakshmi Nagar', 'KS Nagar (Thirumalai Nagar)', 'Mahalakshmi Nagar', 'Chennai Floods 2015 Waterlogging Point']",True,7.0,VERIFIED_OFFICIAL_INCIDENTS
+24,Ward 24 (Madhavaram),3,Madhavaram,9,5,4,0,9,0,"['Punitha Anthoniyar Street', 'Othai vadai Street', 'Othai vadai Street', 'Aringhar Anna Nagar,', 'Punitha Anthoniyar Street']",True,9.0,VERIFIED_OFFICIAL_INCIDENTS
+25,Ward 25 (Madhavaram),3,Madhavaram,1,1,0,0,1,0,['Chennai Floods 2015 Waterlogging Point'],True,11.0,VERIFIED_OFFICIAL_INCIDENTS
+26,Ward 26 (Madhavaram),3,Madhavaram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+27,Ward 27 (Madhavaram),3,Madhavaram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+28,Ward 28 (Madhavaram),3,Madhavaram,1,0,1,0,1,0,['Ambedhkar Nagar'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+29,Ward 29 (Madhavaram),3,Madhavaram,5,0,5,0,5,0,"['Prakah Nagar', 'Munusamy Nagar', 'Annapoorna Nagar', 'Dr.Ambedkar Nagar', 'GNT Road (Near Roundana)']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+30,Ward 30 (Madhavaram),3,Madhavaram,6,2,4,0,4,2,"['Devaki Nagar', 'Truck Terminal, GNT Road', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point', 'Siva Ganapathi Nagar']",True,11.0,VERIFIED_OFFICIAL_INCIDENTS
+31,Ward 31 (Madhavaram),3,Madhavaram,5,2,3,0,5,0,"['Collector Nagar', 'Aringar Anna Nagar', 'GNT Road', 'Collector Nagar', 'Chennai Floods 2015 Waterlogging Point']",True,9.0,VERIFIED_OFFICIAL_INCIDENTS
+32,Ward 32 (Madhavaram),3,Madhavaram,8,3,5,0,8,0,"['Iyyan Thiruvalluvar Salai', 'Surapet sivaprakasam Nagar', 'Ambattur Redhills Road', 'Sarathi Nagar', 'Ambattur Redhills road (Highway)']",True,10.0,VERIFIED_OFFICIAL_INCIDENTS
+33,Ward 33 (Madhavaram),3,Madhavaram,2,1,0,1,2,0,"['Sarathy Nagar', 'Chennai Floods 2015 Waterlogging Point']",True,13.0,VERIFIED_OFFICIAL_INCIDENTS
+34,Ward 34 (Tondiarpet),4,Tondiarpet,7,2,5,0,7,0,"['Thendral Nagar', 'Ishwariya Nagar', 'Annai Avenue', 'Durgai Avenue', 'Construction of RCC Open Box type Retaining Wall and Bed including chain link fencing to Kodungaiyur canal North wing from Ch.0.0 to Ch.850m']",True,13.0,VERIFIED_OFFICIAL_INCIDENTS
+35,Ward 35 (Tondiarpet),4,Tondiarpet,2,0,2,0,2,0,"['Muthamil Nagar 8th Block', 'Kannadasan Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+36,Ward 36 (Tondiarpet),4,Tondiarpet,4,0,4,0,4,0,"['Eithiraj Salai', 'EH Road', 'Sharma Nagar', 'Providing Re-sectioning concrete lining and laying service road in link canal from Ch.2940 to 3360 in Captain Cotton Canal']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+37,Ward 37 (Tondiarpet),4,Tondiarpet,9,0,9,0,9,0,"['West Avenue', 'Abirami Avenue 14th Street', 'Abirami Avenue 16th Street', 'Abirami Avenue \xa015th \xa0Street', 'MGR Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+38,Ward 38 (Tondiarpet),4,Tondiarpet,1,0,1,0,1,0,['Indira Nagar'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+39,Ward 39 (Tondiarpet),4,Tondiarpet,1,0,0,1,1,0,['Dismantling and Reconstruction of RCC Box type storm water drain of size 1200x1200mm along T.H Road from North Terminal road to AE koil st'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+40,Ward 40 (Tondiarpet),4,Tondiarpet,5,0,5,0,5,0,"['Thiruvalluvar Nagar Huts', 'Celliamman Koil Street', 'VOC Nagar', 'Kamaraj Salai Jn of Ellaya Mudali Street', 'Dismantling and Reconstruction of RCC Box type storm water drain of size 1200x1200mm along Kamarajar salai from Elaya street to AE koil st']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+41,Ward 41 (Tondiarpet),4,Tondiarpet,8,0,7,1,8,0,"['Nehru Nagar 13th Street', 'Nehru Nagar Main Road', 'Kumaran Nagar', 'Carnesh Nagar', 'MGR Nagar Canal Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+42,Ward 42 (Tondiarpet),4,Tondiarpet,1,0,1,0,1,0,['Ellaya Mudali Street'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+43,Ward 43 (Tondiarpet),4,Tondiarpet,2,0,2,0,2,0,"['Singaravelan Nagar ( Palla Pagudhi )', 'New Amaranjipuram']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+44,Ward 44 (Tondiarpet),4,Tondiarpet,2,0,2,0,2,0,"['Manicka Vinayagar Koil Street', 'Manimegai Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+45,Ward 45 (Tondiarpet),4,Tondiarpet,11,0,8,3,11,0,"['Stephens Road', 'Stephens Main Road', 'Ganesapuram Main Road', 'Desigananda Puram', 'B.V Colony 19 Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+46,Ward 46 (Tondiarpet),4,Tondiarpet,8,0,6,2,8,0,"['Debar Nagar', 'Sundram Power Lane', 'Masuthi Street', 'Sathya Moorthy Nagar Main Road', 'Renuka Devi Amman Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+47,Ward 47 (Tondiarpet),4,Tondiarpet,3,0,3,0,3,0,"['Meenambal Nagar', 'KH Road', 'KH Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+48,Ward 48 (Tondiarpet),4,Tondiarpet,2,0,2,0,2,0,"['DBK Street', 'Partha Sarathy St']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+49,Ward 49 (Royapuram),5,Royapuram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+50,Ward 50 (Royapuram),5,Royapuram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+51,Ward 51 (Royapuram),5,Royapuram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+52,Ward 52 (Royapuram),5,Royapuram,1,0,1,0,1,0,"['Vijayaragavalu Roundana,']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+53,Ward 53 (Royapuram),5,Royapuram,4,0,3,1,4,0,"['T.H.Road (Dr.Vijayaragavalu road)', 'North wall road', 'C.B.Road', 'Walltax Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+54,Ward 54 (Royapuram),5,Royapuram,6,0,4,2,6,0,"['Thirupali St', 'Amman Koil Street', 'Waltax road', 'chakarai chety st.', 'Walltax Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+55,Ward 55 (Royapuram),5,Royapuram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+56,Ward 56 (Royapuram),5,Royapuram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+57,Ward 57 (Royapuram),5,Royapuram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+58,Ward 58 (Royapuram),5,Royapuram,5,0,3,2,5,0,"['Elephant Gate Bridge Road', 'Sydnams Road', 'Avadhana papaiah road', 'Sydnams Road,', 'EVK Sampath Salai,']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+59,Ward 59 (Royapuram),5,Royapuram,1,0,0,1,1,0,"['VOC Salai,']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+60,Ward 60 (Royapuram),5,Royapuram,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+61,Ward 61 (Royapuram),5,Royapuram,6,0,4,2,6,0,"['Gandhi - Irwin Road', 'Kennte Lane', 'Santhosh Nagar', 'Ethiraj lane', 'Ghandhi Irwan Bridge Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+62,Ward 62 (Royapuram),5,Royapuram,4,0,2,2,4,0,"['Singana Chetty St', 'ArunaChala Road', 'Singanna Chetty Street,', 'Arunachalam Road,']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+63,Ward 63 (Royapuram),5,Royapuram,4,0,2,2,4,0,"['G.P Road', 'South Coovam Road', 'Chella pillayar Koil Street,', 'G.P. Road,']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+64,Ward 64 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,13,1,10,2,13,0,"['Thirumalai Nagar', 'Bharath Rajeev Ganthi Nagar', 'Senthi Nagar 14 Street', 'Senthi Nagar 13th Street', 'Senthi Nagar 15th Street']",True,10.0,VERIFIED_OFFICIAL_INCIDENTS
+65,Ward 65 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,15,0,8,7,15,0,"['Vivek Nagar', 'Poombugaar Nagar 11th Street', 'Poombugaar Nagar 20th Street', 'Poombugaar Nagar 21st Street', 'Poombugaar Nagar 28th Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+66,Ward 66 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,8,0,2,6,8,0,"['Sivalingam Salai', 'Ragavan Salai', 'Shanthi Street', 'Kamaraj Street', 'Ragavan Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+67,Ward 67 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,3,0,1,2,3,0,"['Pallavan Salai', 'Andiyappan Street', 'Maduraiswamy Madam']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+68,Ward 68 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,4,0,2,2,4,0,"['Periyar Nagar 18th Street', 'SRP. Koil Street', 'Mohamadin Salai', 'Jawahar Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+69,Ward 69 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,4,0,1,3,4,0,"['GKM Colony', 'Gopal Reddy Colony', 'Pallavan Street', 'Rangasiyee Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+70,Ward 70 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,5,0,5,0,5,0,"['M.H.Road', 'Bunder Garden Street', 'Ragavan Street', 'Jawahar Road', 'Shanthi Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+71,Ward 71 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,3,0,1,2,3,0,"['Arundhathi Nagar', 'Bharathi Main Road', 'Dr. Ambedkar College Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+72,Ward 72 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,7,0,6,1,7,0,"['Basin Bridge Road', 'Doss Nagar Pallam', 'Ambedkar Nagar', 'Nehru Nagar', 'Kannikapuram Main Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+73,Ward 73 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,14,0,10,4,14,0,"['Decastor Road', 'Mannar Swamy Street', 'Thiru Venkadam Street', 'Ramaswamy Street', 'Narayanaswamy Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+74,Ward 74 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,8,0,7,1,8,0,"['Engangipuram', 'Anderson Road', 'K.H.Road', 'C.Y.S Road', 'Jothi Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+75,Ward 75 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,4,0,3,1,4,0,"['M.T.Road', 'Subbrayan 5th Street', 'Secretariate Colony 6th St', 'Sec Colony 1st to 9th Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+76,Ward 76 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,9,0,5,4,9,0,"['Kannapa Street', 'Edward Park', 'Chellppa Street', 'Perambur Barackks Road', 'Strahans Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+77,Ward 77 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,2,0,1,1,2,0,"['Demellous Road', 'Demellous Road \n(Near Haj Committee)']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+78,Ward 78 (Thiru. Vi. Ka. Nagar),6,Thiru. Vi. Ka. Nagar,3,0,2,1,3,0,"['Choolai High Road', 'Astabujam Road', 'V.V.Koil Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+79,Ward 79 (Ambattur),7,Ambattur,7,0,7,0,7,0,"['Nathamuni Street', 'Mariamman Koil Strret', 'Krishnan cross st', 'Nagathamman kovil street', 'Arunagirinathar street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+80,Ward 80 (Ambattur),7,Ambattur,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+81,Ward 81 (Ambattur),7,Ambattur,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+82,Ward 82 (Ambattur),7,Ambattur,10,4,4,2,9,1,"['Gangi Amman Koil Street', 'Thirunavukarasu Street', 'TNEB Colony', 'Gnanamoorthy Nagar &  EB Colony', 'Gnanamoorthy Nagar &  EB Colony']",True,11.0,VERIFIED_OFFICIAL_INCIDENTS
+83,Ward 83 (Ambattur),7,Ambattur,10,2,7,1,7,3,"['NAS Garden', 'agragaram korattur', 'Vivekanadan Nagar Main Road', 'Sastha Nagar', 'NAS Garden & TVS Nagar']",True,11.0,VERIFIED_OFFICIAL_INCIDENTS
+84,Ward 84 (Ambattur),7,Ambattur,17,0,17,0,17,0,"['TNEB 30th Street', 'TNEB 31th Street', 'TNEB 32nd Street', 'TNEB 35th Street', 'TNEB 36th Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+85,Ward 85 (Ambattur),7,Ambattur,5,1,4,0,5,0,"['MKB Nagar', 'Dobhi colony', 'mangalapuram', 'CTH ROAD', 'Chennai Floods 2015 Waterlogging Point']",True,8.0,VERIFIED_OFFICIAL_INCIDENTS
+86,Ward 86 (Ambattur),7,Ambattur,4,2,1,1,4,0,"['VGN SHANTHI COLONY', 'Cth Road near Petrol Bunk', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,10.0,VERIFIED_OFFICIAL_INCIDENTS
+87,Ward 87 (Ambattur),7,Ambattur,6,0,5,1,6,0,"['East Avenue', 'TNEB 2nd Street', 'TNEB 11th Street', 'Shanthi Nagar', 'Thiruvalluvar Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+88,Ward 88 (Ambattur),7,Ambattur,7,0,7,0,7,0,"['U.R. NAGAR', 'B Sector 6th Street', 'B Sector 8th Street', 'C Sector 6th Street', 'D Sector 8th Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+89,Ward 89 (Ambattur),7,Ambattur,3,0,3,0,3,0,"['Mathialagan Nagar', 'West End colony', 'Golden Colony']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+90,Ward 90 (Ambattur),7,Ambattur,5,0,4,1,5,0,"['Gandhi Nagar', 'Kalaivanar Colony', 'Paddikuppam Five Star Apartments', 'Thirumangalam Jn', 'Thirumagalam  road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+91,Ward 91 (Ambattur),7,Ambattur,3,0,3,0,2,1,"['Mogappair Eri Scheme VGN Ave', 'Mogappair Eri Scheme 7th main Rd', 'Jaswant nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+92,Ward 92 (Ambattur),7,Ambattur,4,0,4,0,3,1,"['Dr. J J Nagar 10th Block', 'Panner Nagar Main RD', 'vellar street voilet Apartments', 'Vellalar nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+93,Ward 93 (Ambattur),7,Ambattur,3,0,2,1,2,1,"['Nakeeran Salai', 'Vandiamman Koil st', 'Parikuppam main road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+94,Ward 94 (Anna Nagar),8,Anna Nagar,15,4,11,0,15,0,"['Raja Mangalam Street', 'Annai Sathya Nagar', 'North Sivan Koil Street', 'Baba Nagar 1st Main Road', 'North Jaganatha Nagar 2nd Street']",True,12.0,VERIFIED_OFFICIAL_INCIDENTS
+95,Ward 95 (Anna Nagar),8,Anna Nagar,14,4,9,1,13,1,"['M.T.H. Road', 'Rajiv Gandhi Nagar 2nd Street', 'Thanthoni Amman Koil Street', 'Narayana Maistry 2nd Street', 'Bajanai Koil Street']",True,12.0,VERIFIED_OFFICIAL_INCIDENTS
+96,Ward 96 (Anna Nagar),8,Anna Nagar,3,0,3,0,3,0,"['Aynavaram Ganambal Garden', 'Konnur High Road', 'Kakkangi Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+97,Ward 97 (Anna Nagar),8,Anna Nagar,3,0,3,0,3,0,"['Vellala Street', 'Kamaraj Street', 'CHAKRAVARTHY NAGAR']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+98,Ward 98 (Anna Nagar),8,Anna Nagar,9,0,9,0,9,0,"['Ayanavaram market road', 'NMK Street', 'Police Manickam Street', 'Ayanavaram road', 'C.K.Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+99,Ward 99 (Anna Nagar),8,Anna Nagar,8,0,8,0,6,2,"['Millers Road', 'Sundaram Lane', 'New Bhoopathy Nagar', 'Ozone kulam', 'Shanmugarayan street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+100,Ward 100 (Anna Nagar),8,Anna Nagar,8,0,7,1,8,0,"['Jothiammal Nagar', 'TP Chatram Main Road', 'Kellys Road', 'Purasaiwalkam High Road (near Law College Hostel)', 'Sylvan garden 1st street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+101,Ward 101 (Anna Nagar),8,Anna Nagar,11,0,11,0,11,0,"['Pulla Avenue', '1st Avenue', '1st Main Road', 'Kilpauk Garden Road', 'R.V.Nagar Main Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+102,Ward 102 (Anna Nagar),8,Anna Nagar,6,0,5,1,6,0,"['2nd Avenue', 'T Block 8th Street', 'P Block 20th Street', 'Periyakoodal st', 'Q Block']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+103,Ward 103 (Anna Nagar),8,Anna Nagar,9,0,9,0,9,0,"['S Block 21st Street', 'S Block 2nd Street', '5th Main Road', '2nd Avenue', '5th Avenue']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+104,Ward 104 (Anna Nagar),8,Anna Nagar,15,0,11,4,15,0,"['Vasantham Colony 1st Street', '18th Main Road', 'North Main Road', 'Anna Nagar west - W Block', 'NVN Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+105,Ward 105 (Anna Nagar),8,Anna Nagar,8,0,8,0,8,0,"['Anna Street', 'Venkata Krishna Nagar', 'Water Tank Road', 'Annai Sathya Nagar', 'Kalki Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+106,Ward 106 (Anna Nagar),8,Anna Nagar,2,0,2,0,2,0,"['Periyar Pathai', 'Iyyappa Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+107,Ward 107 (Anna Nagar),8,Anna Nagar,6,0,6,0,6,0,"['Collectorate colony', 'M.H.Colony', 'Kakkan nagar', 'Metha nagar', 'Water Tank Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+108,Ward 108 (Anna Nagar),8,Anna Nagar,1,0,1,0,1,0,['Dr.Gurusamy Bridge'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+109,Ward 109 (Teynampet),9,Teynampet,5,0,3,2,5,0,"['Anna Nedumpathai', 'Nelson manickam Road', 'Central school Road', 'Vanniyar 2nd  Street', 'Gill Nagar 1nd street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+110,Ward 110 (Teynampet),9,Teynampet,10,1,7,2,10,0,"['School Road', 'ValluvarKottam High Road', 'Harinton Road', 'Strelling Road', 'Tank Bund Road']",True,7.0,VERIFIED_OFFICIAL_INCIDENTS
+111,Ward 111 (Teynampet),9,Teynampet,8,2,5,1,8,0,"['Greams Road', 'Gulam Ahabs Alikahan street', 'Gopolapuram', 'College Road', 'Uthmar Gandhi Salai']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+112,Ward 112 (Teynampet),9,Teynampet,10,0,5,5,10,0,"['Puliyur 2nd Lane', 'Puliyur 2nd Main Road', 'Varadharajapuram main Road', 'Puliyur Main Road', 'Puliyur 1st Main Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+113,Ward 113 (Teynampet),9,Teynampet,16,4,6,6,16,0,"['Kodampakkam High Road', 'Thirumalaipillai Road', 'Valluvar Kottam High Road', 'Habibullah Road', 'Dr.Sadhasivam Road']",True,12.0,VERIFIED_OFFICIAL_INCIDENTS
+114,Ward 114 (Teynampet),9,Teynampet,9,0,5,4,9,0,"['Marina Service Road', 'Kamarajar Salai', 'Sakir Saip Street', 'Sydoji Street', 'Lock nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+115,Ward 115 (Teynampet),9,Teynampet,8,0,6,2,8,0,"['Peters Road', 'West Cott Road', 'Devaraj  Street', 'Surappan Street', 'Dr.Besant Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+116,Ward 116 (Teynampet),9,Teynampet,2,0,1,1,2,0,"['Bharathi Salai jn of Bells Road', 'Dr. Besant Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+117,Ward 117 (Kodambakkam),10,Kodambakkam,10,1,8,1,10,0,"['G.N.chetty Road', 'Thomas Road', 'Thirumalaipillai Road', 'Thirumoorthi Street', 'Bangirathi  Ammal Street']",True,15.0,VERIFIED_OFFICIAL_INCIDENTS
+118,Ward 118 (Teynampet),9,Teynampet,3,0,0,3,3,0,"['Kasthuri Estate 2nd street', 'Mayor Sundra (rao) road', 'Kasthuri Estate 1st street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+119,Ward 119 (Teynampet),9,Teynampet,8,1,6,1,8,0,"['P.S.sivasamy street', 'C.I.T.colony 1st cross street', 'Avvai shanmugam lane', 'Royapet high Road', 'Avvai Shanmugam Salai']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+120,Ward 120 (Teynampet),9,Teynampet,4,0,3,1,4,0,"['Dr.Besant Road', 'Dr Natesan Road', 'Muthaiah Street', 'Dr. Natesan Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+121,Ward 121 (Teynampet),9,Teynampet,5,0,3,2,5,0,"['Thiru.Vi.ka Salai', 'Marina Service Road', 'Radha Krishnan Road', 'Thiru-Vi-Ka 3rd street', 'Dr. Radha Krishnan Salai (infornt of Reliance Building)']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+122,Ward 122 (Teynampet),9,Teynampet,21,1,20,0,21,0,"['Chamiers Road', 'Seethamal colony 2nd main road', 'K.B. Dasan Road', 'Trunbulls Road', 'Ranga street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+123,Ward 123 (Teynampet),9,Teynampet,8,0,4,4,8,0,"['Seethamal colony 1st main road', 'Eldams Road', 'Seethammal Road', 'R.A.Puram 3rd cross street', 'R.A.Puram 1st main road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+124,Ward 124 (Teynampet),9,Teynampet,6,0,5,1,6,0,"['Kutcheri Road', 'V.C.Garden Street', 'Thiyagaraya Puram', 'R.K.Mutt Road', 'Kutcherry Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+125,Ward 125 (Teynampet),9,Teynampet,6,0,5,1,6,0,"['Papanasam Sivan Road', 'Santhome High Road', 'R.K.Salai', 'M.G.R.Salai', 'Sundershwarer Swamy Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+126,Ward 126 (Teynampet),9,Teynampet,6,0,5,1,6,0,"['Mandeveli bus depot', 'Pattinam pakkam Road', 'Venkata krishna Road', 'Devanathen street', 'Santhome High Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+127,Ward 127 (Kodambakkam),10,Kodambakkam,11,0,11,0,11,0,"['KALIAMMAN KOIL STREET', 'JAI NAGAR', 'RAGAVENDRA COLONY', 'SRINIVASA NAGAR', 'SRI IYAPPA NAGAR']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+128,Ward 128 (Kodambakkam),10,Kodambakkam,7,0,7,0,7,0,"['NEW COLONY', 'KALIAMMAN KOIL STREET', 'ELANGO NAGAR', 'Saratha Nagar', 'Tarachand Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+129,Ward 129 (Kodambakkam),10,Kodambakkam,6,0,6,0,6,0,"['ARUNACHALAM ROAD', 'ABUSALI SALAI', 'THIRUVALLUVAR STREET', 'Mathiazhaghan Nagar', 'Devaraj Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+130,Ward 130 (Kodambakkam),10,Kodambakkam,12,1,11,0,12,0,"['ALAGIRI NAGAR 4TH street', 'ALAGIRI NAGAR 3RD street', 'ALAGIRI NAGAR  5TH street', 'ALAGIRI NAGAR 2ND street', 'ALAGIRI NAGAR 1ST street']",True,11.0,VERIFIED_OFFICIAL_INCIDENTS
+131,Ward 131 (Kodambakkam),10,Kodambakkam,11,5,6,0,11,0,"['4TH AVENUE', '2ND AVENUE', 'ARCOT ROAD', 'DURAISAMY STREET', 'POSTAL COLONY 4TH STREET']",True,12.0,VERIFIED_OFFICIAL_INCIDENTS
+132,Ward 132 (Kodambakkam),10,Kodambakkam,14,8,6,0,14,0,"['RATHINAMMAL STREET', 'RANGARAJA PURAM MAIN ROAD,Azeez Nagar', 'RAILWAY BORDER ROAD', 'Valliammal Garden', 'ARCOT ROAD']",True,11.0,VERIFIED_OFFICIAL_INCIDENTS
+133,Ward 133 (Kodambakkam),10,Kodambakkam,13,9,4,0,13,0,"['G.N.Chetty road', 'NORTH USMAN STREET', 'Ragaviah Road,', 'North Usman Road', 'Chennai Floods 2015 Waterlogging Point']",True,60.0,VERIFIED_OFFICIAL_INCIDENTS
+134,Ward 134 (Kodambakkam),10,Kodambakkam,9,3,6,0,9,0,"['POSTAL COLONY 1ST STREET', 'POSTAL COLONY 3RD STREET', 'POSTAL COLONY 2ND STREET', 'THAMBIAH ROAD', 'SRINIVASA PILLAI STREET']",True,11.0,VERIFIED_OFFICIAL_INCIDENTS
+135,Ward 135 (Kodambakkam),10,Kodambakkam,29,20,9,0,29,0,"['P.T.RAJAN SALAI', '4TH AVENUE', '2ND AVENUE', '7TH AVENUE', '18TH AVENUE']",True,15.0,VERIFIED_OFFICIAL_INCIDENTS
+136,Ward 136 (Kodambakkam),10,Kodambakkam,8,4,4,0,8,0,"['R.K.SHANMUGAM SALAI', 'LAKSHMANASAMY SALAI', '86TH STREET', 'Rajamannar Salai', 'Chennai Floods 2015 Waterlogging Point']",True,16.0,VERIFIED_OFFICIAL_INCIDENTS
+137,Ward 137 (Kodambakkam),10,Kodambakkam,8,1,7,0,8,0,"['PERIYAR NAGAR', 'Annai sathya Nagar', 'RAJAMANNAR SALAI', 'Ramasamy salai', 'LAKSHMANASAMY SALAI']",True,14.0,VERIFIED_OFFICIAL_INCIDENTS
+138,Ward 138 (Kodambakkam),10,Kodambakkam,9,6,3,0,9,0,"['Ambedkar Colony', 'Bharathidasan Colony main raod', 'E.S.I.', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,21.0,VERIFIED_OFFICIAL_INCIDENTS
+139,Ward 139 (Kodambakkam),10,Kodambakkam,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+140,Ward 140 (Kodambakkam),10,Kodambakkam,5,0,5,0,5,0,"['GOVINDAN ROAD', 'K.R.KOIL STREET', 'Jothiramalingam Nagar', 'Ellaiamman Koil Street', '11TH AVENUE']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+141,Ward 141 (Kodambakkam),10,Kodambakkam,4,3,1,0,4,0,"['SOUTH WEST BOAG ROAD', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,10.0,VERIFIED_OFFICIAL_INCIDENTS
+142,Ward 142 (Kodambakkam),10,Kodambakkam,3,0,3,0,3,0,"['JEENIS ROAD', 'Diwan Bashyam Street', 'THIRUVALLUVAR STREET']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+143,Ward 143 (Valasaravakkam),11,Valasaravakkam,7,1,4,2,7,0,"['VGN NAGAR', 'Sriram Nagar Main Road', 'Vembuliamman Koil Street', 'Vembuli amman koil street', 'Gajalakshmi nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+144,Ward 144 (Valasaravakkam),11,Valasaravakkam,6,0,3,3,6,0,"['Poonamallee High Road', 'MMDA Colony 4th Block', 'MMDA Colony 5th Block', 'MMDA Colony 4th , 5th & 6th block', 'MMDA Colony 4th , 5th & 6th block']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+145,Ward 145 (Valasaravakkam),11,Valasaravakkam,5,0,4,1,5,0,"['Pallavan nagar', 'Azhagammal Nagar 8th Street', 'Krishna Nagar Main Road', 'NT Patel Road MGR Salai', 'Pallavan Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+146,Ward 146 (Valasaravakkam),11,Valasaravakkam,3,0,2,1,3,0,"['MGR Street', 'Bharathidasan Nagar', 'Metro nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+147,Ward 147 (Valasaravakkam),11,Valasaravakkam,11,0,10,1,10,1,"['Alapakkam Main Road Jn of HP Petrol Bunk', 'Alapakkam Main Road Jn of Meenakshmi School', 'Astalakshmi Nagar 3rd Main Road', 'Astalakshmi Nagar 6th Street', 'Chokanathan 1st Cross Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+148,Ward 148 (Valasaravakkam),11,Valasaravakkam,5,0,4,1,5,0,"['Azhagammal Nagar 7th Street', 'Muniappa Nagar 2nd Street', 'CDN Nagar', 'Balaji Nagar', 'CDN nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+149,Ward 149 (Valasaravakkam),11,Valasaravakkam,15,0,15,0,15,0,"['Periyar Nagar', 'Anbu nagar', 'Saraswathi Nagar', 'Devikarumariyamman Nagar', 'Palaniyappa Nagar Main Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+150,Ward 150 (Valasaravakkam),11,Valasaravakkam,7,0,6,1,6,1,"['Arcot Road Near Vasanth & Co', 'Arcot Road Rajeshwari Nagar', 'Arcot Road Thangam Store', 'Mullai Street', 'Arunachalam Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+151,Ward 151 (Valasaravakkam),11,Valasaravakkam,6,0,6,0,6,0,"['Chinnaporur Gandhi Street', 'Arcot Road ETA', 'Arcot Road Kumar Sweeets', 'Arcot road', 'Sairam avenue']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+152,Ward 152 (Valasaravakkam),11,Valasaravakkam,4,0,4,0,4,0,"['Kamatchi Nagar', 'Kanagathara Nagar Main Road', 'Kadumbadiamma Sannathi 1st st', 'Om Sakthi 3rd Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+153,Ward 153 (Valasaravakkam),11,Valasaravakkam,6,0,6,0,6,0,"['Kundrathur Main Road Jn of RE Nagar 1st Street', 'Suresh Nagar 3rd Street', 'Ramakrishna Nagar', 'Ganesh Avenue 1st to 8th Street', 'Ambal nagar Kumutham Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+154,Ward 154 (Valasaravakkam),11,Valasaravakkam,6,0,6,0,6,0,"['Balambigai 5th Street', 'Venkateswara Nagar 14th Streetand 1st and 2nd lane', 'Kanniappan Street', 'Thiruvalluvar Street', 'Kakkan Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+155,Ward 155 (Valasaravakkam),11,Valasaravakkam,9,3,6,0,9,0,"['Kothari Nagar', 'Gangai Avenue', 'Royala Nagar 2nd Main Road Near Kovilpillai School', 'Kothari Nagar 1st,  2nd Main Road and 1 to 8 Streets', 'Thirumalai Nagar Mahavishnu Street Sanjai Ram Street and Elumalai Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+156,Ward 156 (Alandur),12,Alandur,3,0,2,1,3,0,"['KUMUDAM NAGAR', 'Mugalivakkam Main Road', 'Bhell Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+157,Ward 157 (Alandur),12,Alandur,11,1,2,8,11,0,"['CRR Puram', 'Krishna Nagar', 'Kaviya Garden, CRR Puram Phase III, Purachi Thalivi Nagar, Bhell Nagar, Dharmarajapuram, Sathiya Nagar, Astalakshmi Avenue and Sedhu Lakshmi Avenue, River view colony', 'Kaviya Garden, CRR Puram Phase III, Purachi Thalivi Nagar, Bhell Nagar, Dharmarajapuram, Sathiya Nagar, Astalakshmi Avenue and Sedhu Lakshmi Avenue, River view colony', 'Kaviya Garden, CRR Puram Phase III, Purachi Thalivi Nagar, Bhell Nagar, Dharmarajapuram, Sathiya Nagar, Astalakshmi Avenue and Sedhu Lakshmi Avenue, River view colony']",True,5.0,VERIFIED_OFFICIAL_INCIDENTS
+158,Ward 158 (Alandur),12,Alandur,2,1,1,0,2,0,"['Bharma Colony 4th Street and TPF', 'Chennai Floods 2015 Waterlogging Point']",True,5.0,VERIFIED_OFFICIAL_INCIDENTS
+159,Ward 159 (Alandur),12,Alandur,1,1,0,0,1,0,['Chennai Floods 2015 Waterlogging Point'],True,35.0,VERIFIED_OFFICIAL_INCIDENTS
+160,Ward 160 (Alandur),12,Alandur,4,1,3,0,4,0,"['Egambaradhabadar Street', 'MKN Road', 'Amma Unavagam', 'Chennai Floods 2015 Waterlogging Point']",True,6.0,VERIFIED_OFFICIAL_INCIDENTS
+161,Ward 161 (Alandur),12,Alandur,10,5,5,0,10,0,"['Jeevan Nagar', 'Musthangori Street', 'Railway Station Service Road', 'Subway Road', 'Raja Street']",True,9.5,VERIFIED_OFFICIAL_INCIDENTS
+162,Ward 162 (Alandur),12,Alandur,11,1,5,5,11,0,"['Thillai Ganga Nagar 27th Street', '28th Street', '29th Street', 'Kannan Colony', 'Gandhi Salai']",True,35.0,VERIFIED_OFFICIAL_INCIDENTS
+163,Ward 163 (Alandur),12,Alandur,1,0,1,0,1,0,['Shanthi Nagar'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+164,Ward 164 (Alandur),12,Alandur,0,0,0,0,0,0,[],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+165,Ward 165 (Alandur),12,Alandur,19,3,13,3,19,0,"['AGS colony', 'Nilamangai Nagar', 'Tagore Street', 'Vallalar Street', 'Income tax colony 1st Street']",True,10.0,VERIFIED_OFFICIAL_INCIDENTS
+166,Ward 166 (Alandur),12,Alandur,1,0,1,0,1,0,['BV Nagar'],False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+167,Ward 167 (Alandur),12,Alandur,6,0,5,1,6,0,"['Nanganallur 44th Street', 'TNGO Colony main Road', 'Nanganallur 46th Street,', 'Lakshmi Nagar 1st Street', 'Lakshmi Nagar 2nd Street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+168,Ward 168 (Adyar),13,Adyar,9,5,4,0,9,0,"[""100' roa Near Olympia"", 'Kalaimagal nagar', 'Balaji nagar', 'Nagi reddy garden', 'Nagi (R ) Thottam']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+169,Ward 169 (Adyar),13,Adyar,6,1,5,0,6,0,"['Gandhi mandapam road', 'Srinagar colony', 'West CIT nagar', 'Link road', 'Venkatapuram']",True,7.0,VERIFIED_OFFICIAL_INCIDENTS
+170,Ward 170 (Adyar),13,Adyar,6,3,3,0,6,0,"['River view road', 'Chitra nagar', 'Peeliamman koil street', 'Chitra nagar, Kotturpuram', 'Chennai Floods 2015 Waterlogging Point']",True,7.0,VERIFIED_OFFICIAL_INCIDENTS
+171,Ward 171 (Adyar),13,Adyar,13,0,13,0,13,0,"['Karpagam avenue', 'Dr.D.G.S.Dinakaran salai', 'MRC Nagar', 'May flower garden', 'R.K.Nagar IV cross street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+172,Ward 172 (Adyar),13,Adyar,16,4,11,1,16,0,"['Veerapandiya kattabomman street', 'Manthoppu II lane', 'Five Furlong road', 'Pillaiyar koil lane', 'Vandikaran street']",True,29.0,VERIFIED_OFFICIAL_INCIDENTS
+173,Ward 173 (Adyar),13,Adyar,14,0,10,4,14,0,"['Nehru nagar main road', 'Kasthuribai nagar', 'Indra nagar', 'Kamaraj I avenue', 'Venkatarathinam nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+174,Ward 174 (Adyar),13,Adyar,5,0,5,0,5,0,"['Sastri nagar XV cross street', 'I street', 'Sastri nagar II, IX & XV cross street', 'Sastri nagar II, IX & XV cross street', 'Sastri nagar II, IX & XV cross street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+175,Ward 175 (Adyar),13,Adyar,14,0,5,9,14,0,"['Ambedkar colony', 'Mahalakshmi nagar', 'TNHB colony III main road', 'Nehru nagar', 'City limit road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+176,Ward 176 (Adyar),13,Adyar,23,6,6,11,23,0,"['Nethaji colony', 'Devi Karumariamman koil street', 'AGS colony', 'A.G.S Colony', 'Ram Nagar area']",True,6.0,VERIFIED_OFFICIAL_INCIDENTS
+177,Ward 177 (Adyar),13,Adyar,48,34,12,2,48,0,"['Throwpathy amman koil street', 'Vijayanagar', 'Orandiamman koil street', 'Gandhi road', 'Tansi nagar III street']",True,9.5,VERIFIED_OFFICIAL_INCIDENTS
+178,Ward 178 (Adyar),13,Adyar,10,4,5,1,10,0,"['Taramani Velachery road', 'Kanagam Periyar nagar', 'Thanthai Periyar nagar', 'Indra Gandhi nagar', 'Kanagam - Housing board']",True,29.0,VERIFIED_OFFICIAL_INCIDENTS
+179,Ward 179 (Adyar),13,Adyar,10,0,6,4,10,0,"['VII avenue', 'R.K.Nagar main road', 'Valmigi street', 'Kalakshetra colony I streets', 'Kalakshetra colony II streets']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+180,Ward 180 (Adyar),13,Adyar,10,0,8,2,10,0,"['LB road (Judges avenue)', 'Thiruvalluvar nagar', 'Journalist olony', 'Bharathidasan street', 'Ganapathy colony']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+181,Ward 181 (Perungudi),14,Perungudi,4,0,2,2,3,1,"['OMR Jayandra Colony', 'ECR, Near BATA Showroom', 'ECR Opp. Fish market', 'Division office Ward 183']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+182,Ward 182 (Perungudi),14,Perungudi,21,16,3,2,21,0,"['MGR salai EB Office', 'Venkateswara Nagar', 'Burma Colony', 'MGR Salai, MRTS (Near ICDS)', 'OMR, MGR Salai Jn.']",True,20.0,VERIFIED_OFFICIAL_INCIDENTS
+183,Ward 183 (Perungudi),14,Perungudi,4,0,2,2,4,0,"['kolavilliamman Nagar', 'Kandasamy Nagar', 'ECR, Govindan Nagar', 'ECR, Palgalai Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+184,Ward 184 (Perungudi),14,Perungudi,3,0,2,1,3,0,"['Rajiv nagar 2nd main raod', 'Elim nagar', 'OMR, Jn. of Thirumalai Nagar']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+185,Ward 185 (Perungudi),14,Perungudi,5,4,1,0,5,0,"['Medavakkam Main Road', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,15.0,VERIFIED_OFFICIAL_INCIDENTS
+186,Ward 186 (Perungudi),14,Perungudi,24,1,21,2,9,15,"['Ramakrishna Raj Nagar', 'Ram Nagar North', 'Ramalingam Nagar', 'Balaji Nagar, Madipakkam, Chennai, Tamil Nadu,', 'Hindu Colony']",True,14.0,VERIFIED_OFFICIAL_INCIDENTS
+187,Ward 187 (Perungudi),14,Perungudi,8,5,1,2,7,1,"['New Kubera Nagar 5th & 7th Street', 'Karthikeyapuram', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,17.0,VERIFIED_OFFICIAL_INCIDENTS
+188,Ward 188 (Perungudi),14,Perungudi,12,5,4,3,12,0,"['L I C Nagar, madipakkam', 'Periyar nagar Extn. 3rd Street', 'Velachery Tambaram Main Road', 'veeramani street', 'LIC Nagar']",True,60.0,VERIFIED_OFFICIAL_INCIDENTS
+189,Ward 189 (Perungudi),14,Perungudi,6,3,2,1,6,0,"['Rajesh Nagar', 'kamatachi nagar', 'Rajesh Nagar', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,40.0,VERIFIED_OFFICIAL_INCIDENTS
+190,Ward 190 (Perungudi),14,Perungudi,7,5,2,0,7,0,"['perumal koil street', 'sai ganesh nagar', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,8.5,VERIFIED_OFFICIAL_INCIDENTS
+191,Ward 191 (Perungudi),14,Perungudi,3,2,1,0,3,0,"['jeyachandran nagar 3rd main rd', 'Chennai Floods 2015 Waterlogging Point', 'Chennai Floods 2015 Waterlogging Point']",True,6.0,VERIFIED_OFFICIAL_INCIDENTS
+192,Ward 192 (Sholinganallur),15,Sholinganallur,12,0,9,3,10,2,"['Kazura Garden', 'Senganiamman Koil st', 'CLRI Nagar', 'Ruby Complex', 'Ellaiamman Koil St']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+193,Ward 193 (Sholinganallur),15,Sholinganallur,3,0,1,2,3,0,"['OMR, Thoraipakkam, MCN Nagar 5th street', 'MCN Nagar', 'Construction of SWD of size 900x900mm along Karpaga Vinayagar Koil Street, Vettuvankeni']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+194,Ward 194 (Sholinganallur),15,Sholinganallur,12,0,11,1,4,8,"['Bethal Nagar', 'Hanuman Colony', 'Cholamandala Nagar', 'Construction of storm water drain along Ist Avenue Main Road, Vettuvankeni', 'Mahatma Gandhi 2nd main road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+195,Ward 195 (Sholinganallur),15,Sholinganallur,7,1,6,0,4,3,"['OMR,Mettukuppam Bus Stand (VPG Avenue)', 'MRG Nagar', 'OMR - Mettukuppam\n(VPG Avenue Junction)', 'Chennai Floods 2015 Waterlogging Point', 'Balaji nagar']",True,6.0,VERIFIED_OFFICIAL_INCIDENTS
+196,Ward 196 (Sholinganallur),15,Sholinganallur,4,0,4,0,4,0,"['OMR Near Anjappar Restaurant', 'Madhakoil Street', 'Kannagi Nagar II Main Road', 'Kannagi Nagr VIII & IX Main Road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+197,Ward 197 (Sholinganallur),15,Sholinganallur,2,0,2,0,2,0,"['ECR,VGP,Injambakkam', 'Nainar kuppam, Rathna street']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+198,Ward 198 (Sholinganallur),15,Sholinganallur,10,1,8,1,9,1,"['OMR, SANMAR, KARAPAKKAM', 'TCS, Karapakkam', 'OMR, Karapakkam', 'Lalbhadur Sastri Street, Karapakkam', 'OMR Natesan Avenue']",True,6.5,VERIFIED_OFFICIAL_INCIDENTS
+199,Ward 199 (Sholinganallur),15,Sholinganallur,3,0,3,0,1,2,"['OMR, Shozhanganallur', 'Classic farms avenue 1st street', 'Ponniyamman koil']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS
+200,Ward 200 (Sholinganallur),15,Sholinganallur,5,0,5,0,2,3,"['Tsunami Nagar', 'OMR Sathyabama College Main Road', 'Thiruvalluvar nagar', 'Jawahar nagar 6th 7th street', 'Nookampalayam Main road']",False,Data Unavailable,VERIFIED_OFFICIAL_INCIDENTS

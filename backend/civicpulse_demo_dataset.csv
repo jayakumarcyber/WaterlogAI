@@ -1,0 +1,15 @@
+location,latitude,longitude,rainfall_24h_mm,forecast_24h_mm,historical_incidents_30d,elevation_m,slope_percent,drainage_capacity_percent,population,critical_facilities,risk_label
+Velachery (Ward 177),12.9815,80.218,142.5,155.0,12,2.1,0.8,35.0,54200,4,HIGH
+T. Nagar (Ward 136),13.0418,80.2341,135.0,148.0,10,3.2,1.0,38.0,68500,6,HIGH
+Vyasarpadi (Ward 37),13.109,80.258,148.0,160.0,14,1.8,0.5,30.0,49300,3,HIGH
+Pallikaranai (Ward 190),12.934,80.2135,140.0,152.0,11,2.0,0.6,32.0,41800,2,HIGH
+Madipakkam (Ward 188),12.9647,80.1961,130.0,140.0,9,2.8,0.9,42.0,46700,3,HIGH
+Kolathur (Ward 64),13.1236,80.219,92.0,98.0,6,4.5,1.4,55.0,52100,3,MEDIUM
+Perambur (Ward 70),13.111,80.242,88.0,95.0,5,4.2,1.3,58.0,58400,4,MEDIUM
+Kodambakkam (Ward 112),13.052,80.224,82.0,90.0,4,5.2,1.6,62.0,61200,5,MEDIUM
+Saidapet (Ward 142),13.021,80.223,85.0,92.0,5,4.8,1.5,60.0,47900,2,MEDIUM
+Mylapore (Ward 124),13.0368,80.2676,75.0,80.0,3,6.5,2.0,72.0,56300,4,MEDIUM
+Guindy (Ward 160),13.0067,80.202,45.0,48.0,2,8.1,2.5,78.0,38200,3,LOW
+Adyar (Ward 173),13.0012,80.2565,42.0,46.0,1,6.8,2.1,80.0,44500,4,LOW
+Anna Nagar (Ward 101),13.085,80.21,38.0,42.0,1,9.5,3.0,85.0,63000,5,LOW
+Alandur (Ward 164),13.003,80.189,35.0,40.0,1,9.0,2.8,82.0,39100,2,LOW

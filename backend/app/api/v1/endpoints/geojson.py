@@ -28,6 +28,15 @@ def get_state_geojson():
     return spatial_query_service.get_tamil_nadu_state_geojson()
 
 @router.get(
+    "/zones/geojson",
+    response_model=Dict[str, Any],
+    summary="Get Chennai Official Zones as GeoJSON",
+    description="Returns GeoJSON FeatureCollection of Greater Chennai Corporation (GCC) official 15 zone boundary polygons."
+)
+def get_zones_geojson():
+    return spatial_query_service.get_chennai_official_zones_geojson()
+
+@router.get(
     "/wards/geojson",
     response_model=Dict[str, Any],
     summary="Get Wards as GeoJSON",
@@ -38,6 +47,12 @@ def get_wards_geojson(
     state: Optional[str] = Query(None),
     db: Session = Depends(get_db)
 ):
+    # Official GCC Chennai boundaries priority
+    if not district or district == "ALL" or district.lower() == "chennai":
+        gcc_wards = spatial_query_service.get_chennai_official_wards_geojson()
+        if gcc_wards.get("features"):
+            return gcc_wards
+
     if district and district != "ALL":
         res = OsmService.get_district_features(district, "places")
         if res.get("features"):
@@ -78,6 +93,42 @@ def get_drains_geojson(
         if res.get("features"):
             return res
     return spatial_query_service.get_drains_geojson(db, ward_id=ward_id, status=status, district=district)
+
+@router.get(
+    "/drainage/geojson",
+    response_model=Dict[str, Any],
+    summary="Get Chennai Official Stormwater Drainage as GeoJSON",
+    description="Returns official GCC stormwater drainage network (10,255 lines)."
+)
+def get_chennai_drainage_geojson(
+    ward_id: Optional[int] = Query(None)
+):
+    from app.services.drainage_service import DrainageService
+    return DrainageService.get_drains_network_geojson(ward_id=ward_id)
+
+@router.get(
+    "/waterways/geojson",
+    response_model=Dict[str, Any],
+    summary="Get Chennai Major Waterways & Canals as GeoJSON",
+    description="Returns official GeoJSON of Buckingham Canal, macro/micro drains, and rivers."
+)
+def get_waterways_geojson(
+    ward_id: Optional[int] = Query(None)
+):
+    from app.services.drainage_service import DrainageService
+    return DrainageService.get_waterways_geojson(ward_id=ward_id)
+
+@router.get(
+    "/outfalls/geojson",
+    response_model=Dict[str, Any],
+    summary="Get Chennai CMWSSB Terminal Chambers & Outfalls as GeoJSON",
+    description="Returns official CMWSSB terminal chambers and discharge outfalls."
+)
+def get_outfalls_geojson(
+    ward_id: Optional[int] = Query(None)
+):
+    from app.services.drainage_service import DrainageService
+    return DrainageService.get_outfalls_geojson(ward_id=ward_id)
 
 @router.get(
     "/waterbodies/geojson",

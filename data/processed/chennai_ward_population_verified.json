@@ -1,0 +1,2002 @@
+{
+  "1": {
+    "ward_number": 1,
+    "population": 51163,
+    "sc_population": 4873,
+    "st_population": 74,
+    "eb_count": 95,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "2": {
+    "ward_number": 2,
+    "population": 66897,
+    "sc_population": 11315,
+    "st_population": 160,
+    "eb_count": 110,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "3": {
+    "ward_number": 3,
+    "population": 52995,
+    "sc_population": 2568,
+    "st_population": 21,
+    "eb_count": 85,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "4": {
+    "ward_number": 4,
+    "population": 15186,
+    "sc_population": 4499,
+    "st_population": 11,
+    "eb_count": 28,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "5": {
+    "ward_number": 5,
+    "population": 45204,
+    "sc_population": 5644,
+    "st_population": 92,
+    "eb_count": 81,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "6": {
+    "ward_number": 6,
+    "population": 19523,
+    "sc_population": 2681,
+    "st_population": 5,
+    "eb_count": 30,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "7": {
+    "ward_number": 7,
+    "population": 22161,
+    "sc_population": 1242,
+    "st_population": 15,
+    "eb_count": 37,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "8": {
+    "ward_number": 8,
+    "population": 33039,
+    "sc_population": 4078,
+    "st_population": 12,
+    "eb_count": 54,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "9": {
+    "ward_number": 9,
+    "population": 20306,
+    "sc_population": 422,
+    "st_population": 0,
+    "eb_count": 34,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "10": {
+    "ward_number": 10,
+    "population": 44747,
+    "sc_population": 5945,
+    "st_population": 65,
+    "eb_count": 76,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "11": {
+    "ward_number": 11,
+    "population": 33287,
+    "sc_population": 15993,
+    "st_population": 19,
+    "eb_count": 52,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "12": {
+    "ward_number": 12,
+    "population": 16254,
+    "sc_population": 547,
+    "st_population": 12,
+    "eb_count": 27,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "13": {
+    "ward_number": 13,
+    "population": 21829,
+    "sc_population": 4738,
+    "st_population": 55,
+    "eb_count": 33,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "14": {
+    "ward_number": 14,
+    "population": 35130,
+    "sc_population": 5080,
+    "st_population": 12,
+    "eb_count": 54,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "15": {
+    "ward_number": 15,
+    "population": 19952,
+    "sc_population": 202,
+    "st_population": 7,
+    "eb_count": 31,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "16": {
+    "ward_number": 16,
+    "population": 22947,
+    "sc_population": 566,
+    "st_population": 3,
+    "eb_count": 35,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "17": {
+    "ward_number": 17,
+    "population": 24670,
+    "sc_population": 2466,
+    "st_population": 14,
+    "eb_count": 36,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "18": {
+    "ward_number": 18,
+    "population": 16424,
+    "sc_population": 433,
+    "st_population": 2,
+    "eb_count": 27,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "19": {
+    "ward_number": 19,
+    "population": 15457,
+    "sc_population": 415,
+    "st_population": 4,
+    "eb_count": 28,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "20": {
+    "ward_number": 20,
+    "population": 13276,
+    "sc_population": 211,
+    "st_population": 11,
+    "eb_count": 22,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "21": {
+    "ward_number": 21,
+    "population": 16044,
+    "sc_population": 1911,
+    "st_population": 8,
+    "eb_count": 25,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "22": {
+    "ward_number": 22,
+    "population": 26177,
+    "sc_population": 12673,
+    "st_population": 60,
+    "eb_count": 41,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "23": {
+    "ward_number": 23,
+    "population": 18434,
+    "sc_population": 367,
+    "st_population": 23,
+    "eb_count": 30,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "24": {
+    "ward_number": 24,
+    "population": 21002,
+    "sc_population": 2511,
+    "st_population": 8,
+    "eb_count": 33,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "25": {
+    "ward_number": 25,
+    "population": 19261,
+    "sc_population": 3802,
+    "st_population": 98,
+    "eb_count": 30,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "26": {
+    "ward_number": 26,
+    "population": 20239,
+    "sc_population": 2717,
+    "st_population": 3,
+    "eb_count": 40,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "27": {
+    "ward_number": 27,
+    "population": 24426,
+    "sc_population": 5536,
+    "st_population": 107,
+    "eb_count": 45,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "28": {
+    "ward_number": 28,
+    "population": 26156,
+    "sc_population": 4404,
+    "st_population": 75,
+    "eb_count": 56,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "29": {
+    "ward_number": 29,
+    "population": 19415,
+    "sc_population": 1172,
+    "st_population": 4,
+    "eb_count": 33,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "30": {
+    "ward_number": 30,
+    "population": 25286,
+    "sc_population": 1072,
+    "st_population": 3,
+    "eb_count": 44,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "31": {
+    "ward_number": 31,
+    "population": 32152,
+    "sc_population": 16598,
+    "st_population": 44,
+    "eb_count": 50,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "32": {
+    "ward_number": 32,
+    "population": 32269,
+    "sc_population": 22247,
+    "st_population": 13,
+    "eb_count": 53,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "33": {
+    "ward_number": 33,
+    "population": 41617,
+    "sc_population": 12890,
+    "st_population": 123,
+    "eb_count": 66,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "34": {
+    "ward_number": 34,
+    "population": 49559,
+    "sc_population": 6470,
+    "st_population": 68,
+    "eb_count": 90,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "35": {
+    "ward_number": 35,
+    "population": 40075,
+    "sc_population": 4749,
+    "st_population": 14,
+    "eb_count": 69,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "36": {
+    "ward_number": 36,
+    "population": 52262,
+    "sc_population": 18235,
+    "st_population": 74,
+    "eb_count": 85,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "37": {
+    "ward_number": 37,
+    "population": 26491,
+    "sc_population": 2130,
+    "st_population": 44,
+    "eb_count": 47,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "38": {
+    "ward_number": 38,
+    "population": 35187,
+    "sc_population": 16173,
+    "st_population": 159,
+    "eb_count": 66,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "39": {
+    "ward_number": 39,
+    "population": 30573,
+    "sc_population": 9611,
+    "st_population": 82,
+    "eb_count": 65,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "40": {
+    "ward_number": 40,
+    "population": 51479,
+    "sc_population": 28903,
+    "st_population": 163,
+    "eb_count": 96,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "41": {
+    "ward_number": 41,
+    "population": 21550,
+    "sc_population": 7823,
+    "st_population": 7,
+    "eb_count": 38,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "42": {
+    "ward_number": 42,
+    "population": 27857,
+    "sc_population": 15041,
+    "st_population": 62,
+    "eb_count": 44,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "43": {
+    "ward_number": 43,
+    "population": 15835,
+    "sc_population": 1256,
+    "st_population": 26,
+    "eb_count": 26,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "44": {
+    "ward_number": 44,
+    "population": 14291,
+    "sc_population": 3652,
+    "st_population": 4,
+    "eb_count": 30,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "45": {
+    "ward_number": 45,
+    "population": 17871,
+    "sc_population": 9879,
+    "st_population": 10,
+    "eb_count": 30,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "46": {
+    "ward_number": 46,
+    "population": 12747,
+    "sc_population": 1092,
+    "st_population": 14,
+    "eb_count": 21,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "47": {
+    "ward_number": 47,
+    "population": 14379,
+    "sc_population": 2627,
+    "st_population": 10,
+    "eb_count": 26,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "48": {
+    "ward_number": 48,
+    "population": 18269,
+    "sc_population": 6886,
+    "st_population": 30,
+    "eb_count": 31,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "49": {
+    "ward_number": 49,
+    "population": 16889,
+    "sc_population": 1790,
+    "st_population": 1,
+    "eb_count": 34,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "50": {
+    "ward_number": 50,
+    "population": 51527,
+    "sc_population": 3629,
+    "st_population": 155,
+    "eb_count": 100,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "51": {
+    "ward_number": 51,
+    "population": 46250,
+    "sc_population": 5471,
+    "st_population": 139,
+    "eb_count": 86,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "52": {
+    "ward_number": 52,
+    "population": 23233,
+    "sc_population": 6167,
+    "st_population": 163,
+    "eb_count": 41,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "53": {
+    "ward_number": 53,
+    "population": 23831,
+    "sc_population": 4949,
+    "st_population": 87,
+    "eb_count": 43,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "54": {
+    "ward_number": 54,
+    "population": 39058,
+    "sc_population": 5527,
+    "st_population": 162,
+    "eb_count": 66,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "55": {
+    "ward_number": 55,
+    "population": 23220,
+    "sc_population": 6150,
+    "st_population": 142,
+    "eb_count": 39,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "56": {
+    "ward_number": 56,
+    "population": 38123,
+    "sc_population": 6288,
+    "st_population": 76,
+    "eb_count": 70,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "57": {
+    "ward_number": 57,
+    "population": 21805,
+    "sc_population": 2440,
+    "st_population": 64,
+    "eb_count": 40,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "58": {
+    "ward_number": 58,
+    "population": 30577,
+    "sc_population": 5685,
+    "st_population": 108,
+    "eb_count": 53,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "59": {
+    "ward_number": 59,
+    "population": 23595,
+    "sc_population": 3436,
+    "st_population": 27,
+    "eb_count": 37,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "60": {
+    "ward_number": 60,
+    "population": 29821,
+    "sc_population": 8174,
+    "st_population": 42,
+    "eb_count": 55,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "61": {
+    "ward_number": 61,
+    "population": 17321,
+    "sc_population": 4062,
+    "st_population": 214,
+    "eb_count": 32,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "62": {
+    "ward_number": 62,
+    "population": 110474,
+    "sc_population": 15214,
+    "st_population": 552,
+    "eb_count": 213,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "63": {
+    "ward_number": 63,
+    "population": 81648,
+    "sc_population": 14630,
+    "st_population": 1191,
+    "eb_count": 149,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "64": {
+    "ward_number": 64,
+    "population": 72144,
+    "sc_population": 8025,
+    "st_population": 288,
+    "eb_count": 143,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "65": {
+    "ward_number": 65,
+    "population": 95564,
+    "sc_population": 9471,
+    "st_population": 237,
+    "eb_count": 185,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "66": {
+    "ward_number": 66,
+    "population": 50926,
+    "sc_population": 7752,
+    "st_population": 185,
+    "eb_count": 100,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "67": {
+    "ward_number": 67,
+    "population": 37331,
+    "sc_population": 4117,
+    "st_population": 127,
+    "eb_count": 70,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "68": {
+    "ward_number": 68,
+    "population": 32999,
+    "sc_population": 5436,
+    "st_population": 51,
+    "eb_count": 66,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "69": {
+    "ward_number": 69,
+    "population": 27133,
+    "sc_population": 11187,
+    "st_population": 37,
+    "eb_count": 63,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "70": {
+    "ward_number": 70,
+    "population": 26313,
+    "sc_population": 1932,
+    "st_population": 21,
+    "eb_count": 77,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "71": {
+    "ward_number": 71,
+    "population": 12091,
+    "sc_population": 692,
+    "st_population": 7,
+    "eb_count": 27,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "72": {
+    "ward_number": 72,
+    "population": 32446,
+    "sc_population": 12705,
+    "st_population": 26,
+    "eb_count": 53,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "73": {
+    "ward_number": 73,
+    "population": 22662,
+    "sc_population": 3135,
+    "st_population": 8,
+    "eb_count": 45,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "74": {
+    "ward_number": 74,
+    "population": 56960,
+    "sc_population": 4208,
+    "st_population": 136,
+    "eb_count": 112,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "75": {
+    "ward_number": 75,
+    "population": 60126,
+    "sc_population": 5917,
+    "st_population": 108,
+    "eb_count": 124,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "76": {
+    "ward_number": 76,
+    "population": 24524,
+    "sc_population": 5115,
+    "st_population": 22,
+    "eb_count": 64,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "77": {
+    "ward_number": 77,
+    "population": 23619,
+    "sc_population": 1564,
+    "st_population": 31,
+    "eb_count": 45,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "78": {
+    "ward_number": 78,
+    "population": 23476,
+    "sc_population": 3097,
+    "st_population": 27,
+    "eb_count": 54,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "79": {
+    "ward_number": 79,
+    "population": 19748,
+    "sc_population": 7575,
+    "st_population": 66,
+    "eb_count": 42,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "80": {
+    "ward_number": 80,
+    "population": 20318,
+    "sc_population": 10438,
+    "st_population": 30,
+    "eb_count": 35,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "81": {
+    "ward_number": 81,
+    "population": 17123,
+    "sc_population": 2356,
+    "st_population": 11,
+    "eb_count": 30,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "82": {
+    "ward_number": 82,
+    "population": 16338,
+    "sc_population": 3819,
+    "st_population": 28,
+    "eb_count": 31,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "83": {
+    "ward_number": 83,
+    "population": 19140,
+    "sc_population": 3790,
+    "st_population": 16,
+    "eb_count": 35,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "84": {
+    "ward_number": 84,
+    "population": 17825,
+    "sc_population": 1397,
+    "st_population": 42,
+    "eb_count": 36,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "85": {
+    "ward_number": 85,
+    "population": 11304,
+    "sc_population": 392,
+    "st_population": 35,
+    "eb_count": 21,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "86": {
+    "ward_number": 86,
+    "population": 16185,
+    "sc_population": 1858,
+    "st_population": 7,
+    "eb_count": 34,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "87": {
+    "ward_number": 87,
+    "population": 14375,
+    "sc_population": 385,
+    "st_population": 302,
+    "eb_count": 27,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "88": {
+    "ward_number": 88,
+    "population": 23618,
+    "sc_population": 591,
+    "st_population": 21,
+    "eb_count": 40,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "89": {
+    "ward_number": 89,
+    "population": 16014,
+    "sc_population": 181,
+    "st_population": 7,
+    "eb_count": 35,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "90": {
+    "ward_number": 90,
+    "population": 17329,
+    "sc_population": 1243,
+    "st_population": 14,
+    "eb_count": 36,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "91": {
+    "ward_number": 91,
+    "population": 22285,
+    "sc_population": 7836,
+    "st_population": 161,
+    "eb_count": 36,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "92": {
+    "ward_number": 92,
+    "population": 16511,
+    "sc_population": 2748,
+    "st_population": 71,
+    "eb_count": 31,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "93": {
+    "ward_number": 93,
+    "population": 17368,
+    "sc_population": 1083,
+    "st_population": 3,
+    "eb_count": 31,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "94": {
+    "ward_number": 94,
+    "population": 22407,
+    "sc_population": 6399,
+    "st_population": 9,
+    "eb_count": 38,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "95": {
+    "ward_number": 95,
+    "population": 11664,
+    "sc_population": 831,
+    "st_population": 69,
+    "eb_count": 29,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "96": {
+    "ward_number": 96,
+    "population": 12954,
+    "sc_population": 1708,
+    "st_population": 3,
+    "eb_count": 24,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "97": {
+    "ward_number": 97,
+    "population": 20860,
+    "sc_population": 2670,
+    "st_population": 20,
+    "eb_count": 34,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "98": {
+    "ward_number": 98,
+    "population": 17466,
+    "sc_population": 2215,
+    "st_population": 11,
+    "eb_count": 30,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "99": {
+    "ward_number": 99,
+    "population": 15460,
+    "sc_population": 5320,
+    "st_population": 20,
+    "eb_count": 28,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "100": {
+    "ward_number": 100,
+    "population": 9545,
+    "sc_population": 505,
+    "st_population": 0,
+    "eb_count": 19,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "101": {
+    "ward_number": 101,
+    "population": 12703,
+    "sc_population": 441,
+    "st_population": 35,
+    "eb_count": 24,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "102": {
+    "ward_number": 102,
+    "population": 9377,
+    "sc_population": 245,
+    "st_population": 0,
+    "eb_count": 19,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "103": {
+    "ward_number": 103,
+    "population": 16595,
+    "sc_population": 3334,
+    "st_population": 9,
+    "eb_count": 33,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "104": {
+    "ward_number": 104,
+    "population": 20897,
+    "sc_population": 11195,
+    "st_population": 6,
+    "eb_count": 45,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "105": {
+    "ward_number": 105,
+    "population": 17965,
+    "sc_population": 4783,
+    "st_population": 26,
+    "eb_count": 43,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "106": {
+    "ward_number": 106,
+    "population": 20023,
+    "sc_population": 3803,
+    "st_population": 18,
+    "eb_count": 43,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "107": {
+    "ward_number": 107,
+    "population": 22902,
+    "sc_population": 3297,
+    "st_population": 9,
+    "eb_count": 51,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "108": {
+    "ward_number": 108,
+    "population": 20042,
+    "sc_population": 2261,
+    "st_population": 40,
+    "eb_count": 55,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "109": {
+    "ward_number": 109,
+    "population": 18546,
+    "sc_population": 5458,
+    "st_population": 2,
+    "eb_count": 55,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "110": {
+    "ward_number": 110,
+    "population": 13867,
+    "sc_population": 5849,
+    "st_population": 7,
+    "eb_count": 31,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "111": {
+    "ward_number": 111,
+    "population": 18480,
+    "sc_population": 1834,
+    "st_population": 17,
+    "eb_count": 40,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "112": {
+    "ward_number": 112,
+    "population": 14912,
+    "sc_population": 1525,
+    "st_population": 89,
+    "eb_count": 33,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "113": {
+    "ward_number": 113,
+    "population": 19701,
+    "sc_population": 2079,
+    "st_population": 121,
+    "eb_count": 47,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "114": {
+    "ward_number": 114,
+    "population": 32913,
+    "sc_population": 8855,
+    "st_population": 46,
+    "eb_count": 64,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "115": {
+    "ward_number": 115,
+    "population": 24775,
+    "sc_population": 1057,
+    "st_population": 10,
+    "eb_count": 51,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "116": {
+    "ward_number": 116,
+    "population": 23624,
+    "sc_population": 5055,
+    "st_population": 60,
+    "eb_count": 60,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "117": {
+    "ward_number": 117,
+    "population": 36192,
+    "sc_population": 2801,
+    "st_population": 37,
+    "eb_count": 83,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "118": {
+    "ward_number": 118,
+    "population": 34310,
+    "sc_population": 6554,
+    "st_population": 51,
+    "eb_count": 68,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "119": {
+    "ward_number": 119,
+    "population": 23472,
+    "sc_population": 4468,
+    "st_population": 24,
+    "eb_count": 42,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "120": {
+    "ward_number": 120,
+    "population": 28874,
+    "sc_population": 4938,
+    "st_population": 37,
+    "eb_count": 65,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "121": {
+    "ward_number": 121,
+    "population": 25912,
+    "sc_population": 4195,
+    "st_population": 26,
+    "eb_count": 48,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "122": {
+    "ward_number": 122,
+    "population": 30204,
+    "sc_population": 9000,
+    "st_population": 63,
+    "eb_count": 57,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "123": {
+    "ward_number": 123,
+    "population": 25733,
+    "sc_population": 3724,
+    "st_population": 12,
+    "eb_count": 43,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "124": {
+    "ward_number": 124,
+    "population": 22907,
+    "sc_population": 937,
+    "st_population": 52,
+    "eb_count": 46,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "125": {
+    "ward_number": 125,
+    "population": 20416,
+    "sc_population": 247,
+    "st_population": 23,
+    "eb_count": 40,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "126": {
+    "ward_number": 126,
+    "population": 17718,
+    "sc_population": 245,
+    "st_population": 53,
+    "eb_count": 39,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "127": {
+    "ward_number": 127,
+    "population": 24606,
+    "sc_population": 637,
+    "st_population": 31,
+    "eb_count": 46,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "128": {
+    "ward_number": 128,
+    "population": 58003,
+    "sc_population": 2137,
+    "st_population": 90,
+    "eb_count": 106,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "129": {
+    "ward_number": 129,
+    "population": 59322,
+    "sc_population": 3928,
+    "st_population": 115,
+    "eb_count": 143,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "130": {
+    "ward_number": 130,
+    "population": 55784,
+    "sc_population": 8327,
+    "st_population": 150,
+    "eb_count": 101,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "131": {
+    "ward_number": 131,
+    "population": 58468,
+    "sc_population": 7644,
+    "st_population": 75,
+    "eb_count": 101,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "132": {
+    "ward_number": 132,
+    "population": 41733,
+    "sc_population": 4222,
+    "st_population": 21,
+    "eb_count": 68,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "133": {
+    "ward_number": 133,
+    "population": 25793,
+    "sc_population": 1918,
+    "st_population": 5,
+    "eb_count": 42,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "134": {
+    "ward_number": 134,
+    "population": 23054,
+    "sc_population": 945,
+    "st_population": 31,
+    "eb_count": 45,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "135": {
+    "ward_number": 135,
+    "population": 49869,
+    "sc_population": 9980,
+    "st_population": 27,
+    "eb_count": 82,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "136": {
+    "ward_number": 136,
+    "population": 33270,
+    "sc_population": 7804,
+    "st_population": 22,
+    "eb_count": 60,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "137": {
+    "ward_number": 137,
+    "population": 22019,
+    "sc_population": 1261,
+    "st_population": 18,
+    "eb_count": 39,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "138": {
+    "ward_number": 138,
+    "population": 37720,
+    "sc_population": 8096,
+    "st_population": 55,
+    "eb_count": 73,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "139": {
+    "ward_number": 139,
+    "population": 35299,
+    "sc_population": 9603,
+    "st_population": 109,
+    "eb_count": 71,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "140": {
+    "ward_number": 140,
+    "population": 33089,
+    "sc_population": 5023,
+    "st_population": 136,
+    "eb_count": 62,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "141": {
+    "ward_number": 141,
+    "population": 54598,
+    "sc_population": 5619,
+    "st_population": 104,
+    "eb_count": 100,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "142": {
+    "ward_number": 142,
+    "population": 26525,
+    "sc_population": 3548,
+    "st_population": 19,
+    "eb_count": 64,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "143": {
+    "ward_number": 143,
+    "population": 20124,
+    "sc_population": 4688,
+    "st_population": 17,
+    "eb_count": 38,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "144": {
+    "ward_number": 144,
+    "population": 21231,
+    "sc_population": 2685,
+    "st_population": 25,
+    "eb_count": 39,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "145": {
+    "ward_number": 145,
+    "population": 24508,
+    "sc_population": 7795,
+    "st_population": 30,
+    "eb_count": 46,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "146": {
+    "ward_number": 146,
+    "population": 17539,
+    "sc_population": 1104,
+    "st_population": 31,
+    "eb_count": 32,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "147": {
+    "ward_number": 147,
+    "population": 17881,
+    "sc_population": 545,
+    "st_population": 16,
+    "eb_count": 37,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "148": {
+    "ward_number": 148,
+    "population": 17914,
+    "sc_population": 1414,
+    "st_population": 7,
+    "eb_count": 38,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "149": {
+    "ward_number": 149,
+    "population": 32138,
+    "sc_population": 3429,
+    "st_population": 32,
+    "eb_count": 75,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "150": {
+    "ward_number": 150,
+    "population": 31270,
+    "sc_population": 2583,
+    "st_population": 23,
+    "eb_count": 63,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "151": {
+    "ward_number": 151,
+    "population": 34509,
+    "sc_population": 4852,
+    "st_population": 197,
+    "eb_count": 94,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "152": {
+    "ward_number": 152,
+    "population": 25707,
+    "sc_population": 3042,
+    "st_population": 57,
+    "eb_count": 49,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "153": {
+    "ward_number": 153,
+    "population": 143626,
+    "sc_population": 13815,
+    "st_population": 189,
+    "eb_count": 291,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "154": {
+    "ward_number": 154,
+    "population": 53855,
+    "sc_population": 7685,
+    "st_population": 127,
+    "eb_count": 111,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "155": {
+    "ward_number": 155,
+    "population": 75748,
+    "sc_population": 5371,
+    "st_population": 85,
+    "eb_count": 188,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "VERIFIED_CENSUS_2011"
+  },
+  "156": {
+    "ward_number": 156,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "157": {
+    "ward_number": 157,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "158": {
+    "ward_number": 158,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "159": {
+    "ward_number": 159,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "160": {
+    "ward_number": 160,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "161": {
+    "ward_number": 161,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "162": {
+    "ward_number": 162,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "163": {
+    "ward_number": 163,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "164": {
+    "ward_number": 164,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "165": {
+    "ward_number": 165,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "166": {
+    "ward_number": 166,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "167": {
+    "ward_number": 167,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "168": {
+    "ward_number": 168,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "169": {
+    "ward_number": 169,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "170": {
+    "ward_number": 170,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "171": {
+    "ward_number": 171,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "172": {
+    "ward_number": 172,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "173": {
+    "ward_number": 173,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "174": {
+    "ward_number": 174,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "175": {
+    "ward_number": 175,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "176": {
+    "ward_number": 176,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "177": {
+    "ward_number": 177,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "178": {
+    "ward_number": 178,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "179": {
+    "ward_number": 179,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "180": {
+    "ward_number": 180,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "181": {
+    "ward_number": 181,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "182": {
+    "ward_number": 182,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "183": {
+    "ward_number": 183,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "184": {
+    "ward_number": 184,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "185": {
+    "ward_number": 185,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "186": {
+    "ward_number": 186,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "187": {
+    "ward_number": 187,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "188": {
+    "ward_number": 188,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "189": {
+    "ward_number": 189,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "190": {
+    "ward_number": 190,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "191": {
+    "ward_number": 191,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "192": {
+    "ward_number": 192,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "193": {
+    "ward_number": 193,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "194": {
+    "ward_number": 194,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "195": {
+    "ward_number": 195,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "196": {
+    "ward_number": 196,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "197": {
+    "ward_number": 197,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "198": {
+    "ward_number": 198,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "199": {
+    "ward_number": 199,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  },
+  "200": {
+    "ward_number": 200,
+    "population": null,
+    "sc_population": null,
+    "st_population": null,
+    "eb_count": 0,
+    "census_year": "2011",
+    "data_source": "Census of India 2011 (Primary Census Abstract - Chennai)",
+    "status": "UNMATCHED / DATA UNAVAILABLE"
+  }
+}

@@ -33,3 +33,31 @@ def get_theni_population_hierarchy():
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Could not load Theni Census population dataset: {str(e)}"
         )
+
+@router.get(
+    "/chennai/summary",
+    response_model=Dict[str, Any],
+    summary="Get Chennai Ward Population Summary",
+    description="Returns census summary metrics for Greater Chennai Corporation wards."
+)
+def get_chennai_population_summary():
+    return PopulationService.get_chennai_population_summary()
+
+@router.get(
+    "/chennai/wards",
+    response_model=Dict[str, Any],
+    summary="Get All Chennai Wards Population Mapping",
+    description="Returns verified Census 2011 population for all 200 GCC wards."
+)
+def get_chennai_all_wards_population():
+    return PopulationService.get_chennai_all_wards_population()
+
+@router.get(
+    "/chennai/wards/{ward_id}",
+    response_model=Dict[str, Any],
+    summary="Get Specific Chennai Ward Population",
+    description="Returns verified Census 2011 population data for a specific GCC ward ID (1–200)."
+)
+def get_chennai_ward_population(ward_id: int):
+    res = PopulationService.get_chennai_ward_population(ward_id)
+    return res

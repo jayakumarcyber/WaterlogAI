@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "CivicPulse Monsoon | AI Waterlogging Risk Management",
@@ -13,8 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased bg-slate-950 text-slate-100 min-h-screen">
-        {children}
+      <body className="antialiased bg-[#f8fafc] text-slate-900 min-h-screen">
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

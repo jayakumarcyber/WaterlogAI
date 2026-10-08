@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 611,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.95,
+              11.725
+            ],
+            [
+              78.975,
+              11.725
+            ],
+            [
+              78.975,
+              11.75
+            ],
+            [
+              78.95,
+              11.75
+            ],
+            [
+              78.95,
+              11.725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 611,
+        "name": "Kallakurichi Town Ward 1",
+        "zone_name": "Kallakurichi Town Ward 1",
+        "level": "WARD",
+        "geographic_level": "Ward",
+        "ward_id": 11,
+        "district": "Kallakurichi",
+        "city": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "population": 45000,
+        "population_classification": "MEDIUM",
+        "area_sq_km": 4.5,
+        "density": 10000,
+        "data_year": "Census 2011",
+        "data_source": "Tamil Nadu Municipal Admin",
+        "data_status": "Official Data",
+        "boundary_status": "Verified Administrative Boundary",
+        "risk_level": "HIGH",
+        "exposed_population": 5400,
+        "exposed_population_ratio": "Estimated ~12% in low-lying depression catchment"
+      }
+    }
+  ]
+}

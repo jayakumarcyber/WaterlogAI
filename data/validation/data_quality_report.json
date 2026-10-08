@@ -1,0 +1,127 @@
+{
+  "project": "CivicPulse AI \u2014 CHENNAI ONLY",
+  "report_timestamp": "2026-09-12T10:41:12.626133+00:00",
+  "total_issues_logged": 15,
+  "issues": [
+    {
+      "file": "chennai_monthly_rainfall_1901_2021_raw.csv",
+      "field": "HEADER",
+      "issue": "Repeated CSV header line detected in raw text at line 123",
+      "record_count": 1,
+      "severity": "MEDIUM",
+      "action": "Filtered out duplicate header row during ingestion"
+    },
+    {
+      "file": "chennai_monthly_rainfall_1901_2021_raw.csv",
+      "field": "Year",
+      "issue": "Found 121 duplicate annual records (the entire 1901-2021 series was pasted twice)",
+      "record_count": 121,
+      "severity": "HIGH",
+      "action": "Deduplicated on 'Year', preserving exactly 1 unique record per year (1901-2021)"
+    },
+    {
+      "file": "chennai-rainfall.csv",
+      "field": "COLUMNS",
+      "issue": "Verified columns exactly match required schema: ['WEATHER STATION', 'LOCATION', 'RAINFALL']",
+      "record_count": 3,
+      "severity": "INFO",
+      "action": "Column schema validated successfully"
+    },
+    {
+      "file": "chennai-rainfall.csv",
+      "field": "ROW_COUNT",
+      "issue": "Raw row count verified: 119 station records",
+      "record_count": 119,
+      "severity": "INFO",
+      "action": "Ingested exactly 119 raw observation rows"
+    },
+    {
+      "file": "chennai-rainfall.csv",
+      "field": "MISSING_VALUES",
+      "issue": "0 missing/null values detected across all columns (100% complete)",
+      "record_count": 0,
+      "severity": "INFO",
+      "action": "Verified zero missing values; retained actual data without interpolation"
+    },
+    {
+      "file": "chennai-rainfall.csv",
+      "field": "DUPLICATE_ROWS",
+      "issue": "0 exact duplicate rows found across 119 records",
+      "record_count": 0,
+      "severity": "INFO",
+      "action": "Verified row uniqueness"
+    },
+    {
+      "file": "chennai-rainfall.csv",
+      "field": "RAINFALL",
+      "issue": "Rainfall values valid numeric range: 1.0 mm to 49.0 mm (0 negative values)",
+      "record_count": 119,
+      "severity": "INFO",
+      "action": "Verified all rainfall observations are positive and valid numeric depths"
+    },
+    {
+      "file": "chennai-rainfall.csv",
+      "field": "WEATHER STATION",
+      "issue": "Detected split station name token 'ANNA' with rainfall=22mm (corresponds to 'ANNA UNIVERSITY' split across lines)",
+      "record_count": 1,
+      "severity": "MEDIUM",
+      "action": "Flagged token and resolved into verified station 'ANNA UNIVERSITY' (22mm)"
+    },
+    {
+      "file": "chennai-rainfall.csv",
+      "field": "WEATHER STATION",
+      "issue": "Detected split station name token 'UNIVERSITY' with rainfall=22mm (corresponds to 'ANNA UNIVERSITY' split across lines)",
+      "record_count": 1,
+      "severity": "MEDIUM",
+      "action": "Flagged token and resolved into verified station 'ANNA UNIVERSITY' (22mm)"
+    },
+    {
+      "file": "chennai-rainfall.csv",
+      "field": "GEOGRAPHIC_SCOPE",
+      "issue": "Bulletin contained 107 stations from non-Chennai districts (Salem, Theni, Vellore, Thanjavur, Cuddalore, etc.)",
+      "record_count": 107,
+      "severity": "HIGH",
+      "action": "Rejected non-Chennai stations from Chennai tables; logged to validation/non_chennai_stations_rejected.csv"
+    },
+    {
+      "file": "rainfall_occurred_during_north-east_monsoon_by_districts_in_tamil_nadu_2017_18.csv",
+      "field": "District",
+      "issue": "State report contained 32 records for other 31 Tamil Nadu districts and State Total",
+      "record_count": 32,
+      "severity": "INFO",
+      "action": "Filtered strictly to District == 'Chennai'; non-Chennai rows excluded from Chennai tables"
+    },
+    {
+      "file": "PCA_CDB_3323_F_Census.xls",
+      "field": "District_Name",
+      "issue": "NOT CHENNAI DATA: Dataset belongs entirely to Theni District (Census 2011)",
+      "record_count": 1,
+      "severity": "CRITICAL",
+      "action": "Marked NOT CHENNAI DATA; strictly rejected from Chennai production tables"
+    },
+    {
+      "file": "PCA_CDB_3310_F_Census.xls",
+      "field": "District_Name",
+      "issue": "NOT CHENNAI DATA: Dataset belongs entirely to The Nilgiris District (Census 2011)",
+      "record_count": 1,
+      "severity": "CRITICAL",
+      "action": "Marked NOT CHENNAI DATA; strictly rejected from Chennai production tables"
+    },
+    {
+      "file": "chennai_daily_station_rainfall_1993_2023_raw.csv",
+      "field": "DUPLICATES",
+      "issue": "Found 1361 duplicate daily station readings",
+      "record_count": 1361,
+      "severity": "MEDIUM",
+      "action": "Deduplicated on (District, Station, Date, Rainfall)"
+    },
+    {
+      "file": "Clean15YearChennaiWeather.csv",
+      "field": "FILE_PRESENCE",
+      "issue": "Kaggle Croissant schema and metadata provided, but raw CSV file not yet placed in repository",
+      "record_count": 0,
+      "severity": "INFO",
+      "action": "Metadata registered with status 'DATA UNAVAILABLE (METADATA REGISTERED)' pending raw CSV upload"
+    }
+  ]
+}

@@ -20,8 +20,11 @@ from app.models.optimization import (
     OptimizationAssignment,
 )
 from app.models.simulation import SimulationScenario, SimulationResult
+from app.models.complaint import CitizenComplaint
+from app.models.location import Location
 
 __all__ = [
+    "Location",
     "Ward",
     "CivicIncident",
     "RainfallRecord",
@@ -45,4 +48,5 @@ __all__ = [
     "OptimizationAssignment",
     "SimulationScenario",
     "SimulationResult",
+    "CitizenComplaint",
 ]

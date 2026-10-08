@@ -1,0 +1,52 @@
+{
+  "title": "Chennai Stormwater Drainage, Waterway Network & Topology Provenance",
+  "version": "2.0",
+  "layers": {
+    "stormwater_drains": {
+      "name": "Chennai Storm Water Drains (SWD) Map 2023",
+      "publisher": "Greater Chennai Corporation (GCC) via OpenCity",
+      "url": "https://data.opencity.in/dataset/chennai-stormwater-drain-swd-maps",
+      "features": 10255,
+      "evidence_status": "VERIFIED_OFFICIAL"
+    },
+    "waterways": {
+      "name": "Chennai Basin Drainage Maps (Canals, Rivers, Macro/Micro Drains)",
+      "publisher": "Water Resources Dept (WRD) / Chennai Flood SDSS via OpenCity",
+      "url": "https://data.opencity.in/dataset/chennai-basin-drainage-maps",
+      "features": 934,
+      "evidence_status": "VERIFIED_OFFICIAL"
+    },
+    "outfalls": {
+      "name": "Chennai Sewerage & Drainage Collection System (Terminal Chambers & Outfalls)",
+      "publisher": "Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) via OpenCity",
+      "url": "https://data.opencity.in/dataset/chennai-sewerage-collection-system",
+      "features": 5466,
+      "evidence_status": "VERIFIED_OFFICIAL"
+    },
+    "roads": {
+      "name": "Chennai Arterial Road Network",
+      "publisher": "OpenStreetMap Contributors",
+      "features": 2840,
+      "evidence_status": "OPENSTREETMAP / SECONDARY"
+    },
+    "waterbodies": {
+      "name": "Chennai Waterbodies & Wetland Basins",
+      "publisher": "OpenStreetMap / OpenCity",
+      "features": 758,
+      "evidence_status": "VERIFIED_OFFICIAL"
+    }
+  },
+  "summary_metrics": {
+    "total_wards": 200,
+    "total_drain_lines": 10255,
+    "total_drain_km": 2209.08,
+    "total_outfalls": 5466,
+    "total_culvert_intersections": 251
+  },
+  "methodology": {
+    "spatial_reference_systems": "Storage in EPSG:4326 (WGS84), Metric length and distance calculations in EPSG:32644 (UTM Zone 44N)",
+    "topology_model": "Drain Segment -> Junction Node -> Canal/Waterway -> Terminal Outfall",
+    "flow_direction": "Surveyed Invert Level Drops (INVERT_SP -> INVERT_EP) and Copernicus GLO-30 DEM gravitational flow.",
+    "non_fabrication": "Drain presence is NOT drainage capacity. Blockage percentages, hydraulic capacity, and maintenance scores are strictly marked 'Data Unavailable'."
+  }
+}

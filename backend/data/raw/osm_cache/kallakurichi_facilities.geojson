@@ -1,0 +1,1706 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 4089570081,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9868771,
+          11.7382069
+        ]
+      },
+      "properties": {
+        "id": 4089570081,
+        "name": "AKT SCHOOL",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 181,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4089580795,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0571295,
+          11.621898
+        ]
+      },
+      "properties": {
+        "id": 4089580795,
+        "name": "Eyyanur Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 395,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4621834754,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7875363,
+          11.5640989
+        ]
+      },
+      "properties": {
+        "id": 4621834754,
+        "name": "Girls High School",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 354,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4621834755,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.788542,
+          11.5612844
+        ]
+      },
+      "properties": {
+        "id": 4621834755,
+        "name": "Vinayaka Temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 355,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5224388054,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7987649,
+          11.662142
+        ]
+      },
+      "properties": {
+        "id": 5224388054,
+        "name": "ayyanar temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 154,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5224391877,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7981426,
+          11.6609342
+        ]
+      },
+      "properties": {
+        "id": 5224391877,
+        "name": "Maniyaman temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 477,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5224404813,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7997461,
+          11.6667357
+        ]
+      },
+      "properties": {
+        "id": 5224404813,
+        "name": "Annai kulam temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 413,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5224404814,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8003472,
+          11.6701241
+        ]
+      },
+      "properties": {
+        "id": 5224404814,
+        "name": "vanayagar temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 414,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5224405138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7962188,
+          11.6686538
+        ]
+      },
+      "properties": {
+        "id": 5224405138,
+        "name": "Kanavai muniyappan temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 238,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5224414218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7894064,
+          11.6646644
+        ]
+      },
+      "properties": {
+        "id": 5224414218,
+        "name": "RAMANI Fertlizer schop",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 318,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5255165932,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8454721,
+          11.6167688
+        ]
+      },
+      "properties": {
+        "id": 5255165932,
+        "name": "Faith Center Church - IGL, Ammaiyagaram",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 532,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5258171993,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7950653,
+          11.6988729
+        ]
+      },
+      "properties": {
+        "id": 5258171993,
+        "name": "Adi perumal temple",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 593,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5775337273,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8644154,
+          11.7903708
+        ]
+      },
+      "properties": {
+        "id": 5775337273,
+        "name": "அம்மாபேட்டை கல்வி அறக்கட்டளை",
+        "facility_type": "office",
+        "category": "Company",
+        "capacity": 373,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6914937671,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9664382,
+          11.7383707
+        ]
+      },
+      "properties": {
+        "id": 6914937671,
+        "name": "Sri Sanjeevi Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 271,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6928752794,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9650072,
+          11.736166
+        ]
+      },
+      "properties": {
+        "id": 6928752794,
+        "name": "Dr. Murugesan Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 394,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6929592150,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9767271,
+          11.7383812
+        ]
+      },
+      "properties": {
+        "id": 6929592150,
+        "name": "Balamurugan Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 250,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6934018817,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9634904,
+          11.7386884
+        ]
+      },
+      "properties": {
+        "id": 6934018817,
+        "name": "Vijay Poly Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 417,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7169287641,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9112954,
+          11.6710839
+        ]
+      },
+      "properties": {
+        "id": 7169287641,
+        "name": "Bharathi High School",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 241,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7169322645,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9430882,
+          11.7030001
+        ]
+      },
+      "properties": {
+        "id": 7169322645,
+        "name": "Diatrict Police Station, Kallakurichi",
+        "facility_type": "office",
+        "category": "Company",
+        "capacity": 245,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7169884402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9784539,
+          11.7313757
+        ]
+      },
+      "properties": {
+        "id": 7169884402,
+        "name": "POI 20",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 502,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7179125468,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765652,
+          11.7405114
+        ]
+      },
+      "properties": {
+        "id": 7179125468,
+        "name": "STK Wedding Cards",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 568,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7251493486,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8688031,
+          11.6284429
+        ]
+      },
+      "properties": {
+        "id": 7251493486,
+        "name": "Chinnasalem Government Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 586,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7251517085,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8774714,
+          11.6356677
+        ]
+      },
+      "properties": {
+        "id": 7251517085,
+        "name": "Chinnasalem Police Station",
+        "facility_type": "office",
+        "category": "Company",
+        "capacity": 185,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7262595366,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1024189,
+          11.8103289
+        ]
+      },
+      "properties": {
+        "id": 7262595366,
+        "name": "Government Hospital, Rishivandiyam",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 466,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7262595370,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.848314,
+          11.89532
+        ]
+      },
+      "properties": {
+        "id": 7262595370,
+        "name": "Government Hospital, Arasampattu",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 470,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7262595372,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9108477,
+          11.8871133
+        ]
+      },
+      "properties": {
+        "id": 7262595372,
+        "name": "Fathima Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 472,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7262595416,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.825135,
+          11.80695
+        ]
+      },
+      "properties": {
+        "id": 7262595416,
+        "name": "Government Hospital, Eduthavainatham",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 516,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7262595423,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9141914,
+          11.8871317
+        ]
+      },
+      "properties": {
+        "id": 7262595423,
+        "name": "Sankarapuram Government Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 523,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7262919384,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.937592,
+          11.65429
+        ]
+      },
+      "properties": {
+        "id": 7262919384,
+        "name": "Govt. Hospital, Melur",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 484,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7265056985,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.917146,
+          11.8872895
+        ]
+      },
+      "properties": {
+        "id": 7265056985,
+        "name": "Govt Girls HS School",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 585,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7265222579,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9628202,
+          11.7360674
+        ]
+      },
+      "properties": {
+        "id": 7265222579,
+        "name": "Pugazh Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 179,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7265222593,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9591918,
+          11.7372686
+        ]
+      },
+      "properties": {
+        "id": 7265222593,
+        "name": "Government Hospital, Kallakurichi",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 193,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7265222596,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.965382,
+          11.73566
+        ]
+      },
+      "properties": {
+        "id": 7265222596,
+        "name": "Ss Heart And Skin Care Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 196,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7804556193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9559909,
+          11.7394065
+        ]
+      },
+      "properties": {
+        "id": 7804556193,
+        "name": "Govenment Boyes School Ground",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 293,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526317,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.871799,
+          11.632948
+        ]
+      },
+      "properties": {
+        "id": 7825526317,
+        "name": "Soorya Multi Speciality Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 417,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526321,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8763682,
+          11.6353931
+        ]
+      },
+      "properties": {
+        "id": 7825526321,
+        "name": "Balaji Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 421,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526322,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9601303,
+          11.7391158
+        ]
+      },
+      "properties": {
+        "id": 7825526322,
+        "name": "Sai Speciality Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 422,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9557125,
+          11.7209048
+        ]
+      },
+      "properties": {
+        "id": 7825526324,
+        "name": "Lotus Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 424,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526326,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9673615,
+          11.7383208
+        ]
+      },
+      "properties": {
+        "id": 7825526326,
+        "name": "Pugazh Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 426,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526329,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9654128,
+          11.7370481
+        ]
+      },
+      "properties": {
+        "id": 7825526329,
+        "name": "Dr.Raj Kumar Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 429,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526331,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9674324,
+          11.737854
+        ]
+      },
+      "properties": {
+        "id": 7825526331,
+        "name": "Sri Siva Sakthi Siddha Orthopaedic Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 431,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526335,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.875931,
+          11.634686
+        ]
+      },
+      "properties": {
+        "id": 7825526335,
+        "name": "Dr.Manivannan Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 435,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526337,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9675536,
+          11.7376029
+        ]
+      },
+      "properties": {
+        "id": 7825526337,
+        "name": "Nalam ENT Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 437,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526341,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9594834,
+          11.7393579
+        ]
+      },
+      "properties": {
+        "id": 7825526341,
+        "name": "N.S Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 441,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526343,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.975572,
+          11.738376
+        ]
+      },
+      "properties": {
+        "id": 7825526343,
+        "name": "AMC Multi Speciality Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 443,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526345,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9173517,
+          11.8853491
+        ]
+      },
+      "properties": {
+        "id": 7825526345,
+        "name": "Siva Poly Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 445,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526347,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8773759,
+          11.6369284
+        ]
+      },
+      "properties": {
+        "id": 7825526347,
+        "name": "Sowndharya Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 447,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526348,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0773317,
+          11.7397121
+        ]
+      },
+      "properties": {
+        "id": 7825526348,
+        "name": "Siddhalaya Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 448,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526353,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.073402,
+          11.744296
+        ]
+      },
+      "properties": {
+        "id": 7825526353,
+        "name": "NG Nursing Home",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 453,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526354,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9614835,
+          11.737873
+        ]
+      },
+      "properties": {
+        "id": 7825526354,
+        "name": "Sri Lakshmi Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 454,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526357,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9571445,
+          11.7367187
+        ]
+      },
+      "properties": {
+        "id": 7825526357,
+        "name": "Palanivel Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 457,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526358,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9618703,
+          11.728092
+        ]
+      },
+      "properties": {
+        "id": 7825526358,
+        "name": "Sri Balaji Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 458,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526362,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.918813,
+          11.881926
+        ]
+      },
+      "properties": {
+        "id": 7825526362,
+        "name": "Razack Homoeo Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 462,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526364,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9617916,
+          11.7389676
+        ]
+      },
+      "properties": {
+        "id": 7825526364,
+        "name": "Dr. SG Ashok Kumar Homeopathy Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 464,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526365,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9614296,
+          11.7396311
+        ]
+      },
+      "properties": {
+        "id": 7825526365,
+        "name": "Sri Mahalakshmi Siddha Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 465,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526367,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9165142,
+          11.8864516
+        ]
+      },
+      "properties": {
+        "id": 7825526367,
+        "name": "Uma Maheswari Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 467,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526369,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.918422,
+          11.889528
+        ]
+      },
+      "properties": {
+        "id": 7825526369,
+        "name": "Sri Ramakrishna Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 469,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526374,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8755498,
+          11.635704
+        ]
+      },
+      "properties": {
+        "id": 7825526374,
+        "name": "Kathiravan Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 474,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526377,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8751899,
+          11.6356956
+        ]
+      },
+      "properties": {
+        "id": 7825526377,
+        "name": "Rajamaiyammal Pediatric Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 477,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9605598,
+          11.7391017
+        ]
+      },
+      "properties": {
+        "id": 7825526379,
+        "name": "Baby Childrens Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 479,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526380,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8764365,
+          11.6348249
+        ]
+      },
+      "properties": {
+        "id": 7825526380,
+        "name": "Lingam Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 480,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526381,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9654322,
+          11.7359507
+        ]
+      },
+      "properties": {
+        "id": 7825526381,
+        "name": "Sakthi Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 481,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526385,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0743866,
+          11.7412641
+        ]
+      },
+      "properties": {
+        "id": 7825526385,
+        "name": "Aswini Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 485,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526390,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9612076,
+          11.7395673
+        ]
+      },
+      "properties": {
+        "id": 7825526390,
+        "name": "Janani Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 490,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526391,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.876255,
+          11.635708
+        ]
+      },
+      "properties": {
+        "id": 7825526391,
+        "name": "J.R.R. Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 491,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526395,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9176173,
+          11.8844985
+        ]
+      },
+      "properties": {
+        "id": 7825526395,
+        "name": "Madura Dental Care Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 495,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526398,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9617902,
+          11.7386564
+        ]
+      },
+      "properties": {
+        "id": 7825526398,
+        "name": "Muthu Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 498,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526399,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.961808,
+          11.738727
+        ]
+      },
+      "properties": {
+        "id": 7825526399,
+        "name": "Sri Sivasakthi Dental Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 499,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526400,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.078362,
+          11.739402
+        ]
+      },
+      "properties": {
+        "id": 7825526400,
+        "name": "Krishna Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 500,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7825526402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9176618,
+          11.8836721
+        ]
+      },
+      "properties": {
+        "id": 7825526402,
+        "name": "Muthuvel Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 502,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7840647155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.755058,
+          11.587014
+        ]
+      },
+      "properties": {
+        "id": 7840647155,
+        "name": "Pannerselvam Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 255,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7840647164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7555902,
+          11.5868967
+        ]
+      },
+      "properties": {
+        "id": 7840647164,
+        "name": "Sri Shakthi Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 264,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7840647166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7496438,
+          11.5832481
+        ]
+      },
+      "properties": {
+        "id": 7840647166,
+        "name": "Sugam Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 266,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7840647182,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.748761,
+          11.585978
+        ]
+      },
+      "properties": {
+        "id": 7840647182,
+        "name": "Selvam Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 282,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7840647184,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7556702,
+          11.6370665
+        ]
+      },
+      "properties": {
+        "id": 7840647184,
+        "name": "Meenachi Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 284,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7840647192,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.755837,
+          11.586292
+        ]
+      },
+      "properties": {
+        "id": 7840647192,
+        "name": "Dr. Prabhusankar Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 292,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7840647201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7877509,
+          11.5610046
+        ]
+      },
+      "properties": {
+        "id": 7840647201,
+        "name": "Sri Ragavendhra Siddha Clinic",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 301,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7840647215,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7490323,
+          11.584239
+        ]
+      },
+      "properties": {
+        "id": 7840647215,
+        "name": "Prabushankar Hospital",
+        "facility_type": "hospital",
+        "category": "Healthcare",
+        "capacity": 315,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10939090379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7888299,
+          11.6797139
+        ]
+      },
+      "properties": {
+        "id": 10939090379,
+        "name": "POI 79",
+        "facility_type": "temple",
+        "category": "Religious POI",
+        "capacity": 479,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12078440321,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1488599,
+          11.53581
+        ]
+      },
+      "properties": {
+        "id": 12078440321,
+        "name": "Sri Ramakrishna Matriculation School",
+        "facility_type": "school",
+        "category": "Education",
+        "capacity": 421,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14078016559,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9626532,
+          11.7349351
+        ]
+      },
+      "properties": {
+        "id": 14078016559,
+        "name": "Kamala Electricals And Home Appliances",
+        "facility_type": "shop",
+        "category": "Commercial POI",
+        "capacity": 159,
+        "district": "Kallakurichi",
+        "state": "Tamil Nadu",
+        "data_source_type": "OpenStreetMap Public Data"
+      }
+    }
+  ]
+}

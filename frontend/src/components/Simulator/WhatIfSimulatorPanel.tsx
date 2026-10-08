@@ -79,23 +79,27 @@ export default function WhatIfSimulatorPanel({ apiBaseUrl, onSimulationChange }:
     <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm space-y-4 font-sans text-xs">
       
       {/* Header */}
-      <div className="flex items-center justify-between border-b border-slate-200 pb-3">
-        <div className="flex items-center space-x-2">
-          <Sliders className="w-5 h-5 text-amber-600" />
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 pb-3 gap-3">
+        <div className="flex items-center space-x-2.5">
+          <div className="p-2 bg-blue-50 text-blue-800 rounded-lg">
+            <Sliders className="w-5 h-5 text-blue-700" />
+          </div>
           <div>
-            <h3 className="font-bold text-slate-900 text-sm">What-If Scenario Simulator</h3>
+            <div className="flex flex-wrap items-center gap-2">
+              <h3 className="font-bold text-slate-900 text-sm">What-If Scenario Simulator</h3>
+              <span className="text-[10px] text-amber-800 bg-amber-50 font-medium px-2 py-0.5 rounded border border-amber-200">
+                Demo Scenario — Not an Official Municipal Forecast
+              </span>
+            </div>
             <p className="text-[11px] text-slate-500">Test extreme rainfall intensity scenarios and resource constraints to evaluate municipal response capacity.</p>
           </div>
         </div>
-        <div className="flex items-center space-x-2">
-          <span className="text-[11px] font-bold text-amber-800 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-md">
-            SIMULATION MODE
-          </span>
+        <div className="flex items-center space-x-2 self-end sm:self-auto">
           <button
             onClick={handleReset}
-            className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1 rounded-md text-xs font-semibold flex items-center space-x-1 border border-slate-300 transition"
+            className="bg-white hover:bg-slate-50 text-slate-700 px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center space-x-1.5 border border-slate-300 transition shadow-xs"
           >
-            <RotateCcw className="w-3.5 h-3.5" />
+            <RotateCcw className="w-3.5 h-3.5 text-slate-500" />
             <span>Reset Baseline</span>
           </button>
         </div>
@@ -215,7 +219,7 @@ export default function WhatIfSimulatorPanel({ apiBaseUrl, onSimulationChange }:
         <button
           onClick={() => runSimulation(rainMultiplier, budget, hours, teams)}
           disabled={loading}
-          className="bg-amber-600 hover:bg-amber-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center space-x-2 text-xs transition shadow-sm disabled:opacity-50"
+          className="bg-blue-900 hover:bg-blue-800 text-white font-semibold px-4 py-2 rounded-lg flex items-center space-x-2 text-xs transition shadow-xs disabled:opacity-50"
         >
           <Play className="w-4 h-4 fill-current" />
           <span>{loading ? 'Simulating Pipeline...' : 'RUN SIMULATION'}</span>
@@ -225,9 +229,14 @@ export default function WhatIfSimulatorPanel({ apiBaseUrl, onSimulationChange }:
       {/* Side-by-Side Comparison Grid: Baseline vs Scenario */}
       {simResult && (
         <div className="space-y-3 pt-1">
-          <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-700">
-            Baseline Observation vs. Simulated Scenario Comparison
-          </h4>
+          <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
+            <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-700">
+              Baseline Observation vs. Simulated Scenario Comparison
+            </h4>
+            <span className="text-[10px] text-amber-800 bg-amber-50 font-medium px-2 py-0.5 rounded border border-amber-200">
+              Demo Scenario — Not an Official Municipal Forecast
+            </span>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-5 gap-3 text-xs">
             
