@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 608,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.945,
+              11.005
+            ],
+            [
+              76.968,
+              11.005
+            ],
+            [
+              76.968,
+              11.028
+            ],
+            [
+              76.945,
+              11.028
+            ],
+            [
+              76.945,
+              11.005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 608,
+        "name": "Ward 62 (Gandhipuram)",
+        "zone_name": "Ward 62 (Gandhipuram)",
+        "level": "WARD",
+        "geographic_level": "Ward",
+        "ward_id": 8,
+        "district": "Coimbatore",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "population": 290000,
+        "population_classification": "HIGH",
+        "area_sq_km": 7.5,
+        "density": 38666,
+        "data_year": "Census 2011",
+        "data_source": "Official Tamil Nadu ULB Portal",
+        "data_status": "Official Data",
+        "boundary_status": "Verified Administrative Boundary",
+        "risk_level": "LOW",
+        "exposed_population": 2900,
+        "exposed_population_ratio": "Minimal population exposure under current drainage capacity"
+      }
+    }
+  ]
+}

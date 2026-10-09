@@ -107,50 +107,50 @@ BENCHMARK_WARDS_GEOJSON = {
         {
             "type": "Feature",
             "id": 5,
-            "geometry": {"type": "Polygon", "coordinates": [[[80.220, 13.030], [80.245, 13.030], [80.245, 13.055], [80.220, 13.055], [80.220, 13.030]]]},
-            "properties": {"id": 5, "name": "Ward 109 (T. Nagar)", "ward_code": "CHE-109", "city": "Chennai", "district": "Chennai", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Greater Chennai Corporation", "ward_number": 109, "locality": "T. Nagar", "population": 380000, "area_sq_km": 8.2, "risk_level": "HIGH", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data"}
+            "geometry": None,
+            "properties": {"id": 5, "name": "Ward 109 (T. Nagar)", "ward_code": "CHE-109", "city": "Chennai", "district": "Chennai", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Greater Chennai Corporation", "ward_number": 109, "locality": "T. Nagar", "population": 380000, "area_sq_km": 8.2, "risk_level": "HIGH", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "centroid": [13.0418, 80.2341]}
         },
         {
             "type": "Feature",
             "id": 6,
-            "geometry": {"type": "Polygon", "coordinates": [[[80.195, 13.072], [80.225, 13.072], [80.225, 13.098], [80.195, 13.098], [80.195, 13.072]]]},
-            "properties": {"id": 6, "name": "Ward 102 (Anna Nagar)", "ward_code": "CHE-102", "city": "Chennai", "district": "Chennai", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Greater Chennai Corporation", "ward_number": 102, "locality": "Anna Nagar", "population": 410000, "area_sq_km": 11.0, "risk_level": "MEDIUM", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data"}
+            "geometry": None,
+            "properties": {"id": 6, "name": "Ward 102 (Anna Nagar)", "ward_code": "CHE-102", "city": "Chennai", "district": "Chennai", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Greater Chennai Corporation", "ward_number": 102, "locality": "Anna Nagar", "population": 410000, "area_sq_km": 11.0, "risk_level": "MEDIUM", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "centroid": [13.0850, 80.2100]}
         },
         {
             "type": "Feature",
             "id": 7,
-            "geometry": {"type": "Polygon", "coordinates": [[[80.205, 12.968], [80.232, 12.968], [80.232, 12.995], [80.205, 12.995], [80.205, 12.968]]]},
-            "properties": {"id": 7, "name": "Ward 177 (Velachery)", "ward_code": "CHE-177", "city": "Chennai", "district": "Chennai", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Greater Chennai Corporation", "ward_number": 177, "locality": "Velachery", "population": 490000, "area_sq_km": 14.1, "risk_level": "HIGH", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data"}
+            "geometry": None,
+            "properties": {"id": 7, "name": "Ward 177 (Velachery)", "ward_code": "CHE-177", "city": "Chennai", "district": "Chennai", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Greater Chennai Corporation", "ward_number": 177, "locality": "Velachery", "population": 490000, "area_sq_km": 14.1, "risk_level": "HIGH", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "centroid": [12.9815, 80.2180]}
         },
         {
             "type": "Feature",
             "id": 8,
-            "geometry": {"type": "Polygon", "coordinates": [[[76.945, 11.005], [76.968, 11.005], [76.968, 11.028], [76.945, 11.028], [76.945, 11.005]]]},
-            "properties": {"id": 8, "name": "Ward 62 (Gandhipuram)", "ward_code": "CBE-062", "city": "Coimbatore", "district": "Coimbatore", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Coimbatore City Municipal Corporation", "ward_number": 62, "locality": "Gandhipuram", "population": 290000, "area_sq_km": 7.5, "risk_level": "LOW", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data"}
+            "geometry": None,
+            "properties": {"id": 8, "name": "Ward 62 (Gandhipuram)", "ward_code": "CBE-062", "city": "Coimbatore", "district": "Coimbatore", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Coimbatore City Municipal Corporation", "ward_number": 62, "locality": "Gandhipuram", "population": 290000, "area_sq_km": 7.5, "risk_level": "LOW", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "centroid": [11.0183, 76.9725]}
         },
         {
             "type": "Feature",
             "id": 9,
-            "geometry": {"type": "Polygon", "coordinates": [[[78.145, 11.662], [78.170, 11.662], [78.170, 11.688], [78.145, 11.688], [78.145, 11.662]]]},
-            "properties": {"id": 9, "name": "Ward 24 (Hasthampatti)", "ward_code": "SLM-024", "city": "Salem", "district": "Salem", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Salem City Municipal Corporation", "ward_number": 24, "locality": "Hasthampatti", "population": 210000, "area_sq_km": 6.8, "risk_level": "NO DATA", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data"}
+            "geometry": None,
+            "properties": {"id": 9, "name": "Ward 24 (Hasthampatti)", "ward_code": "SLM-024", "city": "Salem", "district": "Salem", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Salem City Municipal Corporation", "ward_number": 24, "locality": "Hasthampatti", "population": 210000, "area_sq_km": 6.8, "risk_level": "NO DATA", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "centroid": [11.6750, 78.1570]}
         },
         {
             "type": "Feature",
             "id": 10,
-            "geometry": {"type": "Polygon", "coordinates": [[[78.115, 9.912], [78.140, 9.912], [78.140, 9.938], [78.115, 9.938], [78.115, 9.912]]]},
-            "properties": {"id": 10, "name": "Ward 45 (Goripalayam)", "ward_code": "MDU-045", "city": "Madurai", "district": "Madurai", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Madurai City Municipal Corporation", "ward_number": 45, "locality": "Goripalayam", "population": 260000, "area_sq_km": 7.2, "risk_level": "MEDIUM", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data"}
+            "geometry": None,
+            "properties": {"id": 10, "name": "Ward 45 (Goripalayam)", "ward_code": "MDU-045", "city": "Madurai", "district": "Madurai", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Madurai City Municipal Corporation", "ward_number": 45, "locality": "Goripalayam", "population": 260000, "area_sq_km": 7.2, "risk_level": "MEDIUM", "data_source_type": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "centroid": [9.9250, 78.1270]}
         },
         {
             "type": "Feature",
             "id": 11,
-            "geometry": {"type": "Polygon", "coordinates": [[[78.950, 11.725], [78.975, 11.725], [78.975, 11.750], [78.950, 11.750], [78.950, 11.725]]]},
-            "properties": {"id": 11, "name": "Kallakurichi Town Ward 1", "ward_code": "KLK-001", "city": "Kallakurichi", "district": "Kallakurichi", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Kallakurichi Municipality", "ward_number": 1, "locality": "Kallakurichi Town", "population": 45000, "area_sq_km": 4.5, "risk_level": "HIGH", "data_source_type": "Tamil Nadu Municipal Admin", "data_status": "Official Data"}
+            "geometry": None,
+            "properties": {"id": 11, "name": "Kallakurichi Town Ward 1", "ward_code": "KLK-001", "city": "Kallakurichi", "district": "Kallakurichi", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Kallakurichi Municipality", "ward_number": 1, "locality": "Kallakurichi Town", "population": 45000, "area_sq_km": 4.5, "risk_level": "HIGH", "data_source_type": "Tamil Nadu Municipal Admin", "data_status": "Official Data", "centroid": [11.7375, 78.9625]}
         },
         {
             "type": "Feature",
             "id": 12,
-            "geometry": {"type": "Polygon", "coordinates": [[[79.050, 11.130], [79.090, 11.130], [79.090, 11.160], [79.050, 11.160], [79.050, 11.130]]]},
-            "properties": {"id": 12, "name": "Ariyalur Town Ward 1", "ward_code": "ARI-001", "city": "Ariyalur", "district": "Ariyalur", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Ariyalur Municipality", "ward_number": 1, "locality": "Ariyalur Town", "population": 38000, "area_sq_km": 3.8, "risk_level": "LOW", "data_source_type": "Tamil Nadu Municipal Admin", "data_status": "Official Data"}
+            "geometry": None,
+            "properties": {"id": 12, "name": "Ariyalur Town Ward 1", "ward_code": "ARI-001", "city": "Ariyalur", "district": "Ariyalur", "state": "Tamil Nadu", "administrative_type": "Urban", "local_body": "Ariyalur Municipality", "ward_number": 1, "locality": "Ariyalur Town", "population": 38000, "area_sq_km": 3.8, "risk_level": "LOW", "data_source_type": "Tamil Nadu Municipal Admin", "data_status": "Official Data", "centroid": [11.1450, 79.0700]}
         }
     ]
 }
@@ -258,49 +258,49 @@ BENCHMARK_POPULATION_GEOJSON = {
         {
             "type": "Feature",
             "id": 605,
-            "geometry": {"type": "Polygon", "coordinates": [[[80.220, 13.030], [80.245, 13.030], [80.245, 13.055], [80.220, 13.055], [80.220, 13.030]]]},
+            "geometry": None,
             "properties": {"id": 605, "name": "Ward 109 (T. Nagar)", "zone_name": "Ward 109 (T. Nagar)", "level": "WARD", "geographic_level": "Ward", "ward_id": 5, "district": "Chennai", "city": "Chennai", "state": "Tamil Nadu", "population": 380000, "population_classification": "HIGH", "area_sq_km": 8.2, "density": 46341, "data_year": "Census 2011", "data_source": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "boundary_status": "Verified Administrative Boundary", "risk_level": "HIGH", "exposed_population": 30400, "exposed_population_ratio": "Estimated ~8% of ward population residing in active low-lying depression catchment"}
         },
         {
             "type": "Feature",
             "id": 606,
-            "geometry": {"type": "Polygon", "coordinates": [[[80.195, 13.072], [80.225, 13.072], [80.225, 13.098], [80.195, 13.098], [80.195, 13.072]]]},
+            "geometry": None,
             "properties": {"id": 606, "name": "Ward 102 (Anna Nagar)", "zone_name": "Ward 102 (Anna Nagar)", "level": "WARD", "geographic_level": "Ward", "ward_id": 6, "district": "Chennai", "city": "Chennai", "state": "Tamil Nadu", "population": 410000, "population_classification": "HIGH", "area_sq_km": 11.0, "density": 37272, "data_year": "Census 2011", "data_source": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "boundary_status": "Verified Administrative Boundary", "risk_level": "MEDIUM", "exposed_population": 20500, "exposed_population_ratio": "Estimated ~5% in peripheral stormwater runoff zone"}
         },
         {
             "type": "Feature",
             "id": 607,
-            "geometry": {"type": "Polygon", "coordinates": [[[80.205, 12.968], [80.232, 12.968], [80.232, 12.995], [80.205, 12.995], [80.205, 12.968]]]},
+            "geometry": None,
             "properties": {"id": 607, "name": "Ward 177 (Velachery)", "zone_name": "Ward 177 (Velachery)", "level": "WARD", "geographic_level": "Ward", "ward_id": 7, "district": "Chennai", "city": "Chennai", "state": "Tamil Nadu", "population": 490000, "population_classification": "HIGH", "area_sq_km": 14.1, "density": 34751, "data_year": "Census 2011", "data_source": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "boundary_status": "Verified Administrative Boundary", "risk_level": "HIGH", "exposed_population": 39200, "exposed_population_ratio": "Estimated ~8% of ward population residing in lake perimeter runoff buffer"}
         },
         {
             "type": "Feature",
             "id": 608,
-            "geometry": {"type": "Polygon", "coordinates": [[[76.945, 11.005], [76.968, 11.005], [76.968, 11.028], [76.945, 11.028], [76.945, 11.005]]]},
+            "geometry": None,
             "properties": {"id": 608, "name": "Ward 62 (Gandhipuram)", "zone_name": "Ward 62 (Gandhipuram)", "level": "WARD", "geographic_level": "Ward", "ward_id": 8, "district": "Coimbatore", "city": "Coimbatore", "state": "Tamil Nadu", "population": 290000, "population_classification": "HIGH", "area_sq_km": 7.5, "density": 38666, "data_year": "Census 2011", "data_source": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "boundary_status": "Verified Administrative Boundary", "risk_level": "LOW", "exposed_population": 2900, "exposed_population_ratio": "Minimal population exposure under current drainage capacity"}
         },
         {
             "type": "Feature",
             "id": 609,
-            "geometry": {"type": "Polygon", "coordinates": [[[78.145, 11.662], [78.170, 11.662], [78.170, 11.688], [78.145, 11.688], [78.145, 11.662]]]},
+            "geometry": None,
             "properties": {"id": 609, "name": "Ward 24 (Hasthampatti)", "zone_name": "Ward 24 (Hasthampatti)", "level": "WARD", "geographic_level": "Ward", "ward_id": 9, "district": "Salem", "city": "Salem", "state": "Tamil Nadu", "population": 210000, "population_classification": "HIGH", "area_sq_km": 6.8, "density": 30882, "data_year": "Census 2011", "data_source": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "boundary_status": "Verified Administrative Boundary", "risk_level": "LOW", "exposed_population": 2100, "exposed_population_ratio": "Minimal population exposure"}
         },
         {
             "type": "Feature",
             "id": 610,
-            "geometry": {"type": "Polygon", "coordinates": [[[78.115, 9.912], [78.140, 9.912], [78.140, 9.938], [78.115, 9.938], [78.115, 9.912]]]},
+            "geometry": None,
             "properties": {"id": 610, "name": "Ward 45 (Goripalayam)", "zone_name": "Ward 45 (Goripalayam)", "level": "WARD", "geographic_level": "Ward", "ward_id": 10, "district": "Madurai", "city": "Madurai", "state": "Tamil Nadu", "population": 260000, "population_classification": "HIGH", "area_sq_km": 7.2, "density": 36111, "data_year": "Census 2011", "data_source": "Official Tamil Nadu ULB Portal", "data_status": "Official Data", "boundary_status": "Verified Administrative Boundary", "risk_level": "MEDIUM", "exposed_population": 15600, "exposed_population_ratio": "Estimated ~6% near Vaigai riverbank runoff buffer"}
         },
         {
             "type": "Feature",
             "id": 611,
-            "geometry": {"type": "Polygon", "coordinates": [[[78.950, 11.725], [78.975, 11.725], [78.975, 11.750], [78.950, 11.750], [78.950, 11.725]]]},
+            "geometry": None,
             "properties": {"id": 611, "name": "Kallakurichi Town Ward 1", "zone_name": "Kallakurichi Town Ward 1", "level": "WARD", "geographic_level": "Ward", "ward_id": 11, "district": "Kallakurichi", "city": "Kallakurichi", "state": "Tamil Nadu", "population": 45000, "population_classification": "MEDIUM", "area_sq_km": 4.5, "density": 10000, "data_year": "Census 2011", "data_source": "Tamil Nadu Municipal Admin", "data_status": "Official Data", "boundary_status": "Verified Administrative Boundary", "risk_level": "HIGH", "exposed_population": 5400, "exposed_population_ratio": "Estimated ~12% in low-lying depression catchment"}
         },
         {
             "type": "Feature",
             "id": 612,
-            "geometry": {"type": "Polygon", "coordinates": [[[79.050, 11.130], [79.090, 11.130], [79.090, 11.160], [79.050, 11.160], [79.050, 11.130]]]},
+            "geometry": None,
             "properties": {"id": 612, "name": "Ariyalur Town Ward 1", "zone_name": "Ariyalur Town Ward 1", "level": "WARD", "geographic_level": "Ward", "ward_id": 12, "district": "Ariyalur", "city": "Ariyalur", "state": "Tamil Nadu", "population": 38000, "population_classification": "MEDIUM", "area_sq_km": 3.8, "density": 10000, "data_year": "Census 2011", "data_source": "Tamil Nadu Municipal Admin", "data_status": "Official Data", "boundary_status": "Verified Administrative Boundary", "risk_level": "LOW", "exposed_population": 380, "exposed_population_ratio": "Minimal population exposure"}
         }
     ]

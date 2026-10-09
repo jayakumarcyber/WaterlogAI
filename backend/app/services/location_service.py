@@ -195,8 +195,8 @@ class LocationService:
         for z_num in range(1, 16):
             zone_id = f"zone-{z_num}"
             name = ZONE_NAMES.get(z_num, f"Zone {z_num}")
-            geom = zone_polygons_map.get(z_num) or create_bounding_box_polygon(13.0827, 80.2707, 0.04)
-            b = zone_bounds_map.get(z_num) or compute_bounds_from_geometry(geom)
+            geom = zone_polygons_map.get(z_num)
+            b = zone_bounds_map.get(z_num) or (compute_bounds_from_geometry(geom) if geom else compute_bbox_bounds(13.0827, 80.2707, 0.04))
             c = zone_centroids_map.get(z_num) or compute_centroid_from_bounds(b)
             wards = zone_wards_map.get(z_num, [])
 
@@ -213,7 +213,7 @@ class LocationService:
                 "centroid": {"lat": c[0], "lon": c[1]},
                 "bounds": b,
                 "geometry": geom,
-                "has_geometry": True,
+                "has_geometry": geom is not None,
                 "ward_count": len(wards),
                 "wards": [w["ward_number"] for w in wards],
                 "area_sq_km": round(sum((w.get("area_sq_km") or 2.0) for w in wards), 2) or 20.0,
@@ -236,8 +236,8 @@ class LocationService:
             cls._wards_by_place[zone_id] = wards
 
         # 4. Explicitly Register Perambur (Zone VI, Wards 64-78)
-        perambur_geom = zone_polygons_map.get(6) or create_bounding_box_polygon(13.1110, 80.2420, 0.03)
-        perambur_bounds = zone_bounds_map.get(6) or compute_bounds_from_geometry(perambur_geom)
+        perambur_geom = zone_polygons_map.get(6)
+        perambur_bounds = zone_bounds_map.get(6) or (compute_bounds_from_geometry(perambur_geom) if perambur_geom else compute_bbox_bounds(13.1110, 80.2420, 0.03))
         perambur_centroid = zone_centroids_map.get(6) or [13.1110, 80.2420]
         perambur_wards = zone_wards_map.get(6, [])
 
@@ -254,7 +254,7 @@ class LocationService:
             "centroid": {"lat": perambur_centroid[0], "lon": perambur_centroid[1]},
             "bounds": perambur_bounds,
             "geometry": perambur_geom,
-            "has_geometry": True,
+            "has_geometry": perambur_geom is not None,
             "ward_count": len(perambur_wards),
             "wards": [w["ward_number"] for w in perambur_wards],
             "area_sq_km": 17.114,
@@ -320,13 +320,15 @@ class LocationService:
                 z_num = CHENNAI_PLACE_TO_ZONE.get(p_id)
                 mapped_wards = zone_wards_map.get(z_num, []) if z_num else []
                 
-                # Use official zone geometry if available, otherwise bounding box
+                # Use official zone geometry if available, otherwise do not fabricate rectangular polygons
                 if is_chennai and z_num and zone_polygons_map.get(z_num):
                     geom = zone_polygons_map[z_num]
                     bounds = zone_bounds_map.get(z_num) or compute_bounds_from_geometry(geom)
+                    has_geom = True
                 else:
-                    geom = create_bounding_box_polygon(lat, lon, delta_deg=0.02)
+                    geom = None
                     bounds = compute_bbox_bounds(lat, lon, delta_deg=0.02)
+                    has_geom = False
 
                 if mapped_wards:
                     w_inc = sum((w.get("historical_incident_count") or 0) for w in mapped_wards)
@@ -378,7 +380,7 @@ class LocationService:
                     "centroid": {"lat": lat, "lon": lon},
                     "bounds": bounds,
                     "geometry": geom,
-                    "has_geometry": True,
+                    "has_geometry": has_geom,
                     "zone_number": z_num,
                     "ward_count": len(mapped_wards),
                     "wards": [w["ward_number"] for w in mapped_wards],
@@ -441,8 +443,15 @@ class LocationService:
                     continue
                 lat, lon = coords[0], coords[1]
                 
-                geom = feat.get("geometry") or create_bounding_box_polygon(lat, lon, 0.01)
-                bounds = compute_bounds_from_geometry(geom)
+                raw_geom = feat.get("geometry")
+                if raw_geom and raw_geom.get("type") in ["Polygon", "MultiPolygon"]:
+                    geom = raw_geom
+                    bounds = compute_bounds_from_geometry(geom)
+                    has_geom = True
+                else:
+                    geom = None
+                    bounds = compute_bbox_bounds(lat, lon, 0.01)
+                    has_geom = False
 
                 place_record = {
                     "id": p_id,
@@ -456,7 +465,7 @@ class LocationService:
                     "centroid": {"lat": lat, "lon": lon},
                     "bounds": bounds,
                     "geometry": geom,
-                    "has_geometry": True,
+                    "has_geometry": has_geom,
                     "ward_count": 0,
                     "wards": [],
                     "area_sq_km": props.get("area_sq_km", 2.0),

@@ -75,6 +75,16 @@ export const CHENNAI_BOUNDS = {
   lonMax: 80.35,
 };
 
+// Helper: Guard against rendering rectangular bounding box polygons as boundary overlays
+export const isBoundingBoxPolygon = (geom: any): boolean => {
+  if (!geom || geom.type !== 'Polygon' || !Array.isArray(geom.coordinates)) return false;
+  const ring = geom.coordinates[0];
+  if (!Array.isArray(ring) || ring.length !== 5) return false;
+  const lons = new Set(ring.map((pt: any) => Number(pt[0]).toFixed(3)));
+  const lats = new Set(ring.map((pt: any) => Number(pt[1]).toFixed(3)));
+  return lons.size <= 2 && lats.size <= 2;
+};
+
 export default function MapView({
   layers,
   geoData,
@@ -240,6 +250,7 @@ export default function MapView({
 
       if (featuresToRender && featuresToRender.length > 0) {
         const wardLayer = L.geoJSON(featuresToRender, {
+          filter: (feature) => !isBoundingBoxPolygon(feature?.geometry),
           style: (feature) => {
             const isSelected =
               selectedWardId != null &&
@@ -511,6 +522,20 @@ export default function MapView({
         ];
         activeLabel = `${selectedFeature.properties?.name || selectedDistrict || 'District'} District`;
       }
+    }
+
+    // Guard: Do NOT render rectangular bounding boxes as overlay polygons
+    if (activeGeometry && isBoundingBoxPolygon(activeGeometry)) {
+      if (!activeCoords && activeGeometry.coordinates?.[0]) {
+        const ring = activeGeometry.coordinates[0];
+        const lons = ring.map((pt: any) => pt[0]);
+        const lats = ring.map((pt: any) => pt[1]);
+        activeCoords = [
+          (Math.min(...lats) + Math.max(...lats)) / 2,
+          (Math.min(...lons) + Math.max(...lons)) / 2,
+        ];
+      }
+      activeGeometry = null;
     }
 
     // Render Boundary or Point Highlight
