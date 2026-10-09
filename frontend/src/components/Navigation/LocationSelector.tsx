@@ -214,9 +214,14 @@ export default function LocationSelector({
   const handlePlaceChange = async (newPlaceId: string) => {
     setCurrentPlaceId(newPlaceId);
     setCurrentWardId('');
+    setWardsList([]);
 
     if (!newPlaceId) {
-      setWardsList([]);
+      // User deselected place -> re-focus district
+      const distObj = districtsList.find(
+        (d) => d.name.toLowerCase() === currentDistrict.toLowerCase() || d.id === currentDistrict.toLowerCase()
+      );
+      onDistrictSelect(currentDistrict, distObj);
       return;
     }
 
@@ -240,7 +245,13 @@ export default function LocationSelector({
 
   const handleWardChange = (newWardId: string) => {
     setCurrentWardId(newWardId);
-    if (!newWardId) return;
+    if (!newWardId) {
+      // User deselected ward -> re-focus active place
+      if (currentPlaceId) {
+        handlePlaceChange(currentPlaceId);
+      }
+      return;
+    }
 
     const wardObj = wardsList.find(
       (w) => String(w.id) === newWardId || String(w.ward_number) === newWardId

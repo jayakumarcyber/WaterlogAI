@@ -174,7 +174,7 @@ export default function Home() {
   const [cameraTrigger, setCameraTrigger] = useState<{
     type: 'india' | 'tn' | 'district' | 'ward' | 'place';
     coords?: [number, number];
-    bounds?: [number, number, number, number] | null;
+    bounds?: [[number, number], [number, number]] | [number, number, number, number] | any;
     geometry?: any;
     timestamp?: number;
   }>({ type: 'district', coords: [13.0827, 80.2707], timestamp: Date.now() });
@@ -260,6 +260,23 @@ export default function Home() {
 
   // ─── Location Hierarchy Handlers (Tamil Nadu -> District -> Place -> Ward) ──
   const handleDistrictSelect = useCallback((distName: string, distObj?: any) => {
+    let effectiveDist = distObj;
+    if (!effectiveDist) {
+      const tn = INDIA_LOCATION_DATA.states.find((s) => s.name === 'Tamil Nadu');
+      const found = tn?.districts.find((d) => d.name.toLowerCase() === distName.toLowerCase());
+      if (found) {
+        effectiveDist = {
+          id: found.id,
+          name: found.name,
+          centroid: { lat: found.coordinates[0], lon: found.coordinates[1] },
+          bounds: [
+            [found.coordinates[0] - 0.2, found.coordinates[1] - 0.2],
+            [found.coordinates[0] + 0.2, found.coordinates[1] + 0.2],
+          ],
+        };
+      }
+    }
+
     setFilters((prev) => ({
       ...prev,
       districtId: distName,
@@ -270,57 +287,137 @@ export default function Home() {
     setSelectedWardId(null);
     setSelectedFeature({
       type: 'district',
-      properties: distObj || { name: distName, state: 'Tamil Nadu' },
-      id: distObj?.id || distName.toLowerCase(),
+      properties: effectiveDist || { name: distName, state: 'Tamil Nadu' },
+      id: effectiveDist?.id || distName.toLowerCase(),
+      geometry: effectiveDist?.geometry,
     });
-    if (distObj?.bounds) {
-      setCameraTrigger({
-        type: 'district',
-        bounds: distObj.bounds,
-        coords: distObj.centroid ? [distObj.centroid.lat, distObj.centroid.lon] : undefined,
-        timestamp: Date.now(),
-      });
-    } else {
-      setCameraTrigger({
-        type: 'district',
-        coords: distObj?.centroid ? [distObj.centroid.lat, distObj.centroid.lon] : [11.1271, 78.6569],
-        timestamp: Date.now(),
-      });
+
+    const coords = effectiveDist?.centroid
+      ? [effectiveDist.centroid.lat, effectiveDist.centroid.lon]
+      : effectiveDist?.centroid_lat
+      ? [effectiveDist.centroid_lat, effectiveDist.centroid_lon]
+      : distName.toLowerCase() === 'chennai'
+      ? [13.0827, 80.2707]
+      : [11.1271, 78.6569];
+
+    setCameraTrigger({
+      type: 'district',
+      bounds: effectiveDist?.bounds,
+      coords: coords as [number, number],
+      geometry: effectiveDist?.geometry,
+      timestamp: Date.now(),
+    });
+
+    // If district object doesn't have geometry, fetch full district details
+    if (!effectiveDist?.geometry) {
+      const slug = distName.toLowerCase().replace(/\s+/g, '-');
+      fetch(`${API_BASE_URL}/api/v1/locations/districts/${slug}`)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((dData) => {
+          if (dData) {
+            setSelectedFeature({
+              type: 'district',
+              properties: dData,
+              id: dData.id,
+              geometry: dData.geometry,
+            });
+            if (dData.geometry || dData.bounds) {
+              setCameraTrigger({
+                type: 'district',
+                bounds: dData.bounds,
+                coords: [dData.centroid_lat, dData.centroid_lon],
+                geometry: dData.geometry,
+                timestamp: Date.now(),
+              });
+            }
+          }
+        })
+        .catch(() => {});
     }
-  }, []);
+  }, [API_BASE_URL]);
 
   const handlePlaceSelect = useCallback((placeObj: any) => {
     setSelectedPlaceId(placeObj.id);
     setSelectedWardId(null);
+    setFilters((prev) => ({
+      ...prev,
+      cityId: placeObj.name,
+      wardId: 'ALL',
+    }));
     setSelectedFeature({
       type: 'place',
       properties: placeObj,
       geometry: placeObj.geometry,
       id: placeObj.id,
     });
+
+    const coords =
+      placeObj.centroid_lat && placeObj.centroid_lon
+        ? [placeObj.centroid_lat, placeObj.centroid_lon]
+        : placeObj.centroid
+        ? [placeObj.centroid.lat, placeObj.centroid.lon]
+        : undefined;
+
     setCameraTrigger({
       type: 'place',
       bounds: placeObj.bounds,
-      coords: placeObj.centroid_lat ? [placeObj.centroid_lat, placeObj.centroid_lon] : undefined,
+      coords: coords as [number, number] | undefined,
       geometry: placeObj.geometry,
       timestamp: Date.now(),
     });
-  }, []);
+
+    // If place doesn't have geometry, fetch full place details
+    if (!placeObj.geometry && placeObj.id) {
+      fetch(`${API_BASE_URL}/api/v1/locations/places/${placeObj.id}`)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((pData) => {
+          if (pData) {
+            setSelectedFeature({
+              type: 'place',
+              properties: pData,
+              geometry: pData.geometry,
+              id: pData.id,
+            });
+            setCameraTrigger({
+              type: 'place',
+              bounds: pData.bounds,
+              coords: [pData.centroid_lat, pData.centroid_lon],
+              geometry: pData.geometry,
+              timestamp: Date.now(),
+            });
+          }
+        })
+        .catch(() => {});
+    }
+  }, [API_BASE_URL]);
 
   const handleWardSelect = useCallback((wardObj: any) => {
-    const wId = wardObj.id || wardObj.ward_number;
-    setSelectedWardId(wId);
-    setFilters((prev) => ({ ...prev, wardId: String(wId) }));
+    const rawId = wardObj.ward_number ?? wardObj.id;
+    const cleanWardId =
+      typeof rawId === 'string' && rawId.startsWith('ward-')
+        ? rawId.replace('ward-', '')
+        : String(rawId);
+
+    setSelectedWardId(cleanWardId);
+    setFilters((prev) => ({ ...prev, wardId: cleanWardId }));
     setSelectedFeature({
       type: 'ward',
       properties: wardObj,
       geometry: wardObj.geometry,
-      id: wId,
+      id: cleanWardId,
     });
+
+    const coords =
+      wardObj.centroid_lat && wardObj.centroid_lon
+        ? [wardObj.centroid_lat, wardObj.centroid_lon]
+        : wardObj.centroid
+        ? [wardObj.centroid.lat, wardObj.centroid.lon]
+        : undefined;
+
     setCameraTrigger({
       type: 'ward',
       bounds: wardObj.bounds,
-      coords: wardObj.centroid_lat ? [wardObj.centroid_lat, wardObj.centroid_lon] : undefined,
+      coords: coords as [number, number] | undefined,
       geometry: wardObj.geometry,
       timestamp: Date.now(),
     });
@@ -400,19 +497,71 @@ export default function Home() {
 
   const handleFilterChange = (key: string, value: string) => {
     setFilters((prev) => ({ ...prev, [key]: value }));
+    if (key === 'districtId') {
+      handleDistrictSelect(value);
+    } else if (key === 'wardId') {
+      if (value === 'ALL') {
+        setSelectedWardId(null);
+      } else {
+        const norm = (v: any) => String(v ?? '').replace(/^ward-/, '').trim().toLowerCase();
+        const found = geoData.wards?.features?.find(
+          (f: any) =>
+            norm(f.properties?.id) === norm(value) ||
+            norm(f.properties?.ward_number) === norm(value)
+        );
+        if (found) {
+          handleWardSelect(found.properties);
+        }
+      }
+    }
   };
 
   const handleFocusCamera = (type: 'india' | 'tn' | 'district' | 'ward') => {
-    let coords: [number, number] | undefined = undefined;
-    if (type === 'district') {
-      const stateObj = INDIA_LOCATION_DATA.states.find((s) => s.name.toLowerCase() === filters.stateId.toLowerCase());
-      const distObj = stateObj?.districts.find((d) => d.name.toLowerCase() === filters.districtId.toLowerCase());
-      if (distObj) coords = distObj.coordinates;
-      else coords = [13.0827, 80.2707];
-    } else if (type === 'ward' && selectedFeature?.properties?.coordinates) {
-      coords = selectedFeature.properties.coordinates;
+    if (type === 'india') {
+      setCameraTrigger({
+        type: 'india',
+        coords: [20.5937, 78.9629],
+        bounds: [
+          [8.0, 68.0],
+          [35.5, 97.0],
+        ],
+        timestamp: Date.now(),
+      });
+    } else if (type === 'tn') {
+      setCameraTrigger({
+        type: 'tn',
+        coords: [11.1271, 78.6569],
+        bounds: [
+          [8.0, 76.0],
+          [13.5, 80.5],
+        ],
+        timestamp: Date.now(),
+      });
+    } else if (type === 'district') {
+      handleDistrictSelect(filters.districtId);
+    } else if (type === 'ward') {
+      if (selectedFeature?.type === 'ward') {
+        setCameraTrigger({
+          type: 'ward',
+          bounds: selectedFeature.properties?.bounds,
+          coords: selectedFeature.properties?.centroid_lat
+            ? [selectedFeature.properties.centroid_lat, selectedFeature.properties.centroid_lon]
+            : undefined,
+          geometry: selectedFeature.geometry,
+          timestamp: Date.now(),
+        });
+      } else if (filters.wardId !== 'ALL') {
+        const norm = (v: any) => String(v ?? '').replace(/^ward-/, '').trim().toLowerCase();
+        const found = geoData.wards?.features?.find(
+          (f: any) =>
+            norm(f.properties?.id) === norm(filters.wardId) ||
+            norm(f.properties?.ward_number) === norm(filters.wardId)
+        );
+        if (found) {
+          handleWardSelect(found.properties);
+        }
+      }
     }
-    setCameraTrigger({ type, coords, timestamp: Date.now() });
   };
 
   const handleTrackComplaint = (complaintId: string) => {
@@ -939,10 +1088,17 @@ export default function Home() {
                       layers={layers}
                       geoData={geoData}
                       citizenComplaints={citizenComplaints}
-                      selectedWardId={selectedFeature?.type === 'ward' ? selectedFeature.id : null}
+                      selectedWardId={selectedWardId}
                       selectedPlace={selectedFeature?.type === 'place' ? (selectedFeature.properties as any) : null}
                       selectedFeature={selectedFeature}
-                      onSelectFeature={(feat) => setSelectedFeature(feat)}
+                      onSelectFeature={(feat) => {
+                        setSelectedFeature(feat);
+                        if (feat.type === 'ward') {
+                          handleWardSelect(feat.properties);
+                        } else if (feat.type === 'place') {
+                          handlePlaceSelect(feat.properties);
+                        }
+                      }}
                       searchResult={searchResult}
                       cameraTrigger={cameraTrigger}
                       selectedDistrict={filters.districtId}

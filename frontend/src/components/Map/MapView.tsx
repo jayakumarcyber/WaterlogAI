@@ -95,6 +95,7 @@ export default function MapView({
   const highlightLayerRef = useRef<L.LayerGroup | null>(null);
   const districtsLayerRef = useRef<L.LayerGroup | null>(null);
   const complaintsLayerRef = useRef<L.LayerGroup | null>(null);
+  const lastHandledCameraTriggerTimestamp = useRef<number | null>(null);
 
   const [currentZoom, setCurrentZoom] = useState<number>(11.5);
   const [currentCenter, setCurrentCenter] = useState<{ lat: number; lng: number }>({
@@ -169,6 +170,10 @@ export default function MapView({
       highlightLayerRef.current = L.layerGroup().addTo(map);
       complaintsLayerRef.current = L.layerGroup().addTo(map);
       mapRef.current = map;
+      if (typeof window !== 'undefined') {
+        (window as any).municipalMap = map;
+        (window as any).highlightLayer = highlightLayerRef.current;
+      }
     }
 
     return () => {
@@ -223,88 +228,106 @@ export default function MapView({
 
     // Layer: Wards (Official GCC Boundaries)
     if (layers.wards && geoData.wards?.features) {
-      const wardLayer = L.geoJSON(geoData.wards, {
-        style: (feature) => {
-          const isSelected =
-            String(selectedWardId) === String(feature?.properties?.id) ||
-            String(selectedWardId) === String(feature?.properties?.ward_number);
-          return {
-            color: isSelected ? '#1d4ed8' : '#2563eb',
-            weight: isSelected ? 3 : 1.2,
-            fillColor: isSelected ? '#3b82f6' : '#60a5fa',
-            fillOpacity: isSelected ? 0.35 : 0.12,
-          };
-        },
-        onEachFeature: (feature, layer) => {
-          const p = feature.properties || {};
-          const wardTitle = p.name || `Ward ${p.ward_number || p.id}`;
-          const zoneInfo = p.zone_name
-            ? `Zone ${p.zone_number} (${p.zone_name})`
-            : p.zone_number
-            ? `Zone ${p.zone_number}`
-            : 'Greater Chennai Corporation';
-          const areaInfo = p.area_sq_km ? `${p.area_sq_km} km²` : '';
-          const popInfo = p.population
-            ? `${Number(p.population).toLocaleString()} residents (Census 2011)`
-            : 'Population: Data Unavailable';
-          const elevInfo =
-            p.elevation_m != null
-              ? `Elevation: ${p.elevation_m}m MSL • Slope: ${p.slope_percent}%`
-              : 'Elevation: Data Unavailable';
-          const incInfo =
-            p.historical_incident_count != null
-              ? `Historical Waterlogging: ${p.historical_incident_count} verified spots`
-              : '';
+      const isNonChennai = selectedDistrict && selectedDistrict.toLowerCase() !== 'chennai';
+      const featuresToRender = isNonChennai
+        ? geoData.wards.features.filter((f: any) => {
+            const d = f.properties?.district || f.properties?.city;
+            return d && d.toLowerCase() === selectedDistrict.toLowerCase();
+          })
+        : geoData.wards.features;
 
-          const tooltipHtml = `
-            <div style="font-family: system-ui, -apple-system, sans-serif; font-size: 11px; line-height: 1.4; padding: 2px;">
-              <div style="font-weight: 700; color: #1e3a8a; font-size: 12px;">${wardTitle}</div>
-              <div style="color: #334155; font-size: 10.5px; margin-top: 2px;">
-                <strong>${zoneInfo}</strong>
+      const normWard = (v: any) => String(v ?? '').replace(/^ward-/, '').trim().toLowerCase();
+
+      if (featuresToRender && featuresToRender.length > 0) {
+        const wardLayer = L.geoJSON(featuresToRender, {
+          style: (feature) => {
+            const isSelected =
+              selectedWardId != null &&
+              (normWard(selectedWardId) === normWard(feature?.properties?.id) ||
+                normWard(selectedWardId) === normWard(feature?.properties?.ward_number) ||
+                normWard(selectedWardId) === normWard(feature?.properties?.ward_code));
+            return {
+              color: isSelected ? '#1d4ed8' : '#2563eb',
+              weight: isSelected ? 3.5 : 1.2,
+              fillColor: isSelected ? '#3b82f6' : '#60a5fa',
+              fillOpacity: isSelected ? 0.38 : 0.12,
+            };
+          },
+          onEachFeature: (feature, layer) => {
+            const p = feature.properties || {};
+            const wardTitle = p.name || `Ward ${p.ward_number || p.id}`;
+            const zoneInfo = p.zone_name
+              ? `Zone ${p.zone_number} (${p.zone_name})`
+              : p.zone_number
+              ? `Zone ${p.zone_number}`
+              : 'Greater Chennai Corporation';
+            const areaInfo = p.area_sq_km ? `${p.area_sq_km} km²` : '';
+            const popInfo = p.population
+              ? `${Number(p.population).toLocaleString()} residents (Census 2011)`
+              : 'Population: Data Unavailable';
+            const elevInfo =
+              p.elevation_m != null
+                ? `Elevation: ${p.elevation_m}m MSL • Slope: ${p.slope_percent}%`
+                : 'Elevation: Data Unavailable';
+            const incInfo =
+              p.historical_incident_count != null
+                ? `Historical Waterlogging: ${p.historical_incident_count} verified spots`
+                : '';
+
+            const tooltipHtml = `
+              <div style="font-family: system-ui, -apple-system, sans-serif; font-size: 11px; line-height: 1.4; padding: 2px;">
+                <div style="font-weight: 700; color: #1e3a8a; font-size: 12px;">${wardTitle}</div>
+                <div style="color: #334155; font-size: 10.5px; margin-top: 2px;">
+                  <strong>${zoneInfo}</strong>
+                </div>
+                <div style="color: #475569; font-size: 10px; margin-top: 2px;">
+                  ${popInfo}
+                </div>
+                <div style="color: #475569; font-size: 10px; margin-top: 1px;">
+                  ${elevInfo}
+                </div>
+                ${incInfo ? `<div style="color: #b45309; font-size: 10px; margin-top: 1px; font-weight: 500;">${incInfo}</div>` : ''}
+                <div style="color: #64748b; font-size: 9.5px; margin-top: 2px; border-top: 1px solid #e2e8f0; pt-1;">
+                  ${areaInfo ? `Area: <strong>${areaInfo}</strong> | ` : ''}Official GCC GIS
+                </div>
               </div>
-              <div style="color: #475569; font-size: 10px; margin-top: 2px;">
-                ${popInfo}
-              </div>
-              <div style="color: #475569; font-size: 10px; margin-top: 1px;">
-                ${elevInfo}
-              </div>
-              ${incInfo ? `<div style="color: #b45309; font-size: 10px; margin-top: 1px; font-weight: 500;">${incInfo}</div>` : ''}
-              <div style="color: #64748b; font-size: 9.5px; margin-top: 2px; border-top: 1px solid #e2e8f0; pt-1;">
-                ${areaInfo ? `Area: <strong>${areaInfo}</strong> | ` : ''}Official GCC GIS
-              </div>
-            </div>
-          `;
-          layer.bindTooltip(tooltipHtml, { sticky: true });
-          layer.on({
-            click: () =>
-              onSelectFeature({
-                type: 'ward',
-                properties: feature.properties,
-                geometry: feature.geometry,
-                id: feature.properties.id || feature.properties.ward_number,
-              }),
-            mouseover: (e: any) => {
-              const l = e.target;
-              const isSelected =
-                String(selectedWardId) === String(p.id) ||
-                String(selectedWardId) === String(p.ward_number);
-              if (!isSelected) {
-                l.setStyle({ fillOpacity: 0.28, weight: 2, color: '#1e40af' });
-              }
-            },
-            mouseout: (e: any) => {
-              const l = e.target;
-              const isSelected =
-                String(selectedWardId) === String(p.id) ||
-                String(selectedWardId) === String(p.ward_number);
-              if (!isSelected) {
-                l.setStyle({ fillOpacity: 0.12, weight: 1.2, color: '#2563eb' });
-              }
-            },
-          });
-        },
-      });
-      layerGroup.addLayer(wardLayer);
+            `;
+            layer.bindTooltip(tooltipHtml, { sticky: true });
+            layer.on({
+              click: () =>
+                onSelectFeature({
+                  type: 'ward',
+                  properties: feature.properties,
+                  geometry: feature.geometry,
+                  id: feature.properties.ward_number ?? feature.properties.id,
+                }),
+              mouseover: (e: any) => {
+                const l = e.target;
+                const isSelected =
+                  selectedWardId != null &&
+                  (normWard(selectedWardId) === normWard(p.id) ||
+                    normWard(selectedWardId) === normWard(p.ward_number) ||
+                    normWard(selectedWardId) === normWard(p.ward_code));
+                if (!isSelected) {
+                  l.setStyle({ fillOpacity: 0.28, weight: 2, color: '#1e40af' });
+                }
+              },
+              mouseout: (e: any) => {
+                const l = e.target;
+                const isSelected =
+                  selectedWardId != null &&
+                  (normWard(selectedWardId) === normWard(p.id) ||
+                    normWard(selectedWardId) === normWard(p.ward_number) ||
+                    normWard(selectedWardId) === normWard(p.ward_code));
+                if (!isSelected) {
+                  l.setStyle({ fillOpacity: 0.12, weight: 1.2, color: '#2563eb' });
+                }
+              },
+            });
+          },
+        });
+        layerGroup.addLayer(wardLayer);
+      }
     }
 
     // Layer: Drainage
@@ -330,7 +353,7 @@ export default function MapView({
       });
       layerGroup.addLayer(roadLayer);
     }
-  }, [layers, geoData, selectedWardId]);
+  }, [layers, geoData, selectedWardId, selectedDistrict]);
 
   // Handle Boundary Highlighting & Automatic Zoom on Selected Location (Place, Ward, District)
   useEffect(() => {
@@ -338,18 +361,38 @@ export default function MapView({
     const highlightGroup = highlightLayerRef.current;
     if (!map || !highlightGroup) return;
 
-    highlightGroup.clearLayers();
+    // Helper: Normalize [lat, lon] or [lon, lat] coordinates to valid Leaflet [lat, lon]
+    const toLatLng = (p: any): [number, number] | null => {
+      if (!p || !Array.isArray(p) || p.length < 2) return null;
+      const a = Number(p[0]);
+      const b = Number(p[1]);
+      if (isNaN(a) || isNaN(b)) return null;
+      // In Tamil Nadu / India: lat is ~8 to 36, lon is ~68 to 98
+      // If a > 50 && b < 40, coordinate is in [lon, lat] order. Convert to [lat, lon].
+      if (a > 50 && b < 40) return [b, a];
+      return [a, b];
+    };
 
-    // Helper to normalize bounds to Leaflet LatLngBounds
+    // Helper: Normalize bounds to Leaflet LatLngBounds
     const normalizeBounds = (b: any): L.LatLngBounds | null => {
       if (!b) return null;
       try {
-        if (Array.isArray(b)) {
-          if (b.length === 2 && Array.isArray(b[0]) && Array.isArray(b[1])) {
-            return L.latLngBounds([b[0][0], b[0][1]], [b[1][0], b[1][1]]);
+        // Format 1: [[y1, x1], [y2, x2]]
+        if (Array.isArray(b) && b.length === 2 && Array.isArray(b[0]) && Array.isArray(b[1])) {
+          const p1 = toLatLng(b[0]);
+          const p2 = toLatLng(b[1]);
+          if (p1 && p2) {
+            const bounds = L.latLngBounds(p1, p2);
+            if (bounds.isValid()) return bounds;
           }
-          if (b.length === 4 && typeof b[0] === 'number') {
-            return L.latLngBounds([b[0], b[1]], [b[2], b[3]]);
+        }
+        // Format 2: [a, b, c, d]
+        if (Array.isArray(b) && b.length === 4 && typeof b[0] === 'number') {
+          const p1 = toLatLng([b[0], b[1]]);
+          const p2 = toLatLng([b[2], b[3]]);
+          if (p1 && p2) {
+            const bounds = L.latLngBounds(p1, p2);
+            if (bounds.isValid()) return bounds;
           }
         }
       } catch {
@@ -358,81 +401,161 @@ export default function MapView({
       return null;
     };
 
-    // Priority 1: Camera Trigger (Direct command from dropdown or search)
-    if (cameraTrigger) {
-      const { type, coords, bounds, geometry } = cameraTrigger;
-      const parsedBounds = normalizeBounds(bounds);
+    // ─── PART 1: Camera Navigation on New Trigger ─────────────────────────────
+    if (
+      cameraTrigger &&
+      cameraTrigger.timestamp &&
+      cameraTrigger.timestamp !== lastHandledCameraTriggerTimestamp.current
+    ) {
+      lastHandledCameraTriggerTimestamp.current = cameraTrigger.timestamp;
 
+      try {
+        map.invalidateSize();
+      } catch {
+        // Ignore map size invalidation errors
+      }
+
+      const { type, coords, bounds, geometry } = cameraTrigger;
+      let targetBounds: L.LatLngBounds | null = null;
+
+      // Priority 1A: Derived bounds from verified GeoJSON polygon
       if (geometry) {
-        // Highlight polygon boundary
-        const polyLayer = L.geoJSON(geometry, {
+        try {
+          const tempLayer = L.geoJSON(geometry);
+          const gb = tempLayer.getBounds();
+          if (gb.isValid()) {
+            targetBounds = gb;
+          }
+        } catch {
+          // Fall back to provided bounds
+        }
+      }
+
+      // Priority 1B: Explicit Bounding Box
+      if (!targetBounds && bounds) {
+        targetBounds = normalizeBounds(bounds);
+      }
+
+      // Execute Camera Movement
+      if (targetBounds && targetBounds.isValid()) {
+        const maxZoom = type === 'ward' ? 16 : type === 'place' ? 15 : type === 'district' ? 11 : 9;
+        try {
+          map.fitBounds(targetBounds, {
+            padding: [45, 45],
+            maxZoom,
+            animate: true,
+            duration: 1.0,
+          });
+        } catch {
+          if (coords) {
+            const pt = toLatLng(coords);
+            if (pt) map.flyTo(pt, maxZoom - 1, { duration: 1.0 });
+          }
+        }
+      } else if (coords) {
+        const pt = toLatLng(coords);
+        if (pt) {
+          const zoomLvl = type === 'ward' ? 15 : type === 'place' ? 14 : type === 'district' ? 11 : 9;
+          map.flyTo(pt, zoomLvl, { duration: 1.2 });
+        }
+      }
+    }
+
+    // ─── PART 2: Persistent & Synchronized Boundary Highlighting ──────────────
+    highlightGroup.clearLayers();
+
+    let activeGeometry: any = null;
+    let activeCoords: [number, number] | null = null;
+    let activeLabel: string = '';
+
+    // Step A: Check if a Ward is selected
+    if (selectedWardId != null) {
+      if (selectedFeature?.type === 'ward' && selectedFeature.geometry) {
+        activeGeometry = selectedFeature.geometry;
+        activeLabel = selectedFeature.properties?.name || `Ward ${selectedWardId}`;
+      } else if (geoData.wards?.features) {
+        const norm = (v: any) => String(v ?? '').replace(/^ward-/, '').trim().toLowerCase();
+        const match = geoData.wards.features.find(
+          (f: any) =>
+            norm(f.properties?.id) === norm(selectedWardId) ||
+            norm(f.properties?.ward_number) === norm(selectedWardId) ||
+            norm(f.properties?.ward_code) === norm(selectedWardId)
+        );
+        if (match) {
+          activeGeometry = match.geometry;
+          activeLabel = match.properties?.name || `Ward ${selectedWardId}`;
+        }
+      }
+    }
+
+    // Step B: Check if a Place/Administrative Area is selected (and no ward)
+    if (!activeGeometry && selectedPlace) {
+      if (selectedPlace.geometry) {
+        activeGeometry = selectedPlace.geometry;
+        activeLabel = selectedPlace.name || 'Selected Place';
+      } else if (selectedPlace.centroid_lat && selectedPlace.centroid_lon) {
+        activeCoords = [selectedPlace.centroid_lat, selectedPlace.centroid_lon];
+        activeLabel = selectedPlace.name || 'Selected Place';
+      }
+    }
+
+    // Step C: Check if a District is selected (and no place/ward)
+    if (!activeGeometry && !activeCoords && selectedFeature?.type === 'district') {
+      if (selectedFeature.geometry) {
+        activeGeometry = selectedFeature.geometry;
+        activeLabel = `${selectedFeature.properties?.name || selectedDistrict || 'District'} District`;
+      } else if (selectedFeature.properties?.centroid) {
+        activeCoords = [
+          selectedFeature.properties.centroid.lat,
+          selectedFeature.properties.centroid.lon,
+        ];
+        activeLabel = `${selectedFeature.properties?.name || selectedDistrict || 'District'} District`;
+      }
+    }
+
+    // Render Boundary or Point Highlight
+    if (activeGeometry) {
+      try {
+        const polyLayer = L.geoJSON(activeGeometry, {
           style: {
-            color: '#2563eb',
+            color: '#1d4ed8', // Vibrant primary royal blue
             weight: 3.5,
             fillColor: '#3b82f6',
             fillOpacity: 0.28,
-            dashArray: '4, 4',
+            dashArray: '5, 5',
           },
+          interactive: false,
         });
+        if (activeLabel) {
+          polyLayer.bindTooltip(
+            `<div style="font-weight:700;font-size:11px;color:#1e3a8a;">📍 ${activeLabel}</div>`,
+            { permanent: false, sticky: true }
+          );
+        }
         highlightGroup.addLayer(polyLayer);
-
-        try {
-          if (parsedBounds) {
-            map.fitBounds(parsedBounds, { padding: [40, 40], maxZoom: type === 'ward' ? 16 : 15 });
-          } else {
-            map.fitBounds(polyLayer.getBounds(), { padding: [40, 40], maxZoom: type === 'ward' ? 16 : 15 });
-          }
-        } catch {
-          if (coords) map.flyTo(coords, type === 'ward' ? 15 : 14);
-        }
-      } else if (parsedBounds) {
-        try {
-          map.fitBounds(parsedBounds, { padding: [40, 40], maxZoom: type === 'district' ? 11 : 14 });
-        } catch {
-          if (coords) map.flyTo(coords, type === 'district' ? 10 : 13);
-        }
-      } else if (coords) {
-        const marker = L.circleMarker(coords, {
+      } catch (err) {
+        console.warn('[MapView] Could not render highlight polygon:', err);
+      }
+    } else if (activeCoords) {
+      const pt = toLatLng(activeCoords);
+      if (pt) {
+        const marker = L.circleMarker(pt, {
           radius: 12,
-          color: '#2563eb',
-          weight: 3,
+          color: '#1d4ed8',
+          weight: 3.5,
           fillColor: '#60a5fa',
-          fillOpacity: 0.6,
+          fillOpacity: 0.65,
         });
+        if (activeLabel) {
+          marker.bindTooltip(
+            `<div style="font-weight:700;font-size:11px;color:#1e3a8a;">📍 ${activeLabel}</div>`,
+            { permanent: true, direction: 'top', offset: [0, -10] }
+          );
+        }
         highlightGroup.addLayer(marker);
-        const zoomLvl = type === 'ward' ? 15 : type === 'place' ? 14 : type === 'district' ? 11 : 9;
-        map.flyTo(coords, zoomLvl, { duration: 1.2 });
-      }
-      return;
-    }
-
-    // Priority 2: Selected Feature (Place or Ward clicked)
-    if (selectedFeature?.geometry) {
-      const polyLayer = L.geoJSON(selectedFeature.geometry, {
-        style: {
-          color: '#2563eb',
-          weight: 3.5,
-          fillColor: '#3b82f6',
-          fillOpacity: 0.28,
-        },
-      });
-      highlightGroup.addLayer(polyLayer);
-      map.fitBounds(polyLayer.getBounds(), { padding: [40, 40], maxZoom: 15 });
-    } else if (selectedPlace?.geometry) {
-      const polyLayer = L.geoJSON(selectedPlace.geometry, {
-        style: {
-          color: '#2563eb',
-          weight: 3.5,
-          fillColor: '#3b82f6',
-          fillOpacity: 0.28,
-        },
-      });
-      highlightGroup.addLayer(polyLayer);
-      if (selectedPlace.bounds) {
-        map.fitBounds(selectedPlace.bounds, { padding: [40, 40], maxZoom: 14 });
       }
     }
-  }, [cameraTrigger, selectedFeature, selectedPlace]);
+  }, [cameraTrigger, selectedFeature, selectedPlace, selectedWardId, selectedDistrict, geoData.wards]);
 
   // Update Citizen Complaints Layer
   useEffect(() => {
