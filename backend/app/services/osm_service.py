@@ -6,8 +6,21 @@ import urllib.parse
 from typing import Dict, Any, List, Optional
 from app.services.spatial_query_service import ALL_TN_DISTRICTS_DATA
 
-CACHE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "raw", "osm_cache"))
-os.makedirs(CACHE_DIR, exist_ok=True)
+def _resolve_cache_dir() -> str:
+    candidates = [
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "raw", "osm_cache")),
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "raw", "osm_cache")),
+        "/tmp/osm_cache" if os.name != "nt" else os.path.join(os.environ.get("TEMP", "C:\\temp"), "osm_cache")
+    ]
+    for cand in candidates:
+        try:
+            os.makedirs(cand, exist_ok=True)
+            return cand
+        except OSError:
+            continue
+    return "/tmp/osm_cache"
+
+CACHE_DIR = _resolve_cache_dir()
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 

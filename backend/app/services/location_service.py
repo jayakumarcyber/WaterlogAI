@@ -18,7 +18,7 @@ import shapely.geometry
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 
-from app.db.session import get_engine, SessionLocal
+from app.db.session import engine, SessionLocal
 from app.models.location import Location
 from app.services.spatial_query_service import (
     ALL_TN_DISTRICTS_DATA,
@@ -486,7 +486,6 @@ class LocationService:
     def _sync_to_database(cls):
         """Syncs all indexed locations into SQLite database table `locations`."""
         try:
-            engine = get_engine()
             Location.__table__.create(bind=engine, checkfirst=True)
 
             with SessionLocal() as db:

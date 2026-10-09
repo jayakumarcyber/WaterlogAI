@@ -11,8 +11,10 @@ Includes:
 - Asia/Kolkata timezone normalization
 """
 
+import os
 import time
 import logging
+import tempfile
 import httpx
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -45,7 +47,11 @@ import json
 from pathlib import Path
 
 # Cache file on disk for graceful survival across server restarts & cold DNS blips
-CACHE_FILE_PATH: Path = Path(__file__).resolve().parent.parent / ".weather_cache.json"
+CACHE_FILE_PATH: Path = (
+    Path(tempfile.gettempdir()) / ".weather_cache.json"
+    if (os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME"))
+    else Path(__file__).resolve().parent.parent / ".weather_cache.json"
+)
 
 # In-memory caches
 _weather_cache: Optional[Dict[str, Any]] = None

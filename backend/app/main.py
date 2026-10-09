@@ -38,9 +38,27 @@ app.add_middleware(
 
 # Mount Static Files for citizen complaint uploads
 from fastapi.staticfiles import StaticFiles
-uploads_dir = os.path.abspath(os.path.join(root_dir, "data", "uploads"))
-os.makedirs(uploads_dir, exist_ok=True)
-app.mount("/uploads", StaticFiles(directory=uploads_dir), name="uploads")
+
+uploads_candidates = [
+    os.path.abspath(os.path.join(backend_dir, "data", "uploads")),
+    os.path.abspath(os.path.join(root_dir, "data", "uploads")),
+    "/tmp/data/uploads" if os.name != "nt" else os.path.join(os.environ.get("TEMP", "C:\\temp"), "data", "uploads")
+]
+
+uploads_dir = None
+for cand in uploads_candidates:
+    try:
+        os.makedirs(cand, exist_ok=True)
+        uploads_dir = cand
+        break
+    except OSError:
+        continue
+
+if uploads_dir and os.path.exists(uploads_dir):
+    try:
+        app.mount("/uploads", StaticFiles(directory=uploads_dir), name="uploads")
+    except Exception as e:
+        print(f"[STATIC MOUNT WARNING] Could not mount /uploads: {e}")
 
 # Root level health endpoint for convenience
 @app.get(

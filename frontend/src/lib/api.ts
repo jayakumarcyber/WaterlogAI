@@ -9,21 +9,53 @@
  */
 
 export function getApiBaseUrl(): string {
-  if (process.env.NEXT_PUBLIC_API_BASE_URL) {
-    return process.env.NEXT_PUBLIC_API_BASE_URL;
-  }
-  if (process.env.NEXT_PUBLIC_API_URL) {
-    return process.env.NEXT_PUBLIC_API_URL;
-  }
-  // Server-side execution in Next.js (uses Vercel service binding)
-  if (typeof window === 'undefined') {
-    if (process.env.BACKEND_URL) {
-      return process.env.BACKEND_URL;
+  // Client-side in browser
+  if (typeof window !== 'undefined') {
+    const isLocalhost =
+      window.location.hostname === 'localhost' ||
+      window.location.hostname === '127.0.0.1' ||
+      window.location.hostname === '::1';
+
+    const configuredUrl =
+      process.env.NEXT_PUBLIC_API_BASE_URL ||
+      process.env.NEXT_PUBLIC_API_URL ||
+      '';
+
+    // In production browser: strictly disallow localhost/127.0.0.1 fallbacks.
+    // Requests MUST be same-origin relative ('') to route cleanly via Vercel rewrites.
+    if (!isLocalhost) {
+      if (configuredUrl && !configuredUrl.includes('localhost') && !configuredUrl.includes('127.0.0.1')) {
+        return configuredUrl.replace(/\/$/, '');
+      }
+      return '';
     }
-    return 'http://127.0.0.1:8000';
+
+    // In local development browser: allow configured URL or default to empty string (Next.js proxy)
+    if (configuredUrl) {
+      return configuredUrl.replace(/\/$/, '');
+    }
+    return '';
   }
-  // Client-side in browser: relative to current host
-  return '';
+
+  // Server-side execution in Next.js
+  if (process.env.BACKEND_URL) {
+    return process.env.BACKEND_URL.replace(/\/$/, '');
+  }
+
+  const configuredUrl =
+    process.env.NEXT_PUBLIC_API_BASE_URL ||
+    process.env.NEXT_PUBLIC_API_URL ||
+    '';
+
+  const isProd = process.env.NODE_ENV === 'production';
+  if (configuredUrl) {
+    if (isProd && (configuredUrl.includes('localhost') || configuredUrl.includes('127.0.0.1'))) {
+      return '';
+    }
+    return configuredUrl.replace(/\/$/, '');
+  }
+
+  return isProd ? '' : 'http://127.0.0.1:8000';
 }
 
 /**

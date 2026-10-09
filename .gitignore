@@ -57,6 +57,7 @@ Thumbs.db
 # Database / Storage
 *.sqlite3
 *.db
+!backend/civicpulse_fallback.db
 pgdata/
 
 # Coverage / Testing

@@ -128,15 +128,26 @@ export default function LiveWeatherPanel({
     setLastAttemptTime(nowStr);
 
     const queryStr = forceRefresh ? '?refresh=true' : '';
-    // Candidate 1: Next.js server-side proxy route (primary)
-    // Candidate 2: Direct backend URL fallback if proxy unavailable
-    const fallbackPorts = [8000, 8005, 8001];
-    const candidateUrls = Array.from(new Set([
-      `/api/v1/weather/chennai${queryStr}`,
-      `${API_BASE_URL}/api/v1/weather/chennai${queryStr}`,
-      ...fallbackPorts.map((p) => `http://127.0.0.1:${p}/api/v1/weather/chennai${queryStr}`),
-      ...fallbackPorts.map((p) => `http://localhost:${p}/api/v1/weather/chennai${queryStr}`)
-    ]));
+    const isLocalhost =
+      typeof window !== 'undefined' &&
+      (window.location.hostname === 'localhost' ||
+       window.location.hostname === '127.0.0.1' ||
+       window.location.hostname === '::1');
+
+    const primaryUrl = `/api/v1/weather/chennai${queryStr}`;
+    const baseUrl = getApiBaseUrl();
+    const candidateUrls: string[] = [primaryUrl];
+    if (baseUrl && !baseUrl.includes('localhost') && !baseUrl.includes('127.0.0.1')) {
+      candidateUrls.push(`${baseUrl}/api/v1/weather/chennai${queryStr}`);
+    }
+
+    if (isLocalhost) {
+      const fallbackPorts = [8000, 8005, 8001];
+      fallbackPorts.forEach((p) => {
+        candidateUrls.push(`http://127.0.0.1:${p}/api/v1/weather/chennai${queryStr}`);
+        candidateUrls.push(`http://localhost:${p}/api/v1/weather/chennai${queryStr}`);
+      });
+    }
 
     let lastErrorMsg = 'FRONTEND_FETCH_ERROR: Failed to connect to weather service';
     let successfulData: WeatherData | null = null;
@@ -159,16 +170,25 @@ export default function LiveWeatherPanel({
             break;
           }
         } else {
+          let detailStr = '';
           try {
             const errJson = await res.json();
-            const detailStr = typeof errJson.detail === 'string' ? errJson.detail : JSON.stringify(errJson.detail);
-            lastErrorMsg = url.startsWith('/api')
-              ? `PROXY_ERROR: ${detailStr || res.statusText}`
-              : `UPSTREAM_${res.status}: ${detailStr || res.statusText}`;
+            detailStr = typeof errJson.detail === 'string' ? errJson.detail : JSON.stringify(errJson.detail);
           } catch {
-            lastErrorMsg = url.startsWith('/api')
-              ? `PROXY_ERROR: HTTP ${res.status} ${res.statusText}`
-              : `UPSTREAM_${res.status}: HTTP ${res.statusText}`;
+            detailStr = res.statusText;
+          }
+
+          if (res.status === 500) {
+            lastErrorMsg = `HTTP 500 Internal Server Error: ${detailStr || 'Backend function invocation failed'}`;
+          } else if (res.status === 502 || res.status === 503 || res.status === 504) {
+            lastErrorMsg = `HTTP ${res.status}: ${detailStr || 'Weather telemetry provider unreachable'}`;
+          } else {
+            lastErrorMsg = `HTTP ${res.status}: ${detailStr || res.statusText}`;
+          }
+
+          // In production, an HTTP response from the primary API is authoritative; do not loop to localhost
+          if (!isLocalhost) {
+            break;
           }
         }
       } catch (err: any) {
@@ -189,8 +209,9 @@ export default function LiveWeatherPanel({
         await new Promise((r) => setTimeout(r, 600));
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 8000);
-        const retryRes = await fetch(`/api/v1/weather/chennai${queryStr}`, {
+        const retryRes = await fetch(primaryUrl, {
           headers: { Accept: 'application/json' },
+          cache: 'no-store',
           signal: controller.signal,
         });
         clearTimeout(timeoutId);
@@ -202,6 +223,14 @@ export default function LiveWeatherPanel({
             setLoading(false);
             setRefreshing(false);
             return;
+          }
+        } else {
+          try {
+            const errJson = await retryRes.json();
+            const detailStr = typeof errJson.detail === 'string' ? errJson.detail : JSON.stringify(errJson.detail);
+            lastErrorMsg = `HTTP ${retryRes.status}: ${detailStr || retryRes.statusText}`;
+          } catch {
+            lastErrorMsg = `HTTP ${retryRes.status}: ${retryRes.statusText}`;
           }
         }
       } catch {
@@ -263,8 +292,8 @@ export default function LiveWeatherPanel({
     return <CloudSun className={`${size} text-blue-300`} />;
   };
 
-  const isLive = data?.status === 'success' || data?.is_live === true;
-  const isCached = data?.status === 'CACHED' || data?.is_live === false;
+  const isCached = Boolean(data && (data.status === 'CACHED' || data.is_live === false));
+  const isLive = Boolean(data && !isCached && (data.status === 'success' || data.is_live === true));
 
   return (
     <section

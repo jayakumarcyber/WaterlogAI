@@ -17,8 +17,21 @@ from app.services import complaint_service
 
 router = APIRouter()
 
-UPLOAD_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "..", "data", "uploads", "complaints"))
-os.makedirs(UPLOAD_DIR, exist_ok=True)
+def _resolve_upload_dir() -> str:
+    candidates = [
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "uploads", "complaints")),
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "..", "data", "uploads", "complaints")),
+        "/tmp/data/uploads/complaints" if os.name != "nt" else os.path.join(os.environ.get("TEMP", "C:\\temp"), "data", "uploads", "complaints")
+    ]
+    for cand in candidates:
+        try:
+            os.makedirs(cand, exist_ok=True)
+            return cand
+        except OSError:
+            continue
+    return "/tmp/complaints"
+
+UPLOAD_DIR = _resolve_upload_dir()
 
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".mp4", ".mov"}
 
