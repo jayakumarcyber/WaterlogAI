@@ -67,6 +67,12 @@ if uploads_dir and os.path.exists(uploads_dir):
     summary="Root Health Check",
     tags=["Health"]
 )
+@app.get(
+    "/api/health",
+    status_code=status.HTTP_200_OK,
+    summary="API Health Check Alias",
+    include_in_schema=False
+)
 async def root_health():
     return {
         "status": "online",
@@ -76,6 +82,20 @@ async def root_health():
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "database": "configured"
     }
+
+from fastapi import Request
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    import traceback
+    return JSONResponse(
+        status_code=500,
+        content={
+            "error": "INTERNAL_SERVER_ERROR",
+            "message": str(exc),
+            "path": request.url.path,
+            "traceback": traceback.format_exc().splitlines()[-10:]
+        }
+    )
 
 # Include API v1 routers
 app.include_router(api_router, prefix=settings.API_V1_STR)
